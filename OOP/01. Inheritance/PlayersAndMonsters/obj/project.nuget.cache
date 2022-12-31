@@ -1,0 +1,13 @@
+{
+  "version": 2,
+  "dgSpecHash": "UAYM9hkqW7GVqrNpaefdUy0B63KlTBrP9wPrOzuV1LkbWEu92EK7owJWSyRHALr1NqTbo+9Dssq0c7zq3pybfw==",
+  "success": true,
+  "projectFilePath": "D:\\Pavel\\SoftUni\\C# Job prep\\OOP\\01. Inheritance\\PlayersAndMonsters\\PlayersAndMonsters.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\herrp\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\3.1.0\\microsoft.windowsdesktop.app.ref.3.1.0.nupkg.sha512",
+    "C:\\Users\\herrp\\.nuget\\packages\\microsoft.netcore.app.ref\\3.1.0\\microsoft.netcore.app.ref.3.1.0.nupkg.sha512",
+    "C:\\Users\\herrp\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\3.1.10\\microsoft.aspnetcore.app.ref.3.1.10.nupkg.sha512",
+    "C:\\Users\\herrp\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\3.1.32\\microsoft.netcore.app.host.win-x64.3.1.32.nupkg.sha512"
+  ],
+  "logs": []
+}
