@@ -1,0 +1,15 @@
+D:\Pavel\SoftUni\C# Job prep\OOP\02. Encapsulation\AnimalFarm\P03. Shopping Spree\bin\Debug\net6.0\P03. Shopping Spree.exe
+D:\Pavel\SoftUni\C# Job prep\OOP\02. Encapsulation\AnimalFarm\P03. Shopping Spree\bin\Debug\net6.0\P03. Shopping Spree.deps.json
+D:\Pavel\SoftUni\C# Job prep\OOP\02. Encapsulation\AnimalFarm\P03. Shopping Spree\bin\Debug\net6.0\P03. Shopping Spree.runtimeconfig.json
+D:\Pavel\SoftUni\C# Job prep\OOP\02. Encapsulation\AnimalFarm\P03. Shopping Spree\bin\Debug\net6.0\P03. Shopping Spree.dll
+D:\Pavel\SoftUni\C# Job prep\OOP\02. Encapsulation\AnimalFarm\P03. Shopping Spree\bin\Debug\net6.0\P03. Shopping Spree.pdb
+D:\Pavel\SoftUni\C# Job prep\OOP\02. Encapsulation\AnimalFarm\P03. Shopping Spree\obj\Debug\net6.0\P03. Shopping Spree.csproj.AssemblyReference.cache
+D:\Pavel\SoftUni\C# Job prep\OOP\02. Encapsulation\AnimalFarm\P03. Shopping Spree\obj\Debug\net6.0\P03. Shopping Spree.GeneratedMSBuildEditorConfig.editorconfig
+D:\Pavel\SoftUni\C# Job prep\OOP\02. Encapsulation\AnimalFarm\P03. Shopping Spree\obj\Debug\net6.0\P03. Shopping Spree.AssemblyInfoInputs.cache
+D:\Pavel\SoftUni\C# Job prep\OOP\02. Encapsulation\AnimalFarm\P03. Shopping Spree\obj\Debug\net6.0\P03. Shopping Spree.AssemblyInfo.cs
+D:\Pavel\SoftUni\C# Job prep\OOP\02. Encapsulation\AnimalFarm\P03. Shopping Spree\obj\Debug\net6.0\P03. Shopping Spree.csproj.CoreCompileInputs.cache
+D:\Pavel\SoftUni\C# Job prep\OOP\02. Encapsulation\AnimalFarm\P03. Shopping Spree\obj\Debug\net6.0\P03. Shopping Spree.dll
+D:\Pavel\SoftUni\C# Job prep\OOP\02. Encapsulation\AnimalFarm\P03. Shopping Spree\obj\Debug\net6.0\refint\P03. Shopping Spree.dll
+D:\Pavel\SoftUni\C# Job prep\OOP\02. Encapsulation\AnimalFarm\P03. Shopping Spree\obj\Debug\net6.0\P03. Shopping Spree.pdb
+D:\Pavel\SoftUni\C# Job prep\OOP\02. Encapsulation\AnimalFarm\P03. Shopping Spree\obj\Debug\net6.0\P03. Shopping Spree.genruntimeconfig.cache
+D:\Pavel\SoftUni\C# Job prep\OOP\02. Encapsulation\AnimalFarm\P03. Shopping Spree\obj\Debug\net6.0\ref\P03. Shopping Spree.dll
