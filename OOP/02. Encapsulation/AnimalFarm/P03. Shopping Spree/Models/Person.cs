@@ -67,5 +67,12 @@ namespace P03._Shopping_Spree.Models
             this.bag.Add(product);
         }
 
+        public override string ToString()
+        {
+            string productsOutput = this.Bag.Count > 0 ?
+                String.Join(", ", this.Bag): "Nothing bought";
+            return $"{this.Name} {productsOutput}";
+        }
+
     }
 }

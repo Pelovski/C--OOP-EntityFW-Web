@@ -32,6 +32,8 @@ namespace P03._Shopping_Spree.Core
                         .First(p => p.Name == productName);
 
                     person.BuyProduct(product);
+
+                    Console.WriteLine($"{person.Name} bought {product.Name}");
                 }
                 catch (InvalidOperationException ioe)
                 {

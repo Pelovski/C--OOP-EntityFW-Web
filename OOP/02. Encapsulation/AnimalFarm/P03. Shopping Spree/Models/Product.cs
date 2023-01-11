@@ -48,5 +48,10 @@ namespace P03._Shopping_Spree.Models
             }
         }
 
+        public override string ToString()
+        {
+            return $"{this.Name}";
+        }
+
     }
 }
