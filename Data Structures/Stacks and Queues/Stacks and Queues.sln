@@ -3,9 +3,13 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.4.33205.214
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "P01. Basic Stack Operations", "Stacks and Queues\P01. Basic Stack Operations.csproj", "{A7EC197F-4752-4FDD-B08A-4F1EF2BD6A36}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "P01. Basic Stack Operations", "Stacks and Queues\P01. Basic Stack Operations.csproj", "{A7EC197F-4752-4FDD-B08A-4F1EF2BD6A36}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "P02. Basic Queue Operations", "P02. Basic Queue Operations\P02. Basic Queue Operations.csproj", "{C8E7194B-29A1-40CE-9660-070C165193AE}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "P02. Basic Queue Operations", "P02. Basic Queue Operations\P02. Basic Queue Operations.csproj", "{C8E7194B-29A1-40CE-9660-070C165193AE}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "P03. Maximum and Minimum Element", "P03. Maximum and Minimum Element\P03. Maximum and Minimum Element.csproj", "{D8143F30-0E2F-42D9-BC0C-ADAF07CE8D02}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "P04. Fast Food", "P04. Fast Food\P04. Fast Food.csproj", "{405F3B98-DA9C-4190-B070-E7035B43422C}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +25,14 @@ Global
 		{C8E7194B-29A1-40CE-9660-070C165193AE}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C8E7194B-29A1-40CE-9660-070C165193AE}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C8E7194B-29A1-40CE-9660-070C165193AE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D8143F30-0E2F-42D9-BC0C-ADAF07CE8D02}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D8143F30-0E2F-42D9-BC0C-ADAF07CE8D02}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D8143F30-0E2F-42D9-BC0C-ADAF07CE8D02}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D8143F30-0E2F-42D9-BC0C-ADAF07CE8D02}.Release|Any CPU.Build.0 = Release|Any CPU
+		{405F3B98-DA9C-4190-B070-E7035B43422C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{405F3B98-DA9C-4190-B070-E7035B43422C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{405F3B98-DA9C-4190-B070-E7035B43422C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{405F3B98-DA9C-4190-B070-E7035B43422C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
