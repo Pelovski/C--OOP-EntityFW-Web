@@ -1,0 +1,15 @@
+D:\Pavel\SoftUni\C# Job prep\Data Structures\Stacks and Queues\Stacks and Queues\bin\Debug\net6.0\P01. Basic Stack Operations.exe
+D:\Pavel\SoftUni\C# Job prep\Data Structures\Stacks and Queues\Stacks and Queues\bin\Debug\net6.0\P01. Basic Stack Operations.deps.json
+D:\Pavel\SoftUni\C# Job prep\Data Structures\Stacks and Queues\Stacks and Queues\bin\Debug\net6.0\P01. Basic Stack Operations.runtimeconfig.json
+D:\Pavel\SoftUni\C# Job prep\Data Structures\Stacks and Queues\Stacks and Queues\bin\Debug\net6.0\P01. Basic Stack Operations.dll
+D:\Pavel\SoftUni\C# Job prep\Data Structures\Stacks and Queues\Stacks and Queues\bin\Debug\net6.0\P01. Basic Stack Operations.pdb
+D:\Pavel\SoftUni\C# Job prep\Data Structures\Stacks and Queues\Stacks and Queues\obj\Debug\net6.0\P01. Basic Stack Operations.csproj.AssemblyReference.cache
+D:\Pavel\SoftUni\C# Job prep\Data Structures\Stacks and Queues\Stacks and Queues\obj\Debug\net6.0\P01. Basic Stack Operations.GeneratedMSBuildEditorConfig.editorconfig
+D:\Pavel\SoftUni\C# Job prep\Data Structures\Stacks and Queues\Stacks and Queues\obj\Debug\net6.0\P01. Basic Stack Operations.AssemblyInfoInputs.cache
+D:\Pavel\SoftUni\C# Job prep\Data Structures\Stacks and Queues\Stacks and Queues\obj\Debug\net6.0\P01. Basic Stack Operations.AssemblyInfo.cs
+D:\Pavel\SoftUni\C# Job prep\Data Structures\Stacks and Queues\Stacks and Queues\obj\Debug\net6.0\P01. Basic Stack Operations.csproj.CoreCompileInputs.cache
+D:\Pavel\SoftUni\C# Job prep\Data Structures\Stacks and Queues\Stacks and Queues\obj\Debug\net6.0\P01. Basic Stack Operations.dll
+D:\Pavel\SoftUni\C# Job prep\Data Structures\Stacks and Queues\Stacks and Queues\obj\Debug\net6.0\refint\P01. Basic Stack Operations.dll
+D:\Pavel\SoftUni\C# Job prep\Data Structures\Stacks and Queues\Stacks and Queues\obj\Debug\net6.0\P01. Basic Stack Operations.pdb
+D:\Pavel\SoftUni\C# Job prep\Data Structures\Stacks and Queues\Stacks and Queues\obj\Debug\net6.0\P01. Basic Stack Operations.genruntimeconfig.cache
+D:\Pavel\SoftUni\C# Job prep\Data Structures\Stacks and Queues\Stacks and Queues\obj\Debug\net6.0\ref\P01. Basic Stack Operations.dll

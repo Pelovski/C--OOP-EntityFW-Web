@@ -1,0 +1,15 @@
+D:\Pavel\SoftUni\C# Job prep\Data Structures\Stacks and Queues\Stacks and Queues\bin\Debug\net6.0\Stacks and Queues.exe
+D:\Pavel\SoftUni\C# Job prep\Data Structures\Stacks and Queues\Stacks and Queues\bin\Debug\net6.0\Stacks and Queues.deps.json
+D:\Pavel\SoftUni\C# Job prep\Data Structures\Stacks and Queues\Stacks and Queues\bin\Debug\net6.0\Stacks and Queues.runtimeconfig.json
+D:\Pavel\SoftUni\C# Job prep\Data Structures\Stacks and Queues\Stacks and Queues\bin\Debug\net6.0\Stacks and Queues.dll
+D:\Pavel\SoftUni\C# Job prep\Data Structures\Stacks and Queues\Stacks and Queues\bin\Debug\net6.0\Stacks and Queues.pdb
+D:\Pavel\SoftUni\C# Job prep\Data Structures\Stacks and Queues\Stacks and Queues\obj\Debug\net6.0\Stacks and Queues.csproj.AssemblyReference.cache
+D:\Pavel\SoftUni\C# Job prep\Data Structures\Stacks and Queues\Stacks and Queues\obj\Debug\net6.0\Stacks and Queues.GeneratedMSBuildEditorConfig.editorconfig
+D:\Pavel\SoftUni\C# Job prep\Data Structures\Stacks and Queues\Stacks and Queues\obj\Debug\net6.0\Stacks and Queues.AssemblyInfoInputs.cache
+D:\Pavel\SoftUni\C# Job prep\Data Structures\Stacks and Queues\Stacks and Queues\obj\Debug\net6.0\Stacks and Queues.AssemblyInfo.cs
+D:\Pavel\SoftUni\C# Job prep\Data Structures\Stacks and Queues\Stacks and Queues\obj\Debug\net6.0\Stacks and Queues.csproj.CoreCompileInputs.cache
+D:\Pavel\SoftUni\C# Job prep\Data Structures\Stacks and Queues\Stacks and Queues\obj\Debug\net6.0\Stacks and Queues.dll
+D:\Pavel\SoftUni\C# Job prep\Data Structures\Stacks and Queues\Stacks and Queues\obj\Debug\net6.0\refint\Stacks and Queues.dll
+D:\Pavel\SoftUni\C# Job prep\Data Structures\Stacks and Queues\Stacks and Queues\obj\Debug\net6.0\Stacks and Queues.pdb
+D:\Pavel\SoftUni\C# Job prep\Data Structures\Stacks and Queues\Stacks and Queues\obj\Debug\net6.0\Stacks and Queues.genruntimeconfig.cache
+D:\Pavel\SoftUni\C# Job prep\Data Structures\Stacks and Queues\Stacks and Queues\obj\Debug\net6.0\ref\Stacks and Queues.dll

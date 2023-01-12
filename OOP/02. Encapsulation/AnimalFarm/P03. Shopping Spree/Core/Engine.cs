@@ -90,5 +90,7 @@ namespace P03._Shopping_Spree.Core
                 this.people.Add(person);
             }
         }
+
+        
     }
 }
