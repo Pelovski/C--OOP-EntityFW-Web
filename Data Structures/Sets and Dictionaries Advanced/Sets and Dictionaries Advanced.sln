@@ -5,6 +5,8 @@ VisualStudioVersion = 17.4.33205.214
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "P01. Unique Usernames", "P01. Unique Usernames\P01. Unique Usernames.csproj", "{46666911-BC0A-44C1-8CF3-7E50FF2AD442}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "P02. Sets of Elements", "P02. Sets of Elements\P02. Sets of Elements.csproj", "{158DF020-DFA6-482A-8EAE-1DA9BDAFE332}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{46666911-BC0A-44C1-8CF3-7E50FF2AD442}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{46666911-BC0A-44C1-8CF3-7E50FF2AD442}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{46666911-BC0A-44C1-8CF3-7E50FF2AD442}.Release|Any CPU.Build.0 = Release|Any CPU
+		{158DF020-DFA6-482A-8EAE-1DA9BDAFE332}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{158DF020-DFA6-482A-8EAE-1DA9BDAFE332}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{158DF020-DFA6-482A-8EAE-1DA9BDAFE332}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{158DF020-DFA6-482A-8EAE-1DA9BDAFE332}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

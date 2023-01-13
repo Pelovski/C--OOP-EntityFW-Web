@@ -1,0 +1,15 @@
+D:\Pavel\SoftUni\C# Job prep\Data Structures\Sets and Dictionaries Advanced\P02. Sets of Elements\bin\Debug\net6.0\P02. Sets of Elements.exe
+D:\Pavel\SoftUni\C# Job prep\Data Structures\Sets and Dictionaries Advanced\P02. Sets of Elements\bin\Debug\net6.0\P02. Sets of Elements.deps.json
+D:\Pavel\SoftUni\C# Job prep\Data Structures\Sets and Dictionaries Advanced\P02. Sets of Elements\bin\Debug\net6.0\P02. Sets of Elements.runtimeconfig.json
+D:\Pavel\SoftUni\C# Job prep\Data Structures\Sets and Dictionaries Advanced\P02. Sets of Elements\bin\Debug\net6.0\P02. Sets of Elements.dll
+D:\Pavel\SoftUni\C# Job prep\Data Structures\Sets and Dictionaries Advanced\P02. Sets of Elements\bin\Debug\net6.0\P02. Sets of Elements.pdb
+D:\Pavel\SoftUni\C# Job prep\Data Structures\Sets and Dictionaries Advanced\P02. Sets of Elements\obj\Debug\net6.0\P02. Sets of Elements.csproj.AssemblyReference.cache
+D:\Pavel\SoftUni\C# Job prep\Data Structures\Sets and Dictionaries Advanced\P02. Sets of Elements\obj\Debug\net6.0\P02. Sets of Elements.GeneratedMSBuildEditorConfig.editorconfig
+D:\Pavel\SoftUni\C# Job prep\Data Structures\Sets and Dictionaries Advanced\P02. Sets of Elements\obj\Debug\net6.0\P02. Sets of Elements.AssemblyInfoInputs.cache
+D:\Pavel\SoftUni\C# Job prep\Data Structures\Sets and Dictionaries Advanced\P02. Sets of Elements\obj\Debug\net6.0\P02. Sets of Elements.AssemblyInfo.cs
+D:\Pavel\SoftUni\C# Job prep\Data Structures\Sets and Dictionaries Advanced\P02. Sets of Elements\obj\Debug\net6.0\P02. Sets of Elements.csproj.CoreCompileInputs.cache
+D:\Pavel\SoftUni\C# Job prep\Data Structures\Sets and Dictionaries Advanced\P02. Sets of Elements\obj\Debug\net6.0\P02. Sets of Elements.dll
+D:\Pavel\SoftUni\C# Job prep\Data Structures\Sets and Dictionaries Advanced\P02. Sets of Elements\obj\Debug\net6.0\refint\P02. Sets of Elements.dll
+D:\Pavel\SoftUni\C# Job prep\Data Structures\Sets and Dictionaries Advanced\P02. Sets of Elements\obj\Debug\net6.0\P02. Sets of Elements.pdb
+D:\Pavel\SoftUni\C# Job prep\Data Structures\Sets and Dictionaries Advanced\P02. Sets of Elements\obj\Debug\net6.0\P02. Sets of Elements.genruntimeconfig.cache
+D:\Pavel\SoftUni\C# Job prep\Data Structures\Sets and Dictionaries Advanced\P02. Sets of Elements\obj\Debug\net6.0\ref\P02. Sets of Elements.dll
