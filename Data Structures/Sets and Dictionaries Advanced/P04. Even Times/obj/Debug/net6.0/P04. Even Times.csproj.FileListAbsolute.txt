@@ -1,0 +1,15 @@
+D:\Pavel\SoftUni\C# Job prep\Data Structures\Sets and Dictionaries Advanced\P04. Even Times\bin\Debug\net6.0\P04. Even Times.exe
+D:\Pavel\SoftUni\C# Job prep\Data Structures\Sets and Dictionaries Advanced\P04. Even Times\bin\Debug\net6.0\P04. Even Times.deps.json
+D:\Pavel\SoftUni\C# Job prep\Data Structures\Sets and Dictionaries Advanced\P04. Even Times\bin\Debug\net6.0\P04. Even Times.runtimeconfig.json
+D:\Pavel\SoftUni\C# Job prep\Data Structures\Sets and Dictionaries Advanced\P04. Even Times\bin\Debug\net6.0\P04. Even Times.dll
+D:\Pavel\SoftUni\C# Job prep\Data Structures\Sets and Dictionaries Advanced\P04. Even Times\bin\Debug\net6.0\P04. Even Times.pdb
+D:\Pavel\SoftUni\C# Job prep\Data Structures\Sets and Dictionaries Advanced\P04. Even Times\obj\Debug\net6.0\P04. Even Times.csproj.AssemblyReference.cache
+D:\Pavel\SoftUni\C# Job prep\Data Structures\Sets and Dictionaries Advanced\P04. Even Times\obj\Debug\net6.0\P04. Even Times.GeneratedMSBuildEditorConfig.editorconfig
+D:\Pavel\SoftUni\C# Job prep\Data Structures\Sets and Dictionaries Advanced\P04. Even Times\obj\Debug\net6.0\P04. Even Times.AssemblyInfoInputs.cache
+D:\Pavel\SoftUni\C# Job prep\Data Structures\Sets and Dictionaries Advanced\P04. Even Times\obj\Debug\net6.0\P04. Even Times.AssemblyInfo.cs
+D:\Pavel\SoftUni\C# Job prep\Data Structures\Sets and Dictionaries Advanced\P04. Even Times\obj\Debug\net6.0\P04. Even Times.csproj.CoreCompileInputs.cache
+D:\Pavel\SoftUni\C# Job prep\Data Structures\Sets and Dictionaries Advanced\P04. Even Times\obj\Debug\net6.0\P04. Even Times.dll
+D:\Pavel\SoftUni\C# Job prep\Data Structures\Sets and Dictionaries Advanced\P04. Even Times\obj\Debug\net6.0\refint\P04. Even Times.dll
+D:\Pavel\SoftUni\C# Job prep\Data Structures\Sets and Dictionaries Advanced\P04. Even Times\obj\Debug\net6.0\P04. Even Times.pdb
+D:\Pavel\SoftUni\C# Job prep\Data Structures\Sets and Dictionaries Advanced\P04. Even Times\obj\Debug\net6.0\P04. Even Times.genruntimeconfig.cache
+D:\Pavel\SoftUni\C# Job prep\Data Structures\Sets and Dictionaries Advanced\P04. Even Times\obj\Debug\net6.0\ref\P04. Even Times.dll
