@@ -5,6 +5,8 @@ VisualStudioVersion = 17.4.33205.214
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "P01. Action Point", "P01. Action Point\P01. Action Point.csproj", "{F5CD2440-FC04-4411-8179-D596B5FE0AF9}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "P02. Custom Min Function", "P02. Custom Min Function\P02. Custom Min Function.csproj", "{F168EDEC-A62A-490C-8F24-369EFEE0DAB5}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{F5CD2440-FC04-4411-8179-D596B5FE0AF9}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F5CD2440-FC04-4411-8179-D596B5FE0AF9}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F5CD2440-FC04-4411-8179-D596B5FE0AF9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F168EDEC-A62A-490C-8F24-369EFEE0DAB5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F168EDEC-A62A-490C-8F24-369EFEE0DAB5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F168EDEC-A62A-490C-8F24-369EFEE0DAB5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F168EDEC-A62A-490C-8F24-369EFEE0DAB5}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
