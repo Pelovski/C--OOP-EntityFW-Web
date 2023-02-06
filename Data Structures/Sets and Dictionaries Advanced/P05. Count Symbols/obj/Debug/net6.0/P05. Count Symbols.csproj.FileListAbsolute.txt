@@ -1,0 +1,15 @@
+D:\Pavel\SoftUni\C# Job prep\Data Structures\Sets and Dictionaries Advanced\P05. Count Symbols\bin\Debug\net6.0\P05. Count Symbols.exe
+D:\Pavel\SoftUni\C# Job prep\Data Structures\Sets and Dictionaries Advanced\P05. Count Symbols\bin\Debug\net6.0\P05. Count Symbols.deps.json
+D:\Pavel\SoftUni\C# Job prep\Data Structures\Sets and Dictionaries Advanced\P05. Count Symbols\bin\Debug\net6.0\P05. Count Symbols.runtimeconfig.json
+D:\Pavel\SoftUni\C# Job prep\Data Structures\Sets and Dictionaries Advanced\P05. Count Symbols\bin\Debug\net6.0\P05. Count Symbols.dll
+D:\Pavel\SoftUni\C# Job prep\Data Structures\Sets and Dictionaries Advanced\P05. Count Symbols\bin\Debug\net6.0\P05. Count Symbols.pdb
+D:\Pavel\SoftUni\C# Job prep\Data Structures\Sets and Dictionaries Advanced\P05. Count Symbols\obj\Debug\net6.0\P05. Count Symbols.csproj.AssemblyReference.cache
+D:\Pavel\SoftUni\C# Job prep\Data Structures\Sets and Dictionaries Advanced\P05. Count Symbols\obj\Debug\net6.0\P05. Count Symbols.GeneratedMSBuildEditorConfig.editorconfig
+D:\Pavel\SoftUni\C# Job prep\Data Structures\Sets and Dictionaries Advanced\P05. Count Symbols\obj\Debug\net6.0\P05. Count Symbols.AssemblyInfoInputs.cache
+D:\Pavel\SoftUni\C# Job prep\Data Structures\Sets and Dictionaries Advanced\P05. Count Symbols\obj\Debug\net6.0\P05. Count Symbols.AssemblyInfo.cs
+D:\Pavel\SoftUni\C# Job prep\Data Structures\Sets and Dictionaries Advanced\P05. Count Symbols\obj\Debug\net6.0\P05. Count Symbols.csproj.CoreCompileInputs.cache
+D:\Pavel\SoftUni\C# Job prep\Data Structures\Sets and Dictionaries Advanced\P05. Count Symbols\obj\Debug\net6.0\P05. Count Symbols.dll
+D:\Pavel\SoftUni\C# Job prep\Data Structures\Sets and Dictionaries Advanced\P05. Count Symbols\obj\Debug\net6.0\refint\P05. Count Symbols.dll
+D:\Pavel\SoftUni\C# Job prep\Data Structures\Sets and Dictionaries Advanced\P05. Count Symbols\obj\Debug\net6.0\P05. Count Symbols.pdb
+D:\Pavel\SoftUni\C# Job prep\Data Structures\Sets and Dictionaries Advanced\P05. Count Symbols\obj\Debug\net6.0\P05. Count Symbols.genruntimeconfig.cache
+D:\Pavel\SoftUni\C# Job prep\Data Structures\Sets and Dictionaries Advanced\P05. Count Symbols\obj\Debug\net6.0\ref\P05. Count Symbols.dll

@@ -18,14 +18,20 @@ class Program
                 data.Add(input, 1);
             }
 
-            data[input]++;
-
+            else
+            {
+                data[input]++;
+            }
             
         }
 
+
         foreach (var item in data)
         {
-            Console.WriteLine($"{item.Key}: {item.Value}");
+            if (item.Value % 2 == 0)
+            {
+                Console.WriteLine(item.Key);
+            }
         }
     }
 }

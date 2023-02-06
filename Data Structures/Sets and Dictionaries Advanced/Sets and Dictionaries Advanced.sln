@@ -3,13 +3,15 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.4.33205.214
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "P01. Unique Usernames", "P01. Unique Usernames\P01. Unique Usernames.csproj", "{46666911-BC0A-44C1-8CF3-7E50FF2AD442}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "P01. Unique Usernames", "P01. Unique Usernames\P01. Unique Usernames.csproj", "{46666911-BC0A-44C1-8CF3-7E50FF2AD442}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "P02. Sets of Elements", "P02. Sets of Elements\P02. Sets of Elements.csproj", "{158DF020-DFA6-482A-8EAE-1DA9BDAFE332}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "P02. Sets of Elements", "P02. Sets of Elements\P02. Sets of Elements.csproj", "{158DF020-DFA6-482A-8EAE-1DA9BDAFE332}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "P03. Periodic Table", "P03. Periodic Table\P03. Periodic Table.csproj", "{2AD2BDF6-D189-48E5-9A68-F6E2E9DF2F0D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "P03. Periodic Table", "P03. Periodic Table\P03. Periodic Table.csproj", "{2AD2BDF6-D189-48E5-9A68-F6E2E9DF2F0D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "P04. Even Times", "P04. Even Times\P04. Even Times.csproj", "{32B9D29A-3D06-4D01-A388-59D72ECC0B0B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "P04. Even Times", "P04. Even Times\P04. Even Times.csproj", "{32B9D29A-3D06-4D01-A388-59D72ECC0B0B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "P05. Count Symbols", "P05. Count Symbols\P05. Count Symbols.csproj", "{7B16FABE-6ADC-4FDB-A13F-38BCBB3F0C64}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -33,6 +35,10 @@ Global
 		{32B9D29A-3D06-4D01-A388-59D72ECC0B0B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{32B9D29A-3D06-4D01-A388-59D72ECC0B0B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{32B9D29A-3D06-4D01-A388-59D72ECC0B0B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7B16FABE-6ADC-4FDB-A13F-38BCBB3F0C64}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7B16FABE-6ADC-4FDB-A13F-38BCBB3F0C64}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7B16FABE-6ADC-4FDB-A13F-38BCBB3F0C64}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7B16FABE-6ADC-4FDB-A13F-38BCBB3F0C64}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
