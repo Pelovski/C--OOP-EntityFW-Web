@@ -1,16 +1,21 @@
-﻿using P01._Define_a_Class_Person;
+﻿using System.Globalization;
+using P01._Define_a_Class_Person;
 
 internal class Program
 {
     private static void Main(string[] args)
     {
-        Family family = new Family();
-        Person person = new Person("Pesho", 3);
-        Person secondPerson = new Person("Pavel", 29);
+        string firstInput = Console.ReadLine();
+        string secondInput = Console.ReadLine();
+        DateModifier dateModifier = new DateModifier();
 
-        family.AddMember(person);
-        family.AddMember(secondPerson);
+        DateTime firstDate = DateTime.Parse(firstInput, CultureInfo.InvariantCulture);
+        DateTime secondDate = DateTime.Parse(secondInput, CultureInfo.InvariantCulture);
 
-        family.GetOldestMember();
+   
+
+        dateModifier.DifferenceBetweenTwoDates(firstDate, secondDate);
+
+
     }
 }

@@ -1,0 +1,15 @@
+D:\Pavel\SoftUni\C# Job prep\OOP\Defining Classes\P06. Speed Racing\bin\Debug\net6.0\P06. Speed Racing.exe
+D:\Pavel\SoftUni\C# Job prep\OOP\Defining Classes\P06. Speed Racing\bin\Debug\net6.0\P06. Speed Racing.deps.json
+D:\Pavel\SoftUni\C# Job prep\OOP\Defining Classes\P06. Speed Racing\bin\Debug\net6.0\P06. Speed Racing.runtimeconfig.json
+D:\Pavel\SoftUni\C# Job prep\OOP\Defining Classes\P06. Speed Racing\bin\Debug\net6.0\P06. Speed Racing.dll
+D:\Pavel\SoftUni\C# Job prep\OOP\Defining Classes\P06. Speed Racing\bin\Debug\net6.0\P06. Speed Racing.pdb
+D:\Pavel\SoftUni\C# Job prep\OOP\Defining Classes\P06. Speed Racing\obj\Debug\net6.0\P06. Speed Racing.csproj.AssemblyReference.cache
+D:\Pavel\SoftUni\C# Job prep\OOP\Defining Classes\P06. Speed Racing\obj\Debug\net6.0\P06. Speed Racing.GeneratedMSBuildEditorConfig.editorconfig
+D:\Pavel\SoftUni\C# Job prep\OOP\Defining Classes\P06. Speed Racing\obj\Debug\net6.0\P06. Speed Racing.AssemblyInfoInputs.cache
+D:\Pavel\SoftUni\C# Job prep\OOP\Defining Classes\P06. Speed Racing\obj\Debug\net6.0\P06. Speed Racing.AssemblyInfo.cs
+D:\Pavel\SoftUni\C# Job prep\OOP\Defining Classes\P06. Speed Racing\obj\Debug\net6.0\P06. Speed Racing.csproj.CoreCompileInputs.cache
+D:\Pavel\SoftUni\C# Job prep\OOP\Defining Classes\P06. Speed Racing\obj\Debug\net6.0\P06. Speed Racing.dll
+D:\Pavel\SoftUni\C# Job prep\OOP\Defining Classes\P06. Speed Racing\obj\Debug\net6.0\refint\P06. Speed Racing.dll
+D:\Pavel\SoftUni\C# Job prep\OOP\Defining Classes\P06. Speed Racing\obj\Debug\net6.0\P06. Speed Racing.pdb
+D:\Pavel\SoftUni\C# Job prep\OOP\Defining Classes\P06. Speed Racing\obj\Debug\net6.0\P06. Speed Racing.genruntimeconfig.cache
+D:\Pavel\SoftUni\C# Job prep\OOP\Defining Classes\P06. Speed Racing\obj\Debug\net6.0\ref\P06. Speed Racing.dll
