@@ -37,7 +37,7 @@ internal class Program
             
         }
 
-          var type = Console.ReadLine();
+        var type = Console.ReadLine();
 
         if (type == "fragile")
         {
