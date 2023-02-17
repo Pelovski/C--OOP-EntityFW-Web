@@ -3,20 +3,32 @@ public class Program
 {
     private static void Main(string[] args)
     {
-        int people = int.Parse(Console.ReadLine());
-        double entryPrice = double.Parse(Console.ReadLine());
-        double loungerPrice = double.Parse(Console.ReadLine());
-        double umbrellaPrice = double.Parse(Console.ReadLine());
+        double budget = double.Parse(Console.ReadLine());
+        int videoCardsCount = int.Parse(Console.ReadLine());
+        int processorsCount = int.Parse(Console.ReadLine());
+        int ramsCount = int.Parse(Console.ReadLine());
 
-        double loungerCount = Math.Ceiling(people * 0.75);
-        double umbrellaCount = Math.Ceiling(people / 2.0);
+        int videoCardPrice = 250 * videoCardsCount;
+        double processorPrice = (videoCardPrice * 0.35) * processorsCount;
+        double ramPrice = (videoCardPrice * 0.10) * ramsCount;
 
-        double entryProfit = people * entryPrice;
-        double loungerProfit = loungerCount * loungerPrice;
-        double umbrellaProfit = umbrellaCount * umbrellaPrice;
+        double finalPrice = videoCardPrice + processorPrice + ramPrice;
 
-        double result = entryProfit + loungerProfit + umbrellaProfit;
+        if (videoCardsCount > processorsCount)
+        {
+            finalPrice -= finalPrice * 0.15;
+        }
 
-        Console.WriteLine($"{result:f2} lv.");
+        double finalBudget = Math.Abs(budget - finalPrice);
+
+        if (budget >= finalPrice)
+        {
+            Console.WriteLine($"You have {finalBudget:f2} leva left!"); 
+        }
+
+        else
+        {
+            Console.WriteLine($"Not enough money! You need {finalBudget:f2} leva more!");
+        }
     }
 }
