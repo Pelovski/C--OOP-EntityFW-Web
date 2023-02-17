@@ -1,59 +1,22 @@
-﻿using P07._Raw_Data;
-
-internal class Program
+﻿using System;
+public class Program
 {
     private static void Main(string[] args)
     {
-        int n = int.Parse(Console.ReadLine());
-        var cars = new List<Car>();
+        int people = int.Parse(Console.ReadLine());
+        double entryPrice = double.Parse(Console.ReadLine());
+        double loungerPrice = double.Parse(Console.ReadLine());
+        double umbrellaPrice = double.Parse(Console.ReadLine());
 
-        for (int i = 0; i < n; i++)
-        {
-            var input = Console.ReadLine().Split(" ");
+        double loungerCount = Math.Ceiling(people * 0.75);
+        double umbrellaCount = Math.Ceiling(people / 2.0);
 
-            string model = input[0];
-            int engineSpeed = int.Parse(input[1]);
-            int enginePower = int.Parse(input[2]);
-            int cargoWeight = int.Parse(input[3]);
-            string cargoType = input[4];
+        double entryProfit = people * entryPrice;
+        double loungerProfit = loungerCount * loungerPrice;
+        double umbrellaProfit = umbrellaCount * umbrellaPrice;
 
+        double result = entryProfit + loungerProfit + umbrellaProfit;
 
-            Engine engine = new Engine(engineSpeed, enginePower);
-            Cargo cargo = new Cargo(cargoType, cargoWeight);
-
-            Car car = new Car(model, engine, cargo);
-
-            for (int j = 5; j < 12; j+=2)
-            {
-                double tirePressure = double.Parse(input[j]);
-                int tireAge = int.Parse(input[j+1]);
-
-                Tire tire = new Tire(tireAge, tirePressure);
-
-                car.Tires.Add(tire);
-            }
-
-            cars.Add(car);
-            
-        }
-
-        var type = Console.ReadLine();
-
-        if (type == "fragile")
-        {
-            cars
-                .Where(x => x.Cargo.CargoType == "fragile" && x.Tires.Any(x => x.Pressure < 1))
-                .ToList()
-                .ForEach(x => Console.WriteLine(x.Model));
-
-        }
-
-        if (type == "flamable")
-        {
-            cars
-                .Where(x => x.Cargo.CargoType == "flamable" && x.Engine.Power > 250)
-                .ToList()
-                .ForEach(x => Console.WriteLine(x.Model));
-        }
+        Console.WriteLine($"{result:f2} lv.");
     }
 }
