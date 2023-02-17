@@ -1,34 +1,99 @@
 ﻿using System;
+using System.Linq.Expressions;
+using System.Text;
+
 public class Program
 {
     private static void Main(string[] args)
     {
-        double budget = double.Parse(Console.ReadLine());
-        int videoCardsCount = int.Parse(Console.ReadLine());
-        int processorsCount = int.Parse(Console.ReadLine());
-        int ramsCount = int.Parse(Console.ReadLine());
+        string cityName = Console.ReadLine();
+        string package = Console.ReadLine();
+        string vipDiscount = Console.ReadLine();
+        int stayDays = int.Parse(Console.ReadLine());
 
-        int videoCardPrice = 250 * videoCardsCount;
-        double processorPrice = (videoCardPrice * 0.35) * processorsCount;
-        double ramPrice = (videoCardPrice * 0.10) * ramsCount;
+        double pricePerNight = 0;
+        double finalDiscount = 0;
 
-        double finalPrice = videoCardPrice + processorPrice + ramPrice;
-
-        if (videoCardsCount > processorsCount)
+        if (stayDays < 1)
         {
-            finalPrice -= finalPrice * 0.15;
+            Console.WriteLine("Days must be positive number!");
+            return;
         }
 
-        double finalBudget = Math.Abs(budget - finalPrice);
-
-        if (budget >= finalPrice)
+        if (cityName == "Bansko" || cityName == "Borovets")
         {
-            Console.WriteLine($"You have {finalBudget:f2} leva left!"); 
+            if (package == "noEquipment")
+            {
+                if (vipDiscount == "yes")
+                {
+                    finalDiscount = 0.05;
+                }
+
+                pricePerNight = 80;
+            }
+
+            else if (package == "withEquipment")
+            {
+                if (vipDiscount == "yes")
+                {
+                    finalDiscount = 0.10;
+                }
+
+                pricePerNight = 100;
+            }
+
+            else
+            {
+                Console.WriteLine("Invalid input!");
+                return;
+            }
+        }
+
+        else if (cityName == "Varna" || cityName == "Burgas")
+        {
+
+            if (package == "withBreakfast")
+            {
+                if (vipDiscount == "yes")
+                {
+                    finalDiscount = 0.12;
+                }
+                pricePerNight = 130;
+            }
+            else if (package == "noBreakfast")
+            {
+                if (vipDiscount == "yes")
+                {
+                    finalDiscount = 0.07;
+                }
+                pricePerNight = 100;
+            }
+            else
+            {
+                Console.WriteLine("Invalid input!");
+                return;
+            }
         }
 
         else
         {
-            Console.WriteLine($"Not enough money! You need {finalBudget:f2} leva more!");
+            Console.WriteLine("Invalid input!");
+            return;
         }
+
+        double allNightsPrice = stayDays * pricePerNight;
+
+        if (finalDiscount !=0)
+        {
+            pricePerNight -= pricePerNight * finalDiscount;
+            allNightsPrice = pricePerNight  * stayDays;
+        }
+
+        if (stayDays > 7)
+        {
+            allNightsPrice -= pricePerNight;
+        }
+
+        Console.WriteLine($"The price is {allNightsPrice:f2}lv! Have a nice time!");
     }
 }
