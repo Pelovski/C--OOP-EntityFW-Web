@@ -1,53 +1,48 @@
 ﻿using System;
 using System.Linq.Expressions;
 using System.Text;
+using System.Xml.Linq;
 
 public class Program
 {
     private static void Main(string[] args)
     {
-        int wantedProfit = int.Parse(Console.ReadLine());
-        double currentProfit = 0;
+        int n = int.Parse(Console.ReadLine());
+        string chefName = "";
+        int chefRate = 0;
 
-        while (true)
+        string currentChefName = "";
+        int currentChefRate = 0;
+
+        for (int i = 0; i < n; i++)
         {
-            string coctail = Console.ReadLine();
+            string name = Console.ReadLine();
 
-            if (coctail == "Party!")
+            currentChefName = name;
+            currentChefRate = 0;
+
+            while (true)
             {
-                double neededIncome = wantedProfit - currentProfit;
+                string rate = Console.ReadLine();
 
-                Console.WriteLine($"We need {neededIncome:f2} leva more.");
-                Console.WriteLine($"Club income - {currentProfit:f2} leva.");
+                if (rate == "Stop")
+                {
+                    Console.WriteLine($"{currentChefName} has {currentChefRate} points.");
+                    break;
+                }
 
-                break;
+                currentChefRate += int.Parse(rate);
             }
 
-            int coctailCount = int.Parse(Console.ReadLine());
-
-            
-
-            double coctailPrice = coctail.Length * coctailCount;
-
-            if (coctailPrice % 2 != 0)
+            if (i == 0 || currentChefRate > chefRate)
             {
-                coctailPrice -= coctailPrice * 0.25;
+                chefName = currentChefName;
+                chefRate = currentChefRate;
 
-                currentProfit += coctailPrice;
-            }
-            else
-            {
-                currentProfit += coctailPrice;
-            }
-
-
-            if (currentProfit >= wantedProfit)
-            {
-                Console.WriteLine("Target acquired.");
-                Console.WriteLine($"Club income - {currentProfit:f2} leva");
-                break;
+                Console.WriteLine($"{chefName} is the new number 1!");
             }
         }
 
+        Console.WriteLine($"{chefName} won competition with {chefRate} points!");
     }
 }
