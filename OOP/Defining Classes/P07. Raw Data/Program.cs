@@ -6,94 +6,48 @@ public class Program
 {
     private static void Main(string[] args)
     {
-        string cityName = Console.ReadLine();
-        string package = Console.ReadLine();
-        string vipDiscount = Console.ReadLine();
-        int stayDays = int.Parse(Console.ReadLine());
+        int wantedProfit = int.Parse(Console.ReadLine());
+        double currentProfit = 0;
 
-        double pricePerNight = 0;
-        double finalDiscount = 0;
-
-        if (stayDays < 1)
+        while (true)
         {
-            Console.WriteLine("Days must be positive number!");
-            return;
-        }
+            string coctail = Console.ReadLine();
 
-        if (cityName == "Bansko" || cityName == "Borovets")
-        {
-            if (package == "noEquipment")
+            if (coctail == "Party!")
             {
-                if (vipDiscount == "yes")
-                {
-                    finalDiscount = 0.05;
-                }
+                double neededIncome = wantedProfit - currentProfit;
 
-                pricePerNight = 80;
+                Console.WriteLine($"We need {neededIncome:f2} leva more.");
+                Console.WriteLine($"Club income - {currentProfit:f2} leva.");
+
+                break;
             }
 
-            else if (package == "withEquipment")
-            {
-                if (vipDiscount == "yes")
-                {
-                    finalDiscount = 0.10;
-                }
+            int coctailCount = int.Parse(Console.ReadLine());
 
-                pricePerNight = 100;
-            }
+            
 
-            else
-            {
-                Console.WriteLine("Invalid input!");
-                return;
-            }
-        }
+            double coctailPrice = coctail.Length * coctailCount;
 
-        else if (cityName == "Varna" || cityName == "Burgas")
-        {
+            if (coctailPrice % 2 != 0)
+            {
+                coctailPrice -= coctailPrice * 0.25;
 
-            if (package == "withBreakfast")
-            {
-                if (vipDiscount == "yes")
-                {
-                    finalDiscount = 0.12;
-                }
-                pricePerNight = 130;
-            }
-            else if (package == "noBreakfast")
-            {
-                if (vipDiscount == "yes")
-                {
-                    finalDiscount = 0.07;
-                }
-                pricePerNight = 100;
+                currentProfit += coctailPrice;
             }
             else
             {
-                Console.WriteLine("Invalid input!");
-                return;
+                currentProfit += coctailPrice;
+            }
+
+
+            if (currentProfit >= wantedProfit)
+            {
+                Console.WriteLine("Target acquired.");
+                Console.WriteLine($"Club income - {currentProfit:f2} leva");
+                break;
             }
         }
 
-        else
-        {
-            Console.WriteLine("Invalid input!");
-            return;
-        }
-
-        double allNightsPrice = stayDays * pricePerNight;
-
-        if (finalDiscount !=0)
-        {
-            pricePerNight -= pricePerNight * finalDiscount;
-            allNightsPrice = pricePerNight  * stayDays;
-        }
-
-        if (stayDays > 7)
-        {
-            allNightsPrice -= pricePerNight;
-        }
-
-        Console.WriteLine($"The price is {allNightsPrice:f2}lv! Have a nice time!");
     }
 }
