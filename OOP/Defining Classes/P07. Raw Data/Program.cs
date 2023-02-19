@@ -7,22 +7,23 @@ public class Program
 {
     private static void Main(string[] args)
     {
-        double cpuPrice = double.Parse(Console.ReadLine());
-        double videoCardPrice = double.Parse(Console.ReadLine());
-        double ramPrice = double.Parse(Console.ReadLine());
-        double ramsCount = double.Parse(Console.ReadLine());
-        double discount  = double.Parse(Console.ReadLine());
+        double pocketMoney = double.Parse(Console.ReadLine());
+        double earndMoneyPerDay = double.Parse(Console.ReadLine());
+        double costs = double.Parse(Console.ReadLine());
+        double presentPrice = double.Parse(Console.ReadLine());
 
-        double ramFinalPrice = ramPrice * ramsCount;
+        double savedMoney = ((pocketMoney + earndMoneyPerDay) * 5) - costs;
 
-        double videoAndCpuPrices = cpuPrice + videoCardPrice;
-        double finalDiscount = videoAndCpuPrices * discount;
-        double dolarValue = 1.57;
+        if (savedMoney >= presentPrice)
+        {
+            Console.WriteLine($"Profit: {savedMoney:f2} BGN, the gift has been purchased.");
+        }
 
-        double finalPrice = ((videoAndCpuPrices - finalDiscount) + ramFinalPrice) * dolarValue;
+        else
+        {
+            double neededAmount = presentPrice - savedMoney;
 
-        Console.WriteLine($"Money needed - {finalPrice:f2} leva.");
-
-      
+            Console.WriteLine($"Insufficient money: {neededAmount:f2} BGN.");
+        }
     }
 }
