@@ -7,42 +7,22 @@ public class Program
 {
     private static void Main(string[] args)
     {
-        int n = int.Parse(Console.ReadLine());
-        string chefName = "";
-        int chefRate = 0;
+        double cpuPrice = double.Parse(Console.ReadLine());
+        double videoCardPrice = double.Parse(Console.ReadLine());
+        double ramPrice = double.Parse(Console.ReadLine());
+        double ramsCount = double.Parse(Console.ReadLine());
+        double discount  = double.Parse(Console.ReadLine());
 
-        string currentChefName = "";
-        int currentChefRate = 0;
+        double ramFinalPrice = ramPrice * ramsCount;
 
-        for (int i = 0; i < n; i++)
-        {
-            string name = Console.ReadLine();
+        double videoAndCpuPrices = cpuPrice + videoCardPrice;
+        double finalDiscount = videoAndCpuPrices * discount;
+        double dolarValue = 1.57;
 
-            currentChefName = name;
-            currentChefRate = 0;
+        double finalPrice = ((videoAndCpuPrices - finalDiscount) + ramFinalPrice) * dolarValue;
 
-            while (true)
-            {
-                string rate = Console.ReadLine();
+        Console.WriteLine($"Money needed - {finalPrice:f2} leva.");
 
-                if (rate == "Stop")
-                {
-                    Console.WriteLine($"{currentChefName} has {currentChefRate} points.");
-                    break;
-                }
-
-                currentChefRate += int.Parse(rate);
-            }
-
-            if (i == 0 || currentChefRate > chefRate)
-            {
-                chefName = currentChefName;
-                chefRate = currentChefRate;
-
-                Console.WriteLine($"{chefName} is the new number 1!");
-            }
-        }
-
-        Console.WriteLine($"{chefName} won competition with {chefRate} points!");
+      
     }
 }
