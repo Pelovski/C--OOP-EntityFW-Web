@@ -7,23 +7,57 @@ public class Program
 {
     private static void Main(string[] args)
     {
-        double pocketMoney = double.Parse(Console.ReadLine());
-        double earndMoneyPerDay = double.Parse(Console.ReadLine());
-        double costs = double.Parse(Console.ReadLine());
-        double presentPrice = double.Parse(Console.ReadLine());
+        int daysOfStay = int.Parse(Console.ReadLine());
+        string roomType = Console.ReadLine();
+        string rate = Console.ReadLine();
 
-        double savedMoney = ((pocketMoney + earndMoneyPerDay) * 5) - costs;
+        double roomForOnePerson = 18;
+        double apartment = 25;
+        double presidentApartment = 35;
+        double finalPrice = 0;
 
-        if (savedMoney >= presentPrice)
+        if (daysOfStay < 10)
         {
-            Console.WriteLine($"Profit: {savedMoney:f2} BGN, the gift has been purchased.");
+            apartment -= apartment * 0.30;
+            presidentApartment -= presidentApartment * 0.10;
         }
-
+        else if (daysOfStay >= 10 && daysOfStay <=15 )
+        {
+            apartment -= apartment * 0.35;
+            presidentApartment -= presidentApartment * 0.15;
+        }
         else
         {
-            double neededAmount = presentPrice - savedMoney;
-
-            Console.WriteLine($"Insufficient money: {neededAmount:f2} BGN.");
+            apartment -= apartment * 0.50;
+            presidentApartment -= presidentApartment * 0.20;
         }
+
+        if (roomType == "room for one person")
+        {
+            finalPrice = roomForOnePerson * (daysOfStay - 1);
+
+        }
+        else if (roomType == "apartment")
+        {
+            finalPrice = apartment * (daysOfStay - 1);
+
+
+        }
+        else
+        {
+            finalPrice = presidentApartment * (daysOfStay - 1);
+
+        }
+
+        if (rate == "positive")
+        {
+            finalPrice += finalPrice * 0.25;
+        }
+        else
+        {
+            finalPrice -= finalPrice * 0.10;
+        }
+
+        Console.WriteLine($"{finalPrice:f2}");
     }
 }
