@@ -7,57 +7,44 @@ public class Program
 {
     private static void Main(string[] args)
     {
-        int daysOfStay = int.Parse(Console.ReadLine());
-        string roomType = Console.ReadLine();
-        string rate = Console.ReadLine();
+        int studentsCount = int.Parse(Console.ReadLine());
+        double avarageGrade = 0;
+        double topStudents = 0;
+        double avarageStudents = 0;
+        double weaktudents = 0;
+        double failedStudents = 0;
 
-        double roomForOnePerson = 18;
-        double apartment = 25;
-        double presidentApartment = 35;
-        double finalPrice = 0;
 
-        if (daysOfStay < 10)
+        for (int i = 0; i < studentsCount; i++)
         {
-            apartment -= apartment * 0.30;
-            presidentApartment -= presidentApartment * 0.10;
-        }
-        else if (daysOfStay >= 10 && daysOfStay <=15 )
-        {
-            apartment -= apartment * 0.35;
-            presidentApartment -= presidentApartment * 0.15;
-        }
-        else
-        {
-            apartment -= apartment * 0.50;
-            presidentApartment -= presidentApartment * 0.20;
-        }
+            double grade = double.Parse(Console.ReadLine());
 
-        if (roomType == "room for one person")
-        {
-            finalPrice = roomForOnePerson * (daysOfStay - 1);
+            if (grade >= 5)
+            {
+                topStudents++;
+            }
+            else if (grade >= 4 && grade <= 4.99)
+            {
+                avarageStudents++;
+            }
 
-        }
-        else if (roomType == "apartment")
-        {
-            finalPrice = apartment * (daysOfStay - 1);
+            else if (grade >= 3 && grade <= 3.99)
+            {
+                weaktudents++;
+            }
+            else
+            {
+                failedStudents++;
+            }
 
-
-        }
-        else
-        {
-            finalPrice = presidentApartment * (daysOfStay - 1);
-
+            avarageGrade += grade;
         }
 
-        if (rate == "positive")
-        {
-            finalPrice += finalPrice * 0.25;
-        }
-        else
-        {
-            finalPrice -= finalPrice * 0.10;
-        }
+        Console.WriteLine($"Top students: {(topStudents / studentsCount) * 100:f2}%");
+        Console.WriteLine($"Between 4.00 and 4.99: {(avarageStudents / studentsCount) * 100:f2}%");
+        Console.WriteLine($"Between 3.00 and 3.99: {(weaktudents / studentsCount) * 100:f2}%");
+        Console.WriteLine($"Fail: {(failedStudents / studentsCount) * 100:f2}%");
+        Console.WriteLine($"Average: {avarageGrade / studentsCount:f2}");
 
-        Console.WriteLine($"{finalPrice:f2}");
     }
 }
