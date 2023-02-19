@@ -7,44 +7,39 @@ public class Program
 {
     private static void Main(string[] args)
     {
-        int studentsCount = int.Parse(Console.ReadLine());
-        double avarageGrade = 0;
-        double topStudents = 0;
-        double avarageStudents = 0;
-        double weaktudents = 0;
-        double failedStudents = 0;
+        int peakMeters = 8848;
+        int currentMeters = 5364;
+        int days = 1;
 
-
-        for (int i = 0; i < studentsCount; i++)
+        while (true)
         {
-            double grade = double.Parse(Console.ReadLine());
-
-            if (grade >= 5)
+            if (currentMeters >= peakMeters)
             {
-                topStudents++;
-            }
-            else if (grade >= 4 && grade <= 4.99)
-            {
-                avarageStudents++;
+                Console.WriteLine($"Goal reached for {days} days!");
+                break;
             }
 
-            else if (grade >= 3 && grade <= 3.99)
+            string pause = Console.ReadLine();
+
+            
+
+            if (pause == "Yes")
             {
-                weaktudents++;
-            }
-            else
-            {
-                failedStudents++;
+                days++;
             }
 
-            avarageGrade += grade;
+            if (pause == "END" || days > 5)
+            {
+                Console.WriteLine("Failed!");
+                Console.WriteLine(currentMeters);
+                break;
+            }
+
+
+            int climbedMeters = int.Parse(Console.ReadLine());
+
+            currentMeters += climbedMeters;
         }
-
-        Console.WriteLine($"Top students: {(topStudents / studentsCount) * 100:f2}%");
-        Console.WriteLine($"Between 4.00 and 4.99: {(avarageStudents / studentsCount) * 100:f2}%");
-        Console.WriteLine($"Between 3.00 and 3.99: {(weaktudents / studentsCount) * 100:f2}%");
-        Console.WriteLine($"Fail: {(failedStudents / studentsCount) * 100:f2}%");
-        Console.WriteLine($"Average: {avarageGrade / studentsCount:f2}");
 
     }
 }
