@@ -1,0 +1,15 @@
+D:\Pavel\SoftUni\C# Job prep\Fundamentals\Data Types and Variable\Data Types and Variables\01. Integer Operations\bin\Debug\net6.0\01. Integer Operations.exe
+D:\Pavel\SoftUni\C# Job prep\Fundamentals\Data Types and Variable\Data Types and Variables\01. Integer Operations\bin\Debug\net6.0\01. Integer Operations.deps.json
+D:\Pavel\SoftUni\C# Job prep\Fundamentals\Data Types and Variable\Data Types and Variables\01. Integer Operations\bin\Debug\net6.0\01. Integer Operations.runtimeconfig.json
+D:\Pavel\SoftUni\C# Job prep\Fundamentals\Data Types and Variable\Data Types and Variables\01. Integer Operations\bin\Debug\net6.0\01. Integer Operations.dll
+D:\Pavel\SoftUni\C# Job prep\Fundamentals\Data Types and Variable\Data Types and Variables\01. Integer Operations\bin\Debug\net6.0\01. Integer Operations.pdb
+D:\Pavel\SoftUni\C# Job prep\Fundamentals\Data Types and Variable\Data Types and Variables\01. Integer Operations\obj\Debug\net6.0\01. Integer Operations.csproj.AssemblyReference.cache
+D:\Pavel\SoftUni\C# Job prep\Fundamentals\Data Types and Variable\Data Types and Variables\01. Integer Operations\obj\Debug\net6.0\01. Integer Operations.GeneratedMSBuildEditorConfig.editorconfig
+D:\Pavel\SoftUni\C# Job prep\Fundamentals\Data Types and Variable\Data Types and Variables\01. Integer Operations\obj\Debug\net6.0\01. Integer Operations.AssemblyInfoInputs.cache
+D:\Pavel\SoftUni\C# Job prep\Fundamentals\Data Types and Variable\Data Types and Variables\01. Integer Operations\obj\Debug\net6.0\01. Integer Operations.AssemblyInfo.cs
+D:\Pavel\SoftUni\C# Job prep\Fundamentals\Data Types and Variable\Data Types and Variables\01. Integer Operations\obj\Debug\net6.0\01. Integer Operations.csproj.CoreCompileInputs.cache
+D:\Pavel\SoftUni\C# Job prep\Fundamentals\Data Types and Variable\Data Types and Variables\01. Integer Operations\obj\Debug\net6.0\01. Integer Operations.dll
+D:\Pavel\SoftUni\C# Job prep\Fundamentals\Data Types and Variable\Data Types and Variables\01. Integer Operations\obj\Debug\net6.0\refint\01. Integer Operations.dll
+D:\Pavel\SoftUni\C# Job prep\Fundamentals\Data Types and Variable\Data Types and Variables\01. Integer Operations\obj\Debug\net6.0\01. Integer Operations.pdb
+D:\Pavel\SoftUni\C# Job prep\Fundamentals\Data Types and Variable\Data Types and Variables\01. Integer Operations\obj\Debug\net6.0\01. Integer Operations.genruntimeconfig.cache
+D:\Pavel\SoftUni\C# Job prep\Fundamentals\Data Types and Variable\Data Types and Variables\01. Integer Operations\obj\Debug\net6.0\ref\01. Integer Operations.dll
