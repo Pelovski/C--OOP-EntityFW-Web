@@ -1,0 +1,15 @@
+D:\Pavel\SoftUni\C# Job prep\Fundamentals\Data Types and Variable\Data Types and Variables\P02. Sum Digits\bin\Debug\net6.0\P02. Sum Digits.exe
+D:\Pavel\SoftUni\C# Job prep\Fundamentals\Data Types and Variable\Data Types and Variables\P02. Sum Digits\bin\Debug\net6.0\P02. Sum Digits.deps.json
+D:\Pavel\SoftUni\C# Job prep\Fundamentals\Data Types and Variable\Data Types and Variables\P02. Sum Digits\bin\Debug\net6.0\P02. Sum Digits.runtimeconfig.json
+D:\Pavel\SoftUni\C# Job prep\Fundamentals\Data Types and Variable\Data Types and Variables\P02. Sum Digits\bin\Debug\net6.0\P02. Sum Digits.dll
+D:\Pavel\SoftUni\C# Job prep\Fundamentals\Data Types and Variable\Data Types and Variables\P02. Sum Digits\bin\Debug\net6.0\P02. Sum Digits.pdb
+D:\Pavel\SoftUni\C# Job prep\Fundamentals\Data Types and Variable\Data Types and Variables\P02. Sum Digits\obj\Debug\net6.0\P02. Sum Digits.csproj.AssemblyReference.cache
+D:\Pavel\SoftUni\C# Job prep\Fundamentals\Data Types and Variable\Data Types and Variables\P02. Sum Digits\obj\Debug\net6.0\P02. Sum Digits.GeneratedMSBuildEditorConfig.editorconfig
+D:\Pavel\SoftUni\C# Job prep\Fundamentals\Data Types and Variable\Data Types and Variables\P02. Sum Digits\obj\Debug\net6.0\P02. Sum Digits.AssemblyInfoInputs.cache
+D:\Pavel\SoftUni\C# Job prep\Fundamentals\Data Types and Variable\Data Types and Variables\P02. Sum Digits\obj\Debug\net6.0\P02. Sum Digits.AssemblyInfo.cs
+D:\Pavel\SoftUni\C# Job prep\Fundamentals\Data Types and Variable\Data Types and Variables\P02. Sum Digits\obj\Debug\net6.0\P02. Sum Digits.csproj.CoreCompileInputs.cache
+D:\Pavel\SoftUni\C# Job prep\Fundamentals\Data Types and Variable\Data Types and Variables\P02. Sum Digits\obj\Debug\net6.0\P02. Sum Digits.dll
+D:\Pavel\SoftUni\C# Job prep\Fundamentals\Data Types and Variable\Data Types and Variables\P02. Sum Digits\obj\Debug\net6.0\refint\P02. Sum Digits.dll
+D:\Pavel\SoftUni\C# Job prep\Fundamentals\Data Types and Variable\Data Types and Variables\P02. Sum Digits\obj\Debug\net6.0\P02. Sum Digits.pdb
+D:\Pavel\SoftUni\C# Job prep\Fundamentals\Data Types and Variable\Data Types and Variables\P02. Sum Digits\obj\Debug\net6.0\P02. Sum Digits.genruntimeconfig.cache
+D:\Pavel\SoftUni\C# Job prep\Fundamentals\Data Types and Variable\Data Types and Variables\P02. Sum Digits\obj\Debug\net6.0\ref\P02. Sum Digits.dll

@@ -1,0 +1,15 @@
+D:\Pavel\SoftUni\C# Job prep\Fundamentals\Data Types and Variable\Data Types and Variables\P04. Sum of Chars\bin\Debug\net6.0\P04. Sum of Chars.exe
+D:\Pavel\SoftUni\C# Job prep\Fundamentals\Data Types and Variable\Data Types and Variables\P04. Sum of Chars\bin\Debug\net6.0\P04. Sum of Chars.deps.json
+D:\Pavel\SoftUni\C# Job prep\Fundamentals\Data Types and Variable\Data Types and Variables\P04. Sum of Chars\bin\Debug\net6.0\P04. Sum of Chars.runtimeconfig.json
+D:\Pavel\SoftUni\C# Job prep\Fundamentals\Data Types and Variable\Data Types and Variables\P04. Sum of Chars\bin\Debug\net6.0\P04. Sum of Chars.dll
+D:\Pavel\SoftUni\C# Job prep\Fundamentals\Data Types and Variable\Data Types and Variables\P04. Sum of Chars\bin\Debug\net6.0\P04. Sum of Chars.pdb
+D:\Pavel\SoftUni\C# Job prep\Fundamentals\Data Types and Variable\Data Types and Variables\P04. Sum of Chars\obj\Debug\net6.0\P04. Sum of Chars.csproj.AssemblyReference.cache
+D:\Pavel\SoftUni\C# Job prep\Fundamentals\Data Types and Variable\Data Types and Variables\P04. Sum of Chars\obj\Debug\net6.0\P04. Sum of Chars.GeneratedMSBuildEditorConfig.editorconfig
+D:\Pavel\SoftUni\C# Job prep\Fundamentals\Data Types and Variable\Data Types and Variables\P04. Sum of Chars\obj\Debug\net6.0\P04. Sum of Chars.AssemblyInfoInputs.cache
+D:\Pavel\SoftUni\C# Job prep\Fundamentals\Data Types and Variable\Data Types and Variables\P04. Sum of Chars\obj\Debug\net6.0\P04. Sum of Chars.AssemblyInfo.cs
+D:\Pavel\SoftUni\C# Job prep\Fundamentals\Data Types and Variable\Data Types and Variables\P04. Sum of Chars\obj\Debug\net6.0\P04. Sum of Chars.csproj.CoreCompileInputs.cache
+D:\Pavel\SoftUni\C# Job prep\Fundamentals\Data Types and Variable\Data Types and Variables\P04. Sum of Chars\obj\Debug\net6.0\P04. Sum of Chars.dll
+D:\Pavel\SoftUni\C# Job prep\Fundamentals\Data Types and Variable\Data Types and Variables\P04. Sum of Chars\obj\Debug\net6.0\refint\P04. Sum of Chars.dll
+D:\Pavel\SoftUni\C# Job prep\Fundamentals\Data Types and Variable\Data Types and Variables\P04. Sum of Chars\obj\Debug\net6.0\P04. Sum of Chars.pdb
+D:\Pavel\SoftUni\C# Job prep\Fundamentals\Data Types and Variable\Data Types and Variables\P04. Sum of Chars\obj\Debug\net6.0\P04. Sum of Chars.genruntimeconfig.cache
+D:\Pavel\SoftUni\C# Job prep\Fundamentals\Data Types and Variable\Data Types and Variables\P04. Sum of Chars\obj\Debug\net6.0\ref\P04. Sum of Chars.dll
