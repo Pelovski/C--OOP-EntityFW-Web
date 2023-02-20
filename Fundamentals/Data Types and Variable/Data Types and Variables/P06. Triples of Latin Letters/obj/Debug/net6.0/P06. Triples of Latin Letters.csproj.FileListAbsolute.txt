@@ -1,0 +1,15 @@
+D:\Pavel\SoftUni\C# Job prep\Fundamentals\Data Types and Variable\Data Types and Variables\P06. Triples of Latin Letters\bin\Debug\net6.0\P06. Triples of Latin Letters.exe
+D:\Pavel\SoftUni\C# Job prep\Fundamentals\Data Types and Variable\Data Types and Variables\P06. Triples of Latin Letters\bin\Debug\net6.0\P06. Triples of Latin Letters.deps.json
+D:\Pavel\SoftUni\C# Job prep\Fundamentals\Data Types and Variable\Data Types and Variables\P06. Triples of Latin Letters\bin\Debug\net6.0\P06. Triples of Latin Letters.runtimeconfig.json
+D:\Pavel\SoftUni\C# Job prep\Fundamentals\Data Types and Variable\Data Types and Variables\P06. Triples of Latin Letters\bin\Debug\net6.0\P06. Triples of Latin Letters.dll
+D:\Pavel\SoftUni\C# Job prep\Fundamentals\Data Types and Variable\Data Types and Variables\P06. Triples of Latin Letters\bin\Debug\net6.0\P06. Triples of Latin Letters.pdb
+D:\Pavel\SoftUni\C# Job prep\Fundamentals\Data Types and Variable\Data Types and Variables\P06. Triples of Latin Letters\obj\Debug\net6.0\P06. Triples of Latin Letters.csproj.AssemblyReference.cache
+D:\Pavel\SoftUni\C# Job prep\Fundamentals\Data Types and Variable\Data Types and Variables\P06. Triples of Latin Letters\obj\Debug\net6.0\P06. Triples of Latin Letters.GeneratedMSBuildEditorConfig.editorconfig
+D:\Pavel\SoftUni\C# Job prep\Fundamentals\Data Types and Variable\Data Types and Variables\P06. Triples of Latin Letters\obj\Debug\net6.0\P06. Triples of Latin Letters.AssemblyInfoInputs.cache
+D:\Pavel\SoftUni\C# Job prep\Fundamentals\Data Types and Variable\Data Types and Variables\P06. Triples of Latin Letters\obj\Debug\net6.0\P06. Triples of Latin Letters.AssemblyInfo.cs
+D:\Pavel\SoftUni\C# Job prep\Fundamentals\Data Types and Variable\Data Types and Variables\P06. Triples of Latin Letters\obj\Debug\net6.0\P06. Triples of Latin Letters.csproj.CoreCompileInputs.cache
+D:\Pavel\SoftUni\C# Job prep\Fundamentals\Data Types and Variable\Data Types and Variables\P06. Triples of Latin Letters\obj\Debug\net6.0\P06. Triples of Latin Letters.dll
+D:\Pavel\SoftUni\C# Job prep\Fundamentals\Data Types and Variable\Data Types and Variables\P06. Triples of Latin Letters\obj\Debug\net6.0\refint\P06. Triples of Latin Letters.dll
+D:\Pavel\SoftUni\C# Job prep\Fundamentals\Data Types and Variable\Data Types and Variables\P06. Triples of Latin Letters\obj\Debug\net6.0\P06. Triples of Latin Letters.pdb
+D:\Pavel\SoftUni\C# Job prep\Fundamentals\Data Types and Variable\Data Types and Variables\P06. Triples of Latin Letters\obj\Debug\net6.0\P06. Triples of Latin Letters.genruntimeconfig.cache
+D:\Pavel\SoftUni\C# Job prep\Fundamentals\Data Types and Variable\Data Types and Variables\P06. Triples of Latin Letters\obj\Debug\net6.0\ref\P06. Triples of Latin Letters.dll

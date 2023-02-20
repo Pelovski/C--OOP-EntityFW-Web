@@ -1,0 +1,15 @@
+D:\Pavel\SoftUni\C# Job prep\Fundamentals\Data Types and Variable\Data Types and Variables\P05. Print Part of the ASCII Table\bin\Debug\net6.0\P05. Print Part of the ASCII Table.exe
+D:\Pavel\SoftUni\C# Job prep\Fundamentals\Data Types and Variable\Data Types and Variables\P05. Print Part of the ASCII Table\bin\Debug\net6.0\P05. Print Part of the ASCII Table.deps.json
+D:\Pavel\SoftUni\C# Job prep\Fundamentals\Data Types and Variable\Data Types and Variables\P05. Print Part of the ASCII Table\bin\Debug\net6.0\P05. Print Part of the ASCII Table.runtimeconfig.json
+D:\Pavel\SoftUni\C# Job prep\Fundamentals\Data Types and Variable\Data Types and Variables\P05. Print Part of the ASCII Table\bin\Debug\net6.0\P05. Print Part of the ASCII Table.dll
+D:\Pavel\SoftUni\C# Job prep\Fundamentals\Data Types and Variable\Data Types and Variables\P05. Print Part of the ASCII Table\bin\Debug\net6.0\P05. Print Part of the ASCII Table.pdb
+D:\Pavel\SoftUni\C# Job prep\Fundamentals\Data Types and Variable\Data Types and Variables\P05. Print Part of the ASCII Table\obj\Debug\net6.0\P05. Print Part of the ASCII Table.csproj.AssemblyReference.cache
+D:\Pavel\SoftUni\C# Job prep\Fundamentals\Data Types and Variable\Data Types and Variables\P05. Print Part of the ASCII Table\obj\Debug\net6.0\P05. Print Part of the ASCII Table.GeneratedMSBuildEditorConfig.editorconfig
+D:\Pavel\SoftUni\C# Job prep\Fundamentals\Data Types and Variable\Data Types and Variables\P05. Print Part of the ASCII Table\obj\Debug\net6.0\P05. Print Part of the ASCII Table.AssemblyInfoInputs.cache
+D:\Pavel\SoftUni\C# Job prep\Fundamentals\Data Types and Variable\Data Types and Variables\P05. Print Part of the ASCII Table\obj\Debug\net6.0\P05. Print Part of the ASCII Table.AssemblyInfo.cs
+D:\Pavel\SoftUni\C# Job prep\Fundamentals\Data Types and Variable\Data Types and Variables\P05. Print Part of the ASCII Table\obj\Debug\net6.0\P05. Print Part of the ASCII Table.csproj.CoreCompileInputs.cache
+D:\Pavel\SoftUni\C# Job prep\Fundamentals\Data Types and Variable\Data Types and Variables\P05. Print Part of the ASCII Table\obj\Debug\net6.0\P05. Print Part of the ASCII Table.dll
+D:\Pavel\SoftUni\C# Job prep\Fundamentals\Data Types and Variable\Data Types and Variables\P05. Print Part of the ASCII Table\obj\Debug\net6.0\refint\P05. Print Part of the ASCII Table.dll
+D:\Pavel\SoftUni\C# Job prep\Fundamentals\Data Types and Variable\Data Types and Variables\P05. Print Part of the ASCII Table\obj\Debug\net6.0\P05. Print Part of the ASCII Table.pdb
+D:\Pavel\SoftUni\C# Job prep\Fundamentals\Data Types and Variable\Data Types and Variables\P05. Print Part of the ASCII Table\obj\Debug\net6.0\P05. Print Part of the ASCII Table.genruntimeconfig.cache
+D:\Pavel\SoftUni\C# Job prep\Fundamentals\Data Types and Variable\Data Types and Variables\P05. Print Part of the ASCII Table\obj\Debug\net6.0\ref\P05. Print Part of the ASCII Table.dll
