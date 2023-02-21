@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v6.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v6.0": {
+      "P04. Array Rotation/1.0.0": {
+        "runtime": {
+          "P04. Array Rotation.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "P04. Array Rotation/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
