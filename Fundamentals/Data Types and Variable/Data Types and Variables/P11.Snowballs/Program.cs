@@ -27,5 +27,7 @@
         }
 
         Console.WriteLine($"{maxSnowBallNow} : {maxSnowTime} = {maxSnowBall} ({maxSnowBallQuantity})");
+
+        
     }
 }
