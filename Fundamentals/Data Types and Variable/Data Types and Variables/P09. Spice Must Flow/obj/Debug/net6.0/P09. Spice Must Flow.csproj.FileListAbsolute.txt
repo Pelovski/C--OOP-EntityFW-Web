@@ -1,0 +1,15 @@
+D:\Pavel\SoftUni\C# Job prep\Fundamentals\Data Types and Variable\Data Types and Variables\P09. Spice Must Flow\bin\Debug\net6.0\P09. Spice Must Flow.exe
+D:\Pavel\SoftUni\C# Job prep\Fundamentals\Data Types and Variable\Data Types and Variables\P09. Spice Must Flow\bin\Debug\net6.0\P09. Spice Must Flow.deps.json
+D:\Pavel\SoftUni\C# Job prep\Fundamentals\Data Types and Variable\Data Types and Variables\P09. Spice Must Flow\bin\Debug\net6.0\P09. Spice Must Flow.runtimeconfig.json
+D:\Pavel\SoftUni\C# Job prep\Fundamentals\Data Types and Variable\Data Types and Variables\P09. Spice Must Flow\bin\Debug\net6.0\P09. Spice Must Flow.dll
+D:\Pavel\SoftUni\C# Job prep\Fundamentals\Data Types and Variable\Data Types and Variables\P09. Spice Must Flow\bin\Debug\net6.0\P09. Spice Must Flow.pdb
+D:\Pavel\SoftUni\C# Job prep\Fundamentals\Data Types and Variable\Data Types and Variables\P09. Spice Must Flow\obj\Debug\net6.0\P09. Spice Must Flow.csproj.AssemblyReference.cache
+D:\Pavel\SoftUni\C# Job prep\Fundamentals\Data Types and Variable\Data Types and Variables\P09. Spice Must Flow\obj\Debug\net6.0\P09. Spice Must Flow.GeneratedMSBuildEditorConfig.editorconfig
+D:\Pavel\SoftUni\C# Job prep\Fundamentals\Data Types and Variable\Data Types and Variables\P09. Spice Must Flow\obj\Debug\net6.0\P09. Spice Must Flow.AssemblyInfoInputs.cache
+D:\Pavel\SoftUni\C# Job prep\Fundamentals\Data Types and Variable\Data Types and Variables\P09. Spice Must Flow\obj\Debug\net6.0\P09. Spice Must Flow.AssemblyInfo.cs
+D:\Pavel\SoftUni\C# Job prep\Fundamentals\Data Types and Variable\Data Types and Variables\P09. Spice Must Flow\obj\Debug\net6.0\P09. Spice Must Flow.csproj.CoreCompileInputs.cache
+D:\Pavel\SoftUni\C# Job prep\Fundamentals\Data Types and Variable\Data Types and Variables\P09. Spice Must Flow\obj\Debug\net6.0\P09. Spice Must Flow.dll
+D:\Pavel\SoftUni\C# Job prep\Fundamentals\Data Types and Variable\Data Types and Variables\P09. Spice Must Flow\obj\Debug\net6.0\refint\P09. Spice Must Flow.dll
+D:\Pavel\SoftUni\C# Job prep\Fundamentals\Data Types and Variable\Data Types and Variables\P09. Spice Must Flow\obj\Debug\net6.0\P09. Spice Must Flow.pdb
+D:\Pavel\SoftUni\C# Job prep\Fundamentals\Data Types and Variable\Data Types and Variables\P09. Spice Must Flow\obj\Debug\net6.0\P09. Spice Must Flow.genruntimeconfig.cache
+D:\Pavel\SoftUni\C# Job prep\Fundamentals\Data Types and Variable\Data Types and Variables\P09. Spice Must Flow\obj\Debug\net6.0\ref\P09. Spice Must Flow.dll
