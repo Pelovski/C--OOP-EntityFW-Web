@@ -6,26 +6,24 @@
             .Split(" ")
             .Select(int.Parse)
             .ToArray();
-
-        string topNumbers = "";
   
         for (int i = 0; i < input.Length; i++)
         {
-            int counter = 0;
-            for (int j = i; j < input.Length; j++)
+
+            bool isBigger = true;
+
+            for (int j = i +1; j < input.Length; j++)
             {
-                if (j != input.Length -1 && input[i] > input[j + 1])
+                if (input[i] <= input[j])
                 {
-                    counter++;
+                    isBigger = false;
                 }
             }
 
-            if (counter == input.Length -1 -i)
+            if (isBigger)
             {
-                topNumbers += input[i] + " ";
+                Console.Write(input[i] + " ");
             }
         }
-
-        Console.WriteLine(topNumbers);
     }
 }
