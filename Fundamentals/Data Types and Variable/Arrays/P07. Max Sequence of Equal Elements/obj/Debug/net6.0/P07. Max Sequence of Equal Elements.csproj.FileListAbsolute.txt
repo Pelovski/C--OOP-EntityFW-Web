@@ -1,0 +1,15 @@
+D:\Pavel\SoftUni\C# Job prep\Fundamentals\Data Types and Variable\Arrays\P07. Max Sequence of Equal Elements\bin\Debug\net6.0\P07. Max Sequence of Equal Elements.exe
+D:\Pavel\SoftUni\C# Job prep\Fundamentals\Data Types and Variable\Arrays\P07. Max Sequence of Equal Elements\bin\Debug\net6.0\P07. Max Sequence of Equal Elements.deps.json
+D:\Pavel\SoftUni\C# Job prep\Fundamentals\Data Types and Variable\Arrays\P07. Max Sequence of Equal Elements\bin\Debug\net6.0\P07. Max Sequence of Equal Elements.runtimeconfig.json
+D:\Pavel\SoftUni\C# Job prep\Fundamentals\Data Types and Variable\Arrays\P07. Max Sequence of Equal Elements\bin\Debug\net6.0\P07. Max Sequence of Equal Elements.dll
+D:\Pavel\SoftUni\C# Job prep\Fundamentals\Data Types and Variable\Arrays\P07. Max Sequence of Equal Elements\bin\Debug\net6.0\P07. Max Sequence of Equal Elements.pdb
+D:\Pavel\SoftUni\C# Job prep\Fundamentals\Data Types and Variable\Arrays\P07. Max Sequence of Equal Elements\obj\Debug\net6.0\P07. Max Sequence of Equal Elements.csproj.AssemblyReference.cache
+D:\Pavel\SoftUni\C# Job prep\Fundamentals\Data Types and Variable\Arrays\P07. Max Sequence of Equal Elements\obj\Debug\net6.0\P07. Max Sequence of Equal Elements.GeneratedMSBuildEditorConfig.editorconfig
+D:\Pavel\SoftUni\C# Job prep\Fundamentals\Data Types and Variable\Arrays\P07. Max Sequence of Equal Elements\obj\Debug\net6.0\P07. Max Sequence of Equal Elements.AssemblyInfoInputs.cache
+D:\Pavel\SoftUni\C# Job prep\Fundamentals\Data Types and Variable\Arrays\P07. Max Sequence of Equal Elements\obj\Debug\net6.0\P07. Max Sequence of Equal Elements.AssemblyInfo.cs
+D:\Pavel\SoftUni\C# Job prep\Fundamentals\Data Types and Variable\Arrays\P07. Max Sequence of Equal Elements\obj\Debug\net6.0\P07. Max Sequence of Equal Elements.csproj.CoreCompileInputs.cache
+D:\Pavel\SoftUni\C# Job prep\Fundamentals\Data Types and Variable\Arrays\P07. Max Sequence of Equal Elements\obj\Debug\net6.0\P07. Max Sequence of Equal Elements.dll
+D:\Pavel\SoftUni\C# Job prep\Fundamentals\Data Types and Variable\Arrays\P07. Max Sequence of Equal Elements\obj\Debug\net6.0\refint\P07. Max Sequence of Equal Elements.dll
+D:\Pavel\SoftUni\C# Job prep\Fundamentals\Data Types and Variable\Arrays\P07. Max Sequence of Equal Elements\obj\Debug\net6.0\P07. Max Sequence of Equal Elements.pdb
+D:\Pavel\SoftUni\C# Job prep\Fundamentals\Data Types and Variable\Arrays\P07. Max Sequence of Equal Elements\obj\Debug\net6.0\P07. Max Sequence of Equal Elements.genruntimeconfig.cache
+D:\Pavel\SoftUni\C# Job prep\Fundamentals\Data Types and Variable\Arrays\P07. Max Sequence of Equal Elements\obj\Debug\net6.0\ref\P07. Max Sequence of Equal Elements.dll

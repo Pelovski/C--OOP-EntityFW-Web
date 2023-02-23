@@ -5,13 +5,19 @@ VisualStudioVersion = 17.4.33205.214
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "P01. Train", "P01. Train\P01. Train.csproj", "{3D1A28B9-CBFB-4705-ABE8-D9228597D925}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "P02. Common Elements", "P02. Common Elements\P02. Common Elements.csproj", "{F1676F5C-8FA7-4D6C-9B89-75C2FC5AAFE0}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "P02. Common Elements", "P02. Common Elements\P02. Common Elements.csproj", "{F1676F5C-8FA7-4D6C-9B89-75C2FC5AAFE0}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "P03. Zig-Zag Arrays", "P03. Zig-Zag Arrays\P03. Zig-Zag Arrays.csproj", "{B1D12F6A-D082-4C5E-B935-10B45039EFEB}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "P03. Zig-Zag Arrays", "P03. Zig-Zag Arrays\P03. Zig-Zag Arrays.csproj", "{B1D12F6A-D082-4C5E-B935-10B45039EFEB}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "P04. Array Rotation", "P04. Array Rotation\P04. Array Rotation.csproj", "{35229650-BAE2-430A-B167-769F495EFE53}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "P04. Array Rotation", "P04. Array Rotation\P04. Array Rotation.csproj", "{35229650-BAE2-430A-B167-769F495EFE53}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "P05. Top Integers", "P05. Top Integers\P05. Top Integers.csproj", "{F4F33399-08C7-423E-9845-189421FA2B5C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "P05. Top Integers", "P05. Top Integers\P05. Top Integers.csproj", "{F4F33399-08C7-423E-9845-189421FA2B5C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "P06. Equal Sums", "06. Equal Sums\P06. Equal Sums.csproj", "{8119C08B-760A-4C5C-9F05-954C12DD88DA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "P08.Magic Sum", "P08.Magic Sum\P08.Magic Sum.csproj", "{5BCCE0E9-06DD-4DE3-B506-B504F80A5D61}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "P07. Max Sequence of Equal Elements", "P07. Max Sequence of Equal Elements\P07. Max Sequence of Equal Elements.csproj", "{3A16D4A7-4FC5-431D-AB24-8CE5E39B0DC1}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -39,6 +45,18 @@ Global
 		{F4F33399-08C7-423E-9845-189421FA2B5C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F4F33399-08C7-423E-9845-189421FA2B5C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F4F33399-08C7-423E-9845-189421FA2B5C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8119C08B-760A-4C5C-9F05-954C12DD88DA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8119C08B-760A-4C5C-9F05-954C12DD88DA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8119C08B-760A-4C5C-9F05-954C12DD88DA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8119C08B-760A-4C5C-9F05-954C12DD88DA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5BCCE0E9-06DD-4DE3-B506-B504F80A5D61}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5BCCE0E9-06DD-4DE3-B506-B504F80A5D61}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5BCCE0E9-06DD-4DE3-B506-B504F80A5D61}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5BCCE0E9-06DD-4DE3-B506-B504F80A5D61}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3A16D4A7-4FC5-431D-AB24-8CE5E39B0DC1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3A16D4A7-4FC5-431D-AB24-8CE5E39B0DC1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3A16D4A7-4FC5-431D-AB24-8CE5E39B0DC1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3A16D4A7-4FC5-431D-AB24-8CE5E39B0DC1}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
