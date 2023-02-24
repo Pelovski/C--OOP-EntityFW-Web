@@ -38,8 +38,5 @@
             Console.Write(number + " ");
         }
 
-        
-
-       
     }
 }

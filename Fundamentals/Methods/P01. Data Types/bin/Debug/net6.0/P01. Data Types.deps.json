@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v6.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v6.0": {
+      "P01. Data Types/1.0.0": {
+        "runtime": {
+          "P01. Data Types.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "P01. Data Types/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
