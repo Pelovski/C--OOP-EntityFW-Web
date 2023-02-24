@@ -4,37 +4,51 @@ internal class Program
 {
     private static void Main(string[] args)
     {
-        string[] input = Console.ReadLine()
-            .Split(", ", StringSplitOptions.RemoveEmptyEntries);
 
         int n = int.Parse(Console.ReadLine());
 
-        string title = input[0];
-        string content = input[1];
-        string author = input[2];
 
-        var article = new Article(title, content, author);
+        var articles = new List<Article>();
+
 
         for (int i = 0; i < n; i++)
         {
-            string[] command = Console.ReadLine()
-                .Split(": ");
+            string[] input = Console.ReadLine()
+          .Split(", ", StringSplitOptions.RemoveEmptyEntries);
 
-            if (command[0] == "Edit")
-            {
-                article.EditContent(command[1]);
-            }
-            else if(command[0] == "ChangeAuthor")
-            {
-                article.ChangeAuthor(command[1]);
-            }
+            string title = input[0];
+            string content = input[1];
+            string author = input[2];
 
-            else if (command[0] == "Rename")
-            {
-                article.Rename(command[1]);
-            }
+            var article = new Article(title, content, author);
+            articles.Add(article);
         }
 
-        Console.WriteLine(article.ToString());
+        string criteria = Console.ReadLine();
+        articles = SortArticlesByGivenCriteria(articles, criteria);
+
+        foreach (var article in articles)
+        {
+            Console.WriteLine(article.ToString());
+        }
+    }
+
+    private static List<Article> SortArticlesByGivenCriteria(List<Article> articles, string criteria)
+    {
+        if (criteria == "title")
+        {
+            articles = articles.OrderBy(x => x.Title).ToList();
+        }
+        else if (criteria == "content")
+        {
+            articles = articles.OrderBy(x => x.Content).ToList();
+        }
+
+        else
+        {
+            articles = articles.OrderBy(x => x.Author).ToList();
+        }
+
+        return articles;
     }
 }
