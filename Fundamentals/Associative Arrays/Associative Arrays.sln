@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "P01. Count Chars in a Strin
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "P02. A Miner Task", "P02. A Miner Task\P02. A Miner Task.csproj", "{7A741936-9AA6-4F47-BF29-3800048E2D2E}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "P03. Legendary Farming", "P03. Legendary Farming\P03. Legendary Farming.csproj", "{1CA22095-2855-419C-A92B-5411F9F7D899}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{7A741936-9AA6-4F47-BF29-3800048E2D2E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{7A741936-9AA6-4F47-BF29-3800048E2D2E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{7A741936-9AA6-4F47-BF29-3800048E2D2E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1CA22095-2855-419C-A92B-5411F9F7D899}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1CA22095-2855-419C-A92B-5411F9F7D899}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1CA22095-2855-419C-A92B-5411F9F7D899}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1CA22095-2855-419C-A92B-5411F9F7D899}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

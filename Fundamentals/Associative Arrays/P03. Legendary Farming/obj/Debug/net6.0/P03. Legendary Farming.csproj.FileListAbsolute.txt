@@ -1,0 +1,15 @@
+D:\Pavel\SoftUni\C# Job prep\Fundamentals\Associative Arrays\P03. Legendary Farming\bin\Debug\net6.0\P03. Legendary Farming.exe
+D:\Pavel\SoftUni\C# Job prep\Fundamentals\Associative Arrays\P03. Legendary Farming\bin\Debug\net6.0\P03. Legendary Farming.deps.json
+D:\Pavel\SoftUni\C# Job prep\Fundamentals\Associative Arrays\P03. Legendary Farming\bin\Debug\net6.0\P03. Legendary Farming.runtimeconfig.json
+D:\Pavel\SoftUni\C# Job prep\Fundamentals\Associative Arrays\P03. Legendary Farming\bin\Debug\net6.0\P03. Legendary Farming.dll
+D:\Pavel\SoftUni\C# Job prep\Fundamentals\Associative Arrays\P03. Legendary Farming\bin\Debug\net6.0\P03. Legendary Farming.pdb
+D:\Pavel\SoftUni\C# Job prep\Fundamentals\Associative Arrays\P03. Legendary Farming\obj\Debug\net6.0\P03. Legendary Farming.csproj.AssemblyReference.cache
+D:\Pavel\SoftUni\C# Job prep\Fundamentals\Associative Arrays\P03. Legendary Farming\obj\Debug\net6.0\P03. Legendary Farming.GeneratedMSBuildEditorConfig.editorconfig
+D:\Pavel\SoftUni\C# Job prep\Fundamentals\Associative Arrays\P03. Legendary Farming\obj\Debug\net6.0\P03. Legendary Farming.AssemblyInfoInputs.cache
+D:\Pavel\SoftUni\C# Job prep\Fundamentals\Associative Arrays\P03. Legendary Farming\obj\Debug\net6.0\P03. Legendary Farming.AssemblyInfo.cs
+D:\Pavel\SoftUni\C# Job prep\Fundamentals\Associative Arrays\P03. Legendary Farming\obj\Debug\net6.0\P03. Legendary Farming.csproj.CoreCompileInputs.cache
+D:\Pavel\SoftUni\C# Job prep\Fundamentals\Associative Arrays\P03. Legendary Farming\obj\Debug\net6.0\P03. Legendary Farming.dll
+D:\Pavel\SoftUni\C# Job prep\Fundamentals\Associative Arrays\P03. Legendary Farming\obj\Debug\net6.0\refint\P03. Legendary Farming.dll
+D:\Pavel\SoftUni\C# Job prep\Fundamentals\Associative Arrays\P03. Legendary Farming\obj\Debug\net6.0\P03. Legendary Farming.pdb
+D:\Pavel\SoftUni\C# Job prep\Fundamentals\Associative Arrays\P03. Legendary Farming\obj\Debug\net6.0\P03. Legendary Farming.genruntimeconfig.cache
+D:\Pavel\SoftUni\C# Job prep\Fundamentals\Associative Arrays\P03. Legendary Farming\obj\Debug\net6.0\ref\P03. Legendary Farming.dll
