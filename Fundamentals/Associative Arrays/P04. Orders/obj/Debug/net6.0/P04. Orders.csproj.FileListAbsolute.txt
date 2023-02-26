@@ -1,0 +1,15 @@
+D:\Pavel\SoftUni\C# Job prep\Fundamentals\Associative Arrays\P04. Orders\bin\Debug\net6.0\P04. Orders.exe
+D:\Pavel\SoftUni\C# Job prep\Fundamentals\Associative Arrays\P04. Orders\bin\Debug\net6.0\P04. Orders.deps.json
+D:\Pavel\SoftUni\C# Job prep\Fundamentals\Associative Arrays\P04. Orders\bin\Debug\net6.0\P04. Orders.runtimeconfig.json
+D:\Pavel\SoftUni\C# Job prep\Fundamentals\Associative Arrays\P04. Orders\bin\Debug\net6.0\P04. Orders.dll
+D:\Pavel\SoftUni\C# Job prep\Fundamentals\Associative Arrays\P04. Orders\bin\Debug\net6.0\P04. Orders.pdb
+D:\Pavel\SoftUni\C# Job prep\Fundamentals\Associative Arrays\P04. Orders\obj\Debug\net6.0\P04. Orders.csproj.AssemblyReference.cache
+D:\Pavel\SoftUni\C# Job prep\Fundamentals\Associative Arrays\P04. Orders\obj\Debug\net6.0\P04. Orders.GeneratedMSBuildEditorConfig.editorconfig
+D:\Pavel\SoftUni\C# Job prep\Fundamentals\Associative Arrays\P04. Orders\obj\Debug\net6.0\P04. Orders.AssemblyInfoInputs.cache
+D:\Pavel\SoftUni\C# Job prep\Fundamentals\Associative Arrays\P04. Orders\obj\Debug\net6.0\P04. Orders.AssemblyInfo.cs
+D:\Pavel\SoftUni\C# Job prep\Fundamentals\Associative Arrays\P04. Orders\obj\Debug\net6.0\P04. Orders.csproj.CoreCompileInputs.cache
+D:\Pavel\SoftUni\C# Job prep\Fundamentals\Associative Arrays\P04. Orders\obj\Debug\net6.0\P04. Orders.dll
+D:\Pavel\SoftUni\C# Job prep\Fundamentals\Associative Arrays\P04. Orders\obj\Debug\net6.0\refint\P04. Orders.dll
+D:\Pavel\SoftUni\C# Job prep\Fundamentals\Associative Arrays\P04. Orders\obj\Debug\net6.0\P04. Orders.pdb
+D:\Pavel\SoftUni\C# Job prep\Fundamentals\Associative Arrays\P04. Orders\obj\Debug\net6.0\P04. Orders.genruntimeconfig.cache
+D:\Pavel\SoftUni\C# Job prep\Fundamentals\Associative Arrays\P04. Orders\obj\Debug\net6.0\ref\P04. Orders.dll
