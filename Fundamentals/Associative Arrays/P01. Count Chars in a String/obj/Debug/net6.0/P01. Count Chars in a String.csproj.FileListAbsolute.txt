@@ -1,0 +1,15 @@
+D:\Pavel\SoftUni\C# Job prep\Fundamentals\Associative Arrays\P01. Count Chars in a String\bin\Debug\net6.0\P01. Count Chars in a String.exe
+D:\Pavel\SoftUni\C# Job prep\Fundamentals\Associative Arrays\P01. Count Chars in a String\bin\Debug\net6.0\P01. Count Chars in a String.deps.json
+D:\Pavel\SoftUni\C# Job prep\Fundamentals\Associative Arrays\P01. Count Chars in a String\bin\Debug\net6.0\P01. Count Chars in a String.runtimeconfig.json
+D:\Pavel\SoftUni\C# Job prep\Fundamentals\Associative Arrays\P01. Count Chars in a String\bin\Debug\net6.0\P01. Count Chars in a String.dll
+D:\Pavel\SoftUni\C# Job prep\Fundamentals\Associative Arrays\P01. Count Chars in a String\bin\Debug\net6.0\P01. Count Chars in a String.pdb
+D:\Pavel\SoftUni\C# Job prep\Fundamentals\Associative Arrays\P01. Count Chars in a String\obj\Debug\net6.0\P01. Count Chars in a String.csproj.AssemblyReference.cache
+D:\Pavel\SoftUni\C# Job prep\Fundamentals\Associative Arrays\P01. Count Chars in a String\obj\Debug\net6.0\P01. Count Chars in a String.GeneratedMSBuildEditorConfig.editorconfig
+D:\Pavel\SoftUni\C# Job prep\Fundamentals\Associative Arrays\P01. Count Chars in a String\obj\Debug\net6.0\P01. Count Chars in a String.AssemblyInfoInputs.cache
+D:\Pavel\SoftUni\C# Job prep\Fundamentals\Associative Arrays\P01. Count Chars in a String\obj\Debug\net6.0\P01. Count Chars in a String.AssemblyInfo.cs
+D:\Pavel\SoftUni\C# Job prep\Fundamentals\Associative Arrays\P01. Count Chars in a String\obj\Debug\net6.0\P01. Count Chars in a String.csproj.CoreCompileInputs.cache
+D:\Pavel\SoftUni\C# Job prep\Fundamentals\Associative Arrays\P01. Count Chars in a String\obj\Debug\net6.0\P01. Count Chars in a String.dll
+D:\Pavel\SoftUni\C# Job prep\Fundamentals\Associative Arrays\P01. Count Chars in a String\obj\Debug\net6.0\refint\P01. Count Chars in a String.dll
+D:\Pavel\SoftUni\C# Job prep\Fundamentals\Associative Arrays\P01. Count Chars in a String\obj\Debug\net6.0\P01. Count Chars in a String.pdb
+D:\Pavel\SoftUni\C# Job prep\Fundamentals\Associative Arrays\P01. Count Chars in a String\obj\Debug\net6.0\P01. Count Chars in a String.genruntimeconfig.cache
+D:\Pavel\SoftUni\C# Job prep\Fundamentals\Associative Arrays\P01. Count Chars in a String\obj\Debug\net6.0\ref\P01. Count Chars in a String.dll

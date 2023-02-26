@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v6.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v6.0": {
+      "P01. Count Chars in a String/1.0.0": {
+        "runtime": {
+          "P01. Count Chars in a String.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "P01. Count Chars in a String/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
