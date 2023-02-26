@@ -1,0 +1,15 @@
+D:\Pavel\SoftUni\C# Job prep\Fundamentals\Associative Arrays\P05. SoftUni Parking\bin\Debug\net6.0\P05. SoftUni Parking.exe
+D:\Pavel\SoftUni\C# Job prep\Fundamentals\Associative Arrays\P05. SoftUni Parking\bin\Debug\net6.0\P05. SoftUni Parking.deps.json
+D:\Pavel\SoftUni\C# Job prep\Fundamentals\Associative Arrays\P05. SoftUni Parking\bin\Debug\net6.0\P05. SoftUni Parking.runtimeconfig.json
+D:\Pavel\SoftUni\C# Job prep\Fundamentals\Associative Arrays\P05. SoftUni Parking\bin\Debug\net6.0\P05. SoftUni Parking.dll
+D:\Pavel\SoftUni\C# Job prep\Fundamentals\Associative Arrays\P05. SoftUni Parking\bin\Debug\net6.0\P05. SoftUni Parking.pdb
+D:\Pavel\SoftUni\C# Job prep\Fundamentals\Associative Arrays\P05. SoftUni Parking\obj\Debug\net6.0\P05. SoftUni Parking.csproj.AssemblyReference.cache
+D:\Pavel\SoftUni\C# Job prep\Fundamentals\Associative Arrays\P05. SoftUni Parking\obj\Debug\net6.0\P05. SoftUni Parking.GeneratedMSBuildEditorConfig.editorconfig
+D:\Pavel\SoftUni\C# Job prep\Fundamentals\Associative Arrays\P05. SoftUni Parking\obj\Debug\net6.0\P05. SoftUni Parking.AssemblyInfoInputs.cache
+D:\Pavel\SoftUni\C# Job prep\Fundamentals\Associative Arrays\P05. SoftUni Parking\obj\Debug\net6.0\P05. SoftUni Parking.AssemblyInfo.cs
+D:\Pavel\SoftUni\C# Job prep\Fundamentals\Associative Arrays\P05. SoftUni Parking\obj\Debug\net6.0\P05. SoftUni Parking.csproj.CoreCompileInputs.cache
+D:\Pavel\SoftUni\C# Job prep\Fundamentals\Associative Arrays\P05. SoftUni Parking\obj\Debug\net6.0\P05. SoftUni Parking.dll
+D:\Pavel\SoftUni\C# Job prep\Fundamentals\Associative Arrays\P05. SoftUni Parking\obj\Debug\net6.0\refint\P05. SoftUni Parking.dll
+D:\Pavel\SoftUni\C# Job prep\Fundamentals\Associative Arrays\P05. SoftUni Parking\obj\Debug\net6.0\P05. SoftUni Parking.pdb
+D:\Pavel\SoftUni\C# Job prep\Fundamentals\Associative Arrays\P05. SoftUni Parking\obj\Debug\net6.0\P05. SoftUni Parking.genruntimeconfig.cache
+D:\Pavel\SoftUni\C# Job prep\Fundamentals\Associative Arrays\P05. SoftUni Parking\obj\Debug\net6.0\ref\P05. SoftUni Parking.dll
