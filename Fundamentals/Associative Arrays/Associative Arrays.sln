@@ -3,15 +3,17 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.4.33205.214
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "P01. Count Chars in a String", "P01. Count Chars in a String\P01. Count Chars in a String.csproj", "{34A1FA37-6F40-4BD0-9C5B-A11038F1090D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "P01. Count Chars in a String", "P01. Count Chars in a String\P01. Count Chars in a String.csproj", "{34A1FA37-6F40-4BD0-9C5B-A11038F1090D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "P02. A Miner Task", "P02. A Miner Task\P02. A Miner Task.csproj", "{7A741936-9AA6-4F47-BF29-3800048E2D2E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "P02. A Miner Task", "P02. A Miner Task\P02. A Miner Task.csproj", "{7A741936-9AA6-4F47-BF29-3800048E2D2E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "P03. Legendary Farming", "P03. Legendary Farming\P03. Legendary Farming.csproj", "{1CA22095-2855-419C-A92B-5411F9F7D899}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "P03. Legendary Farming", "P03. Legendary Farming\P03. Legendary Farming.csproj", "{1CA22095-2855-419C-A92B-5411F9F7D899}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "P04. Orders", "P04. Orders\P04. Orders.csproj", "{AEAE186B-0E01-42AC-8380-D8F2957C1197}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "P04. Orders", "P04. Orders\P04. Orders.csproj", "{AEAE186B-0E01-42AC-8380-D8F2957C1197}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "P05. SoftUni Parking", "P05. SoftUni Parking\P05. SoftUni Parking.csproj", "{511D02BE-0F36-4D84-A9B2-16932062D69C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "P05. SoftUni Parking", "P05. SoftUni Parking\P05. SoftUni Parking.csproj", "{511D02BE-0F36-4D84-A9B2-16932062D69C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "P06. Courses", "P06. Courses\P06. Courses.csproj", "{E3DE0050-430C-4A70-9F4E-05A9A2B0BCF8}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -39,6 +41,10 @@ Global
 		{511D02BE-0F36-4D84-A9B2-16932062D69C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{511D02BE-0F36-4D84-A9B2-16932062D69C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{511D02BE-0F36-4D84-A9B2-16932062D69C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E3DE0050-430C-4A70-9F4E-05A9A2B0BCF8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E3DE0050-430C-4A70-9F4E-05A9A2B0BCF8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E3DE0050-430C-4A70-9F4E-05A9A2B0BCF8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E3DE0050-430C-4A70-9F4E-05A9A2B0BCF8}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

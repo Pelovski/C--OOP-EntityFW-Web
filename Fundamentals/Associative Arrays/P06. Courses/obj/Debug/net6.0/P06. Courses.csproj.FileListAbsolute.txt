@@ -1,0 +1,15 @@
+D:\Pavel\SoftUni\C# Job prep\Fundamentals\Associative Arrays\P06. Courses\bin\Debug\net6.0\P06. Courses.exe
+D:\Pavel\SoftUni\C# Job prep\Fundamentals\Associative Arrays\P06. Courses\bin\Debug\net6.0\P06. Courses.deps.json
+D:\Pavel\SoftUni\C# Job prep\Fundamentals\Associative Arrays\P06. Courses\bin\Debug\net6.0\P06. Courses.runtimeconfig.json
+D:\Pavel\SoftUni\C# Job prep\Fundamentals\Associative Arrays\P06. Courses\bin\Debug\net6.0\P06. Courses.dll
+D:\Pavel\SoftUni\C# Job prep\Fundamentals\Associative Arrays\P06. Courses\bin\Debug\net6.0\P06. Courses.pdb
+D:\Pavel\SoftUni\C# Job prep\Fundamentals\Associative Arrays\P06. Courses\obj\Debug\net6.0\P06. Courses.csproj.AssemblyReference.cache
+D:\Pavel\SoftUni\C# Job prep\Fundamentals\Associative Arrays\P06. Courses\obj\Debug\net6.0\P06. Courses.GeneratedMSBuildEditorConfig.editorconfig
+D:\Pavel\SoftUni\C# Job prep\Fundamentals\Associative Arrays\P06. Courses\obj\Debug\net6.0\P06. Courses.AssemblyInfoInputs.cache
+D:\Pavel\SoftUni\C# Job prep\Fundamentals\Associative Arrays\P06. Courses\obj\Debug\net6.0\P06. Courses.AssemblyInfo.cs
+D:\Pavel\SoftUni\C# Job prep\Fundamentals\Associative Arrays\P06. Courses\obj\Debug\net6.0\P06. Courses.csproj.CoreCompileInputs.cache
+D:\Pavel\SoftUni\C# Job prep\Fundamentals\Associative Arrays\P06. Courses\obj\Debug\net6.0\P06. Courses.dll
+D:\Pavel\SoftUni\C# Job prep\Fundamentals\Associative Arrays\P06. Courses\obj\Debug\net6.0\refint\P06. Courses.dll
+D:\Pavel\SoftUni\C# Job prep\Fundamentals\Associative Arrays\P06. Courses\obj\Debug\net6.0\P06. Courses.pdb
+D:\Pavel\SoftUni\C# Job prep\Fundamentals\Associative Arrays\P06. Courses\obj\Debug\net6.0\P06. Courses.genruntimeconfig.cache
+D:\Pavel\SoftUni\C# Job prep\Fundamentals\Associative Arrays\P06. Courses\obj\Debug\net6.0\ref\P06. Courses.dll
