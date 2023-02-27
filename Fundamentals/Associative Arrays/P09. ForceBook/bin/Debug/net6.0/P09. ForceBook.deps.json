@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v6.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v6.0": {
+      "P09. ForceBook/1.0.0": {
+        "runtime": {
+          "P09. ForceBook.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "P09. ForceBook/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
