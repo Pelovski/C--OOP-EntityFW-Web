@@ -53,7 +53,7 @@
                         {
                             isUserExist = true;
                             currentSide = item.Key;
-                            break; //?
+                            break;
                         }
                     }
                 }
@@ -87,12 +87,9 @@
 
                 foreach (var user in listOfData[item.Key])
                 {
-
                     Console.WriteLine($"! {user}");
                 }
             }
-
-            
         }
     }
 }
