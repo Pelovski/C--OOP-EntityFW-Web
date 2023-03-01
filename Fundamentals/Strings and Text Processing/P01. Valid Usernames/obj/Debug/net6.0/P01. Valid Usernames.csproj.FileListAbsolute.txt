@@ -1,0 +1,15 @@
+D:\Pavel\SoftUni\C# Job prep\Fundamentals\Strings and Text Processing\P01. Valid Usernames\bin\Debug\net6.0\P01. Valid Usernames.exe
+D:\Pavel\SoftUni\C# Job prep\Fundamentals\Strings and Text Processing\P01. Valid Usernames\bin\Debug\net6.0\P01. Valid Usernames.deps.json
+D:\Pavel\SoftUni\C# Job prep\Fundamentals\Strings and Text Processing\P01. Valid Usernames\bin\Debug\net6.0\P01. Valid Usernames.runtimeconfig.json
+D:\Pavel\SoftUni\C# Job prep\Fundamentals\Strings and Text Processing\P01. Valid Usernames\bin\Debug\net6.0\P01. Valid Usernames.dll
+D:\Pavel\SoftUni\C# Job prep\Fundamentals\Strings and Text Processing\P01. Valid Usernames\bin\Debug\net6.0\P01. Valid Usernames.pdb
+D:\Pavel\SoftUni\C# Job prep\Fundamentals\Strings and Text Processing\P01. Valid Usernames\obj\Debug\net6.0\P01. Valid Usernames.csproj.AssemblyReference.cache
+D:\Pavel\SoftUni\C# Job prep\Fundamentals\Strings and Text Processing\P01. Valid Usernames\obj\Debug\net6.0\P01. Valid Usernames.GeneratedMSBuildEditorConfig.editorconfig
+D:\Pavel\SoftUni\C# Job prep\Fundamentals\Strings and Text Processing\P01. Valid Usernames\obj\Debug\net6.0\P01. Valid Usernames.AssemblyInfoInputs.cache
+D:\Pavel\SoftUni\C# Job prep\Fundamentals\Strings and Text Processing\P01. Valid Usernames\obj\Debug\net6.0\P01. Valid Usernames.AssemblyInfo.cs
+D:\Pavel\SoftUni\C# Job prep\Fundamentals\Strings and Text Processing\P01. Valid Usernames\obj\Debug\net6.0\P01. Valid Usernames.csproj.CoreCompileInputs.cache
+D:\Pavel\SoftUni\C# Job prep\Fundamentals\Strings and Text Processing\P01. Valid Usernames\obj\Debug\net6.0\P01. Valid Usernames.dll
+D:\Pavel\SoftUni\C# Job prep\Fundamentals\Strings and Text Processing\P01. Valid Usernames\obj\Debug\net6.0\refint\P01. Valid Usernames.dll
+D:\Pavel\SoftUni\C# Job prep\Fundamentals\Strings and Text Processing\P01. Valid Usernames\obj\Debug\net6.0\P01. Valid Usernames.pdb
+D:\Pavel\SoftUni\C# Job prep\Fundamentals\Strings and Text Processing\P01. Valid Usernames\obj\Debug\net6.0\P01. Valid Usernames.genruntimeconfig.cache
+D:\Pavel\SoftUni\C# Job prep\Fundamentals\Strings and Text Processing\P01. Valid Usernames\obj\Debug\net6.0\ref\P01. Valid Usernames.dll
