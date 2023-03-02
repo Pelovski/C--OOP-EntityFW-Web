@@ -5,6 +5,8 @@ VisualStudioVersion = 17.4.33205.214
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "P01. Valid Usernames", "P01. Valid Usernames\P01. Valid Usernames.csproj", "{EEE023B1-837E-4351-8B3A-30A67D4293FE}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "P02. Character Multiplier", "P02. Character Multiplier\P02. Character Multiplier.csproj", "{3C614D61-9361-4E67-9E01-B643D4A61F00}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{EEE023B1-837E-4351-8B3A-30A67D4293FE}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{EEE023B1-837E-4351-8B3A-30A67D4293FE}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{EEE023B1-837E-4351-8B3A-30A67D4293FE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3C614D61-9361-4E67-9E01-B643D4A61F00}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3C614D61-9361-4E67-9E01-B643D4A61F00}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3C614D61-9361-4E67-9E01-B643D4A61F00}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3C614D61-9361-4E67-9E01-B643D4A61F00}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

@@ -1,0 +1,15 @@
+D:\Pavel\SoftUni\C# Job prep\Fundamentals\Strings and Text Processing\P02. Character Multiplier\bin\Debug\net6.0\P02. Character Multiplier.exe
+D:\Pavel\SoftUni\C# Job prep\Fundamentals\Strings and Text Processing\P02. Character Multiplier\bin\Debug\net6.0\P02. Character Multiplier.deps.json
+D:\Pavel\SoftUni\C# Job prep\Fundamentals\Strings and Text Processing\P02. Character Multiplier\bin\Debug\net6.0\P02. Character Multiplier.runtimeconfig.json
+D:\Pavel\SoftUni\C# Job prep\Fundamentals\Strings and Text Processing\P02. Character Multiplier\bin\Debug\net6.0\P02. Character Multiplier.dll
+D:\Pavel\SoftUni\C# Job prep\Fundamentals\Strings and Text Processing\P02. Character Multiplier\bin\Debug\net6.0\P02. Character Multiplier.pdb
+D:\Pavel\SoftUni\C# Job prep\Fundamentals\Strings and Text Processing\P02. Character Multiplier\obj\Debug\net6.0\P02. Character Multiplier.csproj.AssemblyReference.cache
+D:\Pavel\SoftUni\C# Job prep\Fundamentals\Strings and Text Processing\P02. Character Multiplier\obj\Debug\net6.0\P02. Character Multiplier.GeneratedMSBuildEditorConfig.editorconfig
+D:\Pavel\SoftUni\C# Job prep\Fundamentals\Strings and Text Processing\P02. Character Multiplier\obj\Debug\net6.0\P02. Character Multiplier.AssemblyInfoInputs.cache
+D:\Pavel\SoftUni\C# Job prep\Fundamentals\Strings and Text Processing\P02. Character Multiplier\obj\Debug\net6.0\P02. Character Multiplier.AssemblyInfo.cs
+D:\Pavel\SoftUni\C# Job prep\Fundamentals\Strings and Text Processing\P02. Character Multiplier\obj\Debug\net6.0\P02. Character Multiplier.csproj.CoreCompileInputs.cache
+D:\Pavel\SoftUni\C# Job prep\Fundamentals\Strings and Text Processing\P02. Character Multiplier\obj\Debug\net6.0\P02. Character Multiplier.dll
+D:\Pavel\SoftUni\C# Job prep\Fundamentals\Strings and Text Processing\P02. Character Multiplier\obj\Debug\net6.0\refint\P02. Character Multiplier.dll
+D:\Pavel\SoftUni\C# Job prep\Fundamentals\Strings and Text Processing\P02. Character Multiplier\obj\Debug\net6.0\P02. Character Multiplier.pdb
+D:\Pavel\SoftUni\C# Job prep\Fundamentals\Strings and Text Processing\P02. Character Multiplier\obj\Debug\net6.0\P02. Character Multiplier.genruntimeconfig.cache
+D:\Pavel\SoftUni\C# Job prep\Fundamentals\Strings and Text Processing\P02. Character Multiplier\obj\Debug\net6.0\ref\P02. Character Multiplier.dll
