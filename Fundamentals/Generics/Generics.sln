@@ -3,9 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.4.33205.214
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "P01. Generic Box of String", "P01. Generic Box of String\P01. Generic Box of String.csproj", "{92215DAD-2296-4DA6-AF3B-CF307C58EFDD}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "P01. Generic Box of String", "P01. Generic Box of String\P01. Generic Box of String.csproj", "{92215DAD-2296-4DA6-AF3B-CF307C58EFDD}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "P02. Generic Box of Integer", "P02. Generic Box of Integer\P02. Generic Box of Integer.csproj", "{59133B4F-6A37-41DE-83ED-29B0FB64FC9F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "P02. Generic Box of Integer", "P02. Generic Box of Integer\P02. Generic Box of Integer.csproj", "{59133B4F-6A37-41DE-83ED-29B0FB64FC9F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "P03. Generic Swap Method Strings", "P03. Generic Swap Method Strings\P03. Generic Swap Method Strings.csproj", "{0F3326B3-832F-4193-8FB7-F702B4FF210B}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +23,10 @@ Global
 		{59133B4F-6A37-41DE-83ED-29B0FB64FC9F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{59133B4F-6A37-41DE-83ED-29B0FB64FC9F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{59133B4F-6A37-41DE-83ED-29B0FB64FC9F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0F3326B3-832F-4193-8FB7-F702B4FF210B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0F3326B3-832F-4193-8FB7-F702B4FF210B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0F3326B3-832F-4193-8FB7-F702B4FF210B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0F3326B3-832F-4193-8FB7-F702B4FF210B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
