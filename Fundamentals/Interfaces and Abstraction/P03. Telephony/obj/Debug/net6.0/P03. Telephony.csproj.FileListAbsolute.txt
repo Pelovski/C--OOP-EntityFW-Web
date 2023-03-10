@@ -1,0 +1,15 @@
+D:\Pavel\SoftUni\C# Job prep\Fundamentals\Interfaces and Abstraction\P03. Telephony\bin\Debug\net6.0\P03. Telephony.exe
+D:\Pavel\SoftUni\C# Job prep\Fundamentals\Interfaces and Abstraction\P03. Telephony\bin\Debug\net6.0\P03. Telephony.deps.json
+D:\Pavel\SoftUni\C# Job prep\Fundamentals\Interfaces and Abstraction\P03. Telephony\bin\Debug\net6.0\P03. Telephony.runtimeconfig.json
+D:\Pavel\SoftUni\C# Job prep\Fundamentals\Interfaces and Abstraction\P03. Telephony\bin\Debug\net6.0\P03. Telephony.dll
+D:\Pavel\SoftUni\C# Job prep\Fundamentals\Interfaces and Abstraction\P03. Telephony\bin\Debug\net6.0\P03. Telephony.pdb
+D:\Pavel\SoftUni\C# Job prep\Fundamentals\Interfaces and Abstraction\P03. Telephony\obj\Debug\net6.0\P03. Telephony.csproj.AssemblyReference.cache
+D:\Pavel\SoftUni\C# Job prep\Fundamentals\Interfaces and Abstraction\P03. Telephony\obj\Debug\net6.0\P03. Telephony.GeneratedMSBuildEditorConfig.editorconfig
+D:\Pavel\SoftUni\C# Job prep\Fundamentals\Interfaces and Abstraction\P03. Telephony\obj\Debug\net6.0\P03. Telephony.AssemblyInfoInputs.cache
+D:\Pavel\SoftUni\C# Job prep\Fundamentals\Interfaces and Abstraction\P03. Telephony\obj\Debug\net6.0\P03. Telephony.AssemblyInfo.cs
+D:\Pavel\SoftUni\C# Job prep\Fundamentals\Interfaces and Abstraction\P03. Telephony\obj\Debug\net6.0\P03. Telephony.csproj.CoreCompileInputs.cache
+D:\Pavel\SoftUni\C# Job prep\Fundamentals\Interfaces and Abstraction\P03. Telephony\obj\Debug\net6.0\P03. Telephony.dll
+D:\Pavel\SoftUni\C# Job prep\Fundamentals\Interfaces and Abstraction\P03. Telephony\obj\Debug\net6.0\refint\P03. Telephony.dll
+D:\Pavel\SoftUni\C# Job prep\Fundamentals\Interfaces and Abstraction\P03. Telephony\obj\Debug\net6.0\P03. Telephony.pdb
+D:\Pavel\SoftUni\C# Job prep\Fundamentals\Interfaces and Abstraction\P03. Telephony\obj\Debug\net6.0\P03. Telephony.genruntimeconfig.cache
+D:\Pavel\SoftUni\C# Job prep\Fundamentals\Interfaces and Abstraction\P03. Telephony\obj\Debug\net6.0\ref\P03. Telephony.dll
