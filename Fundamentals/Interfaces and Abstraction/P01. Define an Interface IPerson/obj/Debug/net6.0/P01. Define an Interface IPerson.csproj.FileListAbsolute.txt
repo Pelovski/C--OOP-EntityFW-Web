@@ -1,0 +1,15 @@
+D:\Pavel\SoftUni\C# Job prep\Fundamentals\Interfaces and Abstraction\P01. Define an Interface IPerson\bin\Debug\net6.0\P01. Define an Interface IPerson.exe
+D:\Pavel\SoftUni\C# Job prep\Fundamentals\Interfaces and Abstraction\P01. Define an Interface IPerson\bin\Debug\net6.0\P01. Define an Interface IPerson.deps.json
+D:\Pavel\SoftUni\C# Job prep\Fundamentals\Interfaces and Abstraction\P01. Define an Interface IPerson\bin\Debug\net6.0\P01. Define an Interface IPerson.runtimeconfig.json
+D:\Pavel\SoftUni\C# Job prep\Fundamentals\Interfaces and Abstraction\P01. Define an Interface IPerson\bin\Debug\net6.0\P01. Define an Interface IPerson.dll
+D:\Pavel\SoftUni\C# Job prep\Fundamentals\Interfaces and Abstraction\P01. Define an Interface IPerson\bin\Debug\net6.0\P01. Define an Interface IPerson.pdb
+D:\Pavel\SoftUni\C# Job prep\Fundamentals\Interfaces and Abstraction\P01. Define an Interface IPerson\obj\Debug\net6.0\P01. Define an Interface IPerson.csproj.AssemblyReference.cache
+D:\Pavel\SoftUni\C# Job prep\Fundamentals\Interfaces and Abstraction\P01. Define an Interface IPerson\obj\Debug\net6.0\P01. Define an Interface IPerson.GeneratedMSBuildEditorConfig.editorconfig
+D:\Pavel\SoftUni\C# Job prep\Fundamentals\Interfaces and Abstraction\P01. Define an Interface IPerson\obj\Debug\net6.0\P01. Define an Interface IPerson.AssemblyInfoInputs.cache
+D:\Pavel\SoftUni\C# Job prep\Fundamentals\Interfaces and Abstraction\P01. Define an Interface IPerson\obj\Debug\net6.0\P01. Define an Interface IPerson.AssemblyInfo.cs
+D:\Pavel\SoftUni\C# Job prep\Fundamentals\Interfaces and Abstraction\P01. Define an Interface IPerson\obj\Debug\net6.0\P01. Define an Interface IPerson.csproj.CoreCompileInputs.cache
+D:\Pavel\SoftUni\C# Job prep\Fundamentals\Interfaces and Abstraction\P01. Define an Interface IPerson\obj\Debug\net6.0\P01. Define an Interface IPerson.dll
+D:\Pavel\SoftUni\C# Job prep\Fundamentals\Interfaces and Abstraction\P01. Define an Interface IPerson\obj\Debug\net6.0\refint\P01. Define an Interface IPerson.dll
+D:\Pavel\SoftUni\C# Job prep\Fundamentals\Interfaces and Abstraction\P01. Define an Interface IPerson\obj\Debug\net6.0\P01. Define an Interface IPerson.pdb
+D:\Pavel\SoftUni\C# Job prep\Fundamentals\Interfaces and Abstraction\P01. Define an Interface IPerson\obj\Debug\net6.0\P01. Define an Interface IPerson.genruntimeconfig.cache
+D:\Pavel\SoftUni\C# Job prep\Fundamentals\Interfaces and Abstraction\P01. Define an Interface IPerson\obj\Debug\net6.0\ref\P01. Define an Interface IPerson.dll
