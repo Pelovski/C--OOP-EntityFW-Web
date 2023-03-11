@@ -1,0 +1,15 @@
+D:\Pavel\SoftUni\C# Job prep\Fundamentals\Interfaces and Abstraction\P04. Border Control\bin\Debug\net6.0\P04. Border Control.exe
+D:\Pavel\SoftUni\C# Job prep\Fundamentals\Interfaces and Abstraction\P04. Border Control\bin\Debug\net6.0\P04. Border Control.deps.json
+D:\Pavel\SoftUni\C# Job prep\Fundamentals\Interfaces and Abstraction\P04. Border Control\bin\Debug\net6.0\P04. Border Control.runtimeconfig.json
+D:\Pavel\SoftUni\C# Job prep\Fundamentals\Interfaces and Abstraction\P04. Border Control\bin\Debug\net6.0\P04. Border Control.dll
+D:\Pavel\SoftUni\C# Job prep\Fundamentals\Interfaces and Abstraction\P04. Border Control\bin\Debug\net6.0\P04. Border Control.pdb
+D:\Pavel\SoftUni\C# Job prep\Fundamentals\Interfaces and Abstraction\P04. Border Control\obj\Debug\net6.0\P04. Border Control.csproj.AssemblyReference.cache
+D:\Pavel\SoftUni\C# Job prep\Fundamentals\Interfaces and Abstraction\P04. Border Control\obj\Debug\net6.0\P04. Border Control.GeneratedMSBuildEditorConfig.editorconfig
+D:\Pavel\SoftUni\C# Job prep\Fundamentals\Interfaces and Abstraction\P04. Border Control\obj\Debug\net6.0\P04. Border Control.AssemblyInfoInputs.cache
+D:\Pavel\SoftUni\C# Job prep\Fundamentals\Interfaces and Abstraction\P04. Border Control\obj\Debug\net6.0\P04. Border Control.AssemblyInfo.cs
+D:\Pavel\SoftUni\C# Job prep\Fundamentals\Interfaces and Abstraction\P04. Border Control\obj\Debug\net6.0\P04. Border Control.csproj.CoreCompileInputs.cache
+D:\Pavel\SoftUni\C# Job prep\Fundamentals\Interfaces and Abstraction\P04. Border Control\obj\Debug\net6.0\P04. Border Control.dll
+D:\Pavel\SoftUni\C# Job prep\Fundamentals\Interfaces and Abstraction\P04. Border Control\obj\Debug\net6.0\refint\P04. Border Control.dll
+D:\Pavel\SoftUni\C# Job prep\Fundamentals\Interfaces and Abstraction\P04. Border Control\obj\Debug\net6.0\P04. Border Control.pdb
+D:\Pavel\SoftUni\C# Job prep\Fundamentals\Interfaces and Abstraction\P04. Border Control\obj\Debug\net6.0\P04. Border Control.genruntimeconfig.cache
+D:\Pavel\SoftUni\C# Job prep\Fundamentals\Interfaces and Abstraction\P04. Border Control\obj\Debug\net6.0\ref\P04. Border Control.dll
