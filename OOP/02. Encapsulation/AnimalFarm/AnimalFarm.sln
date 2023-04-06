@@ -7,7 +7,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AnimalFarm", "AnimalFarm\An
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "P03. Shopping Spree", "P03. Shopping Spree\P03. Shopping Spree.csproj", "{2EC61985-0545-4FD0-A393-C931722F62F1}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "P04.Pizza Calories", "P04.Pizza Calories\P04.Pizza Calories.csproj", "{3662EB98-E38D-4784-BD99-AEEC7C3A0090}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "P04.Pizza Calories", "P04.Pizza Calories\P04.Pizza Calories.csproj", "{3662EB98-E38D-4784-BD99-AEEC7C3A0090}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "P05. Football Team Generator", "Football Team Generator\P05. Football Team Generator.csproj", "{76293AE5-9B11-409C-AAA4-419605010B14}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -27,6 +29,10 @@ Global
 		{3662EB98-E38D-4784-BD99-AEEC7C3A0090}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{3662EB98-E38D-4784-BD99-AEEC7C3A0090}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{3662EB98-E38D-4784-BD99-AEEC7C3A0090}.Release|Any CPU.Build.0 = Release|Any CPU
+		{76293AE5-9B11-409C-AAA4-419605010B14}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{76293AE5-9B11-409C-AAA4-419605010B14}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{76293AE5-9B11-409C-AAA4-419605010B14}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{76293AE5-9B11-409C-AAA4-419605010B14}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

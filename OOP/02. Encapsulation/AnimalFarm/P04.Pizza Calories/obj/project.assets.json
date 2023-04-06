@@ -1,11 +1,30 @@
 {
   "version": 3,
   "targets": {
-    "net6.0": {}
+    "net6.0": {
+      "P03. Shopping Spree/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "compile": {
+          "bin/placeholder/P03. Shopping Spree.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/P03. Shopping Spree.dll": {}
+        }
+      }
+    }
   },
-  "libraries": {},
+  "libraries": {
+    "P03. Shopping Spree/1.0.0": {
+      "type": "project",
+      "path": "../P03. Shopping Spree/P03. Shopping Spree.csproj",
+      "msbuildProject": "../P03. Shopping Spree/P03. Shopping Spree.csproj"
+    }
+  },
   "projectFileDependencyGroups": {
-    "net6.0": []
+    "net6.0": [
+      "P03. Shopping Spree >= 1.0.0"
+    ]
   },
   "packageFolders": {
     "C:\\Users\\herrp\\.nuget\\packages\\": {}
@@ -33,7 +52,11 @@
       "frameworks": {
         "net6.0": {
           "targetAlias": "net6.0",
-          "projectReferences": {}
+          "projectReferences": {
+            "D:\\Pavel\\SoftUni\\C# Job prep\\OOP\\02. Encapsulation\\AnimalFarm\\P03. Shopping Spree\\P03. Shopping Spree.csproj": {
+              "projectPath": "D:\\Pavel\\SoftUni\\C# Job prep\\OOP\\02. Encapsulation\\AnimalFarm\\P03. Shopping Spree\\P03. Shopping Spree.csproj"
+            }
+          }
         }
       },
       "warningProperties": {

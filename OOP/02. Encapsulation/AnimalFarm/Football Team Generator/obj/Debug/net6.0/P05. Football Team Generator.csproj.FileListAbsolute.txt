@@ -1,0 +1,15 @@
+D:\Pavel\SoftUni\C# Job prep\OOP\02. Encapsulation\AnimalFarm\Football Team Generator\bin\Debug\net6.0\P05. Football Team Generator.exe
+D:\Pavel\SoftUni\C# Job prep\OOP\02. Encapsulation\AnimalFarm\Football Team Generator\bin\Debug\net6.0\P05. Football Team Generator.deps.json
+D:\Pavel\SoftUni\C# Job prep\OOP\02. Encapsulation\AnimalFarm\Football Team Generator\bin\Debug\net6.0\P05. Football Team Generator.runtimeconfig.json
+D:\Pavel\SoftUni\C# Job prep\OOP\02. Encapsulation\AnimalFarm\Football Team Generator\bin\Debug\net6.0\P05. Football Team Generator.dll
+D:\Pavel\SoftUni\C# Job prep\OOP\02. Encapsulation\AnimalFarm\Football Team Generator\bin\Debug\net6.0\P05. Football Team Generator.pdb
+D:\Pavel\SoftUni\C# Job prep\OOP\02. Encapsulation\AnimalFarm\Football Team Generator\obj\Debug\net6.0\P05. Football Team Generator.csproj.AssemblyReference.cache
+D:\Pavel\SoftUni\C# Job prep\OOP\02. Encapsulation\AnimalFarm\Football Team Generator\obj\Debug\net6.0\P05. Football Team Generator.GeneratedMSBuildEditorConfig.editorconfig
+D:\Pavel\SoftUni\C# Job prep\OOP\02. Encapsulation\AnimalFarm\Football Team Generator\obj\Debug\net6.0\P05. Football Team Generator.AssemblyInfoInputs.cache
+D:\Pavel\SoftUni\C# Job prep\OOP\02. Encapsulation\AnimalFarm\Football Team Generator\obj\Debug\net6.0\P05. Football Team Generator.AssemblyInfo.cs
+D:\Pavel\SoftUni\C# Job prep\OOP\02. Encapsulation\AnimalFarm\Football Team Generator\obj\Debug\net6.0\P05. Football Team Generator.csproj.CoreCompileInputs.cache
+D:\Pavel\SoftUni\C# Job prep\OOP\02. Encapsulation\AnimalFarm\Football Team Generator\obj\Debug\net6.0\P05. Football Team Generator.dll
+D:\Pavel\SoftUni\C# Job prep\OOP\02. Encapsulation\AnimalFarm\Football Team Generator\obj\Debug\net6.0\refint\P05. Football Team Generator.dll
+D:\Pavel\SoftUni\C# Job prep\OOP\02. Encapsulation\AnimalFarm\Football Team Generator\obj\Debug\net6.0\P05. Football Team Generator.pdb
+D:\Pavel\SoftUni\C# Job prep\OOP\02. Encapsulation\AnimalFarm\Football Team Generator\obj\Debug\net6.0\P05. Football Team Generator.genruntimeconfig.cache
+D:\Pavel\SoftUni\C# Job prep\OOP\02. Encapsulation\AnimalFarm\Football Team Generator\obj\Debug\net6.0\ref\P05. Football Team Generator.dll

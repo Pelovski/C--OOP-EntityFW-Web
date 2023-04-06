@@ -8,4 +8,8 @@
     <Nullable>enable</Nullable>
   </PropertyGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\P03. Shopping Spree\P03. Shopping Spree.csproj" />
+  </ItemGroup>
+
 </Project>
