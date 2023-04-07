@@ -4,12 +4,13 @@ namespace Football_Team_Generator.Models
 {
     internal class Team
     {
+        private List<Player> players;
         private string name;
 
         public Team(string name)
         {
            this.Name = name;
-            this.Teams = new Dictionary<string, int>();
+           this.players = new List<Player>();
         }
 
         public string Name
@@ -25,30 +26,45 @@ namespace Football_Team_Generator.Models
                 {
                     throw new InvalidOperationException(GlobalConstants.InvalidName);
                 }
-            }
-        }
-        public Player Player { get; set; }
-
-        public Dictionary<string, int> Teams { get; set; }
-
-        public int Rating { get; set; }
-
-        public void Add(string name , Player player)
-        {
-            if (!this.Teams.ContainsKey(name))
-            {
-                this.Teams.Add(name, player.OverallSkill);
-            }
-
-            else
-            {
-                this.Teams[name] += player.OverallSkill;
+                this.name = value;
             }
         }
 
-        public void Remove(string name, Player player)
+        public int Rating
+        {
+            get
+            {
+                if (this.players.Count == 0)
+                {
+                    return 0;
+                }
+
+                return (int)Math.Round(this.players.Sum(p =>
+                p.OverallSkill) / this.players.Count);
+            }
+        }
+
+        public void Add(Player player)
         {
 
+            this.players.Add(player);
+        }
+
+        public void Remove(string name)
+        {
+            var player = this.players.FirstOrDefault(p => p.Name == name);
+
+            if (player == null)
+            {
+                throw new InvalidOperationException(String.Format(GlobalConstants.RemovePlayerdoesNotExist, name, this.Name));
+            }
+
+            this.players.Remove(player);
+        }
+
+        public override string ToString()
+        {
+            return $"{this.Name} - {this.Rating}";
         }
 
     }

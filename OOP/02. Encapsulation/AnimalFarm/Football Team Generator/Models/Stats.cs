@@ -3,15 +3,20 @@ using Football_Team_Generator.Common;
 
 namespace Football_Team_Generator.Models
 {
-    public class Stat
+    public class Stats
     {
+        private const int MIN_Value = 0;
+        private const int MAX_Value = 100;
+
+        private const double STATS_COUNT = 5.0;
+
         private int shooting;
         private int passing;
         private int dribble;
         private int sprint;
         private int endurance;
 
-        public Stat(int endurance, int sprint, int dribble, int passing, int shooting)
+        public Stats(int endurance, int sprint, int dribble, int passing, int shooting)
         {
             this.Endurance = endurance;
             this.Sprint = sprint;
@@ -20,19 +25,15 @@ namespace Football_Team_Generator.Models
             this.Shooting = shooting;
         }
 
-        public int Endurance 
+        public int Endurance
         {
             get
             {
-                return endurance;
+                return this.endurance;
             }
             set
             {
-                if (Validator(value))
-                {
-                    throw new ArgumentException(GlobalConstants.InvalidStatsInput);
-                }
-
+                this.Validator(value, nameof(this.Endurance));
                 this.endurance = value;
             }
         }
@@ -41,15 +42,12 @@ namespace Football_Team_Generator.Models
         {
             get
             {
-                return sprint;
+                return this.sprint;
             }
             set
             {
-                if (Validator(value))
-                {
-                    throw new ArgumentException(GlobalConstants.InvalidStatsInput);
-                }
 
+                this.Validator(value, nameof(this.Sprint));
                 this.sprint = value;
             }
         }
@@ -58,15 +56,11 @@ namespace Football_Team_Generator.Models
         {
             get
             {
-                return dribble;
+                return this.dribble;
             }
             set
             {
-                if (Validator(value))
-                {
-                    throw new ArgumentException(GlobalConstants.InvalidStatsInput);
-                }
-
+                this.Validator(value, nameof(this.Dribble));
                 this.dribble = value;
             }
         }
@@ -75,14 +69,12 @@ namespace Football_Team_Generator.Models
         {
             get
             {
-                return passing;
+
+                return this.passing;
             }
             set
             {
-                if (Validator(value))
-                {
-                    throw new ArgumentException(GlobalConstants.InvalidStatsInput);
-                }
+                this.Validator(value, nameof(this.Passing));
                 this.passing = value;
             }
         }
@@ -90,22 +82,27 @@ namespace Football_Team_Generator.Models
         public int Shooting
         {
             get {
-                return shooting;
+                return this.shooting;
             }
             set
             {
-                if (Validator(value))
-                {
-                    throw new ArgumentException(GlobalConstants.InvalidStatsInput);
-                }
-
+                this.Validator(value, nameof(this.Shooting));
                 this.shooting = value;
             }
         }
 
-        private bool Validator(int stat)
+        public double AverageStats =>
+               (this.Endurance + this.Dribble + this.Sprint + this.Shooting + this.Passing) / STATS_COUNT;
+   
+
+        private void Validator(int value, string statName)
         {
-            return stat < 0 && stat > 100;
+            if (value < MIN_Value || value > MAX_Value)
+            {
+                throw new ArgumentException(String
+                    .Format(GlobalConstants
+                    .InvalidName, statName, MIN_Value, MAX_Value));
+            }
         }
     }
 }
