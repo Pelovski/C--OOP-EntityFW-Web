@@ -12,4 +12,8 @@
     <ProjectReference Include="..\P03. Shopping Spree\P03. Shopping Spree.csproj" />
   </ItemGroup>
 
+  <ItemGroup>
+    <Folder Include="Common\" />
+  </ItemGroup>
+
 </Project>

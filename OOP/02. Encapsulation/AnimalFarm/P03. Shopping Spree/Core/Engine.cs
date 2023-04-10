@@ -61,7 +61,7 @@ namespace P03._Shopping_Spree.Core
                     .Split('=', StringSplitOptions.RemoveEmptyEntries)
                     .ToArray();
 
-                string name = name = currProductTokens[0];
+                string name = currProductTokens[0];
                 decimal cost = decimal.Parse(currProductTokens[1]);
 
                 Product product = new Product(name, cost);

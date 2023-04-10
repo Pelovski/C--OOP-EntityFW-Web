@@ -6,11 +6,6 @@
   "compilationOptions": {},
   "targets": {
     ".NETCoreApp,Version=v6.0": {
-      "P04.Pizza Calories/1.0.0": {
-        "runtime": {
-          "P04.Pizza Calories.dll": {}
-        }
-      },
       "P03. Shopping Spree/1.0.0": {
         "runtime": {
           "P03. Shopping Spree.dll": {}
@@ -19,11 +14,6 @@
     }
   },
   "libraries": {
-    "P04.Pizza Calories/1.0.0": {
-      "type": "project",
-      "serviceable": false,
-      "sha512": ""
-    },
     "P03. Shopping Spree/1.0.0": {
       "type": "project",
       "serviceable": false,
