@@ -5,7 +5,10 @@
         string CurrentDirectoryPath { get;}
 
         string CurrentFilePath { get;}
+
         string GetCurrentDirectory();
+
+        void EnsureDirectoryAndFileExist();
 
     }
 }
