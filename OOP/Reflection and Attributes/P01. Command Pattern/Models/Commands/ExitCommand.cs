@@ -1,6 +1,6 @@
 ﻿using P01._Command_Pattern.Core.Contracts;
 
-namespace P01._Command_Pattern.Core.Models.Commands
+namespace P01._Command_Pattern.Models.Commands
 {
     public class ExitCommand : ICommand
     {
