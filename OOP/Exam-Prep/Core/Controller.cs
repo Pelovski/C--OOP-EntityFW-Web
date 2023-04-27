@@ -160,12 +160,29 @@ namespace ChristmasPastryShop.Core
             {
                 string size = orders[3];
 
-                if (!booth.CocktailMenu.Models.Any(x => x.Name == itemName && x.GetType().Name == itemTypeName))
+                ICocktail desiredCocktail = booth
+                    .CocktailMenu
+                    .Models
+                    .FirstOrDefault(x => x.Name == itemName && x.GetType().Name == itemTypeName && x.Size == size);
+
+                if (desiredCocktail == null)
                 {
                     return string
                         .Format(OutputMessages.NotRecognizedItemName, itemTypeName, itemName);
                 }
+
+                booth.UpdateCurrentBill(desiredCocktail.Price * countPiecesOrders);
             }
+
+            else
+            {
+
+            }
+
+
+
+            return string
+                .Format(OutputMessages.SuccessfullyOrdered, boothId, countPiecesOrders, itemName);
 
         }
     }
