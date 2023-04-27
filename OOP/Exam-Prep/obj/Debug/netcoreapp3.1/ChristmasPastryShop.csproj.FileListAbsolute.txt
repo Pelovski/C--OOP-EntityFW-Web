@@ -1,0 +1,14 @@
+D:\Pavel\SoftUni\C# Job prep\OOP\Exam-Prep\bin\Debug\netcoreapp3.1\ChristmasPastryShop.exe
+D:\Pavel\SoftUni\C# Job prep\OOP\Exam-Prep\bin\Debug\netcoreapp3.1\ChristmasPastryShop.deps.json
+D:\Pavel\SoftUni\C# Job prep\OOP\Exam-Prep\bin\Debug\netcoreapp3.1\ChristmasPastryShop.runtimeconfig.json
+D:\Pavel\SoftUni\C# Job prep\OOP\Exam-Prep\bin\Debug\netcoreapp3.1\ChristmasPastryShop.runtimeconfig.dev.json
+D:\Pavel\SoftUni\C# Job prep\OOP\Exam-Prep\bin\Debug\netcoreapp3.1\ChristmasPastryShop.dll
+D:\Pavel\SoftUni\C# Job prep\OOP\Exam-Prep\bin\Debug\netcoreapp3.1\ChristmasPastryShop.pdb
+D:\Pavel\SoftUni\C# Job prep\OOP\Exam-Prep\obj\Debug\netcoreapp3.1\ChristmasPastryShop.csproj.AssemblyReference.cache
+D:\Pavel\SoftUni\C# Job prep\OOP\Exam-Prep\obj\Debug\netcoreapp3.1\ChristmasPastryShop.GeneratedMSBuildEditorConfig.editorconfig
+D:\Pavel\SoftUni\C# Job prep\OOP\Exam-Prep\obj\Debug\netcoreapp3.1\ChristmasPastryShop.AssemblyInfoInputs.cache
+D:\Pavel\SoftUni\C# Job prep\OOP\Exam-Prep\obj\Debug\netcoreapp3.1\ChristmasPastryShop.AssemblyInfo.cs
+D:\Pavel\SoftUni\C# Job prep\OOP\Exam-Prep\obj\Debug\netcoreapp3.1\ChristmasPastryShop.csproj.CoreCompileInputs.cache
+D:\Pavel\SoftUni\C# Job prep\OOP\Exam-Prep\obj\Debug\netcoreapp3.1\ChristmasPastryShop.dll
+D:\Pavel\SoftUni\C# Job prep\OOP\Exam-Prep\obj\Debug\netcoreapp3.1\ChristmasPastryShop.pdb
+D:\Pavel\SoftUni\C# Job prep\OOP\Exam-Prep\obj\Debug\netcoreapp3.1\ChristmasPastryShop.genruntimeconfig.cache
