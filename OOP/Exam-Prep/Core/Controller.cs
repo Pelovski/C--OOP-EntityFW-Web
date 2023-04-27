@@ -1,8 +1,5 @@
 ﻿using System;
-using System.Collections.Generic;
 using System.Linq;
-using System.Runtime.InteropServices.WindowsRuntime;
-using System.Security.Cryptography.X509Certificates;
 using ChristmasPastryShop.Core.Contracts;
 using ChristmasPastryShop.Models.Booths.Contracts;
 using ChristmasPastryShop.Models.Booths.Models;
@@ -117,12 +114,59 @@ namespace ChristmasPastryShop.Core
 
         public string ReserveBooth(int countOfPeople)
         {
-            var booth = this.booths.Models.FirstOrDefault(x => x.IsReserved == false && x.Capacity >= countOfPeople);
+            var booth = this
+                .booths
+                .Models
+                .FirstOrDefault(x => x.IsReserved == false && x.Capacity >= countOfPeople);
+
+            if (booth == null)
+            {
+                return string
+                    .Format(OutputMessages.NoAvailableBooth, countOfPeople);
+            }
+
+            booth.ChangeStatus();
+
+            return string
+                .Format(OutputMessages.BoothReservedSuccessfully, booth.BoothId, countOfPeople);
         }
 
         public string TryOrder(int boothId, string order)
         {
-            throw new NotImplementedException();
+            string[] orders = order.Split('/', StringSplitOptions.RemoveEmptyEntries);
+
+            string itemTypeName = orders[0];
+            string itemName = orders[1];
+            int countPiecesOrders = int.Parse(orders[2]);
+            bool isCoctail = false;
+
+            if (itemTypeName == nameof(Hibernation) || itemTypeName == nameof(MulledWine))
+            {
+                isCoctail = true;
+            }
+
+            var booth = this.booths.Models.First(x => x.BoothId == boothId);
+
+            if (itemTypeName != nameof(MulledWine) &&
+                itemTypeName != nameof(Hibernation) &&
+                itemTypeName != nameof(Gingerbread) &&
+                itemTypeName != nameof(Stolen))
+            {
+                return string
+                    .Format(OutputMessages.NotRecognizedType, itemTypeName);
+            }
+
+            if (isCoctail)
+            {
+                string size = orders[3];
+
+                if (!booth.CocktailMenu.Models.Any(x => x.Name == itemName && x.GetType().Name == itemTypeName))
+                {
+                    return string
+                        .Format(OutputMessages.NotRecognizedItemName, itemTypeName, itemName);
+                }
+            }
+
         }
     }
 }

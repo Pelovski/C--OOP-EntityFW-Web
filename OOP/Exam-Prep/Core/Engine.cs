@@ -4,6 +4,7 @@
     using ChristmasPastryShop.Core.Contracts;
     using ChristmasPastryShop.IO;
     using ChristmasPastryShop.IO.Contracts;
+    using ChristmasPastryShop.Core;
 
     public class Engine : IEngine
     {
