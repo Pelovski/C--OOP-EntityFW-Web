@@ -176,7 +176,16 @@ namespace ChristmasPastryShop.Core
 
             else
             {
+                IDelicacy desiredDelicacy = booth
+               .DelicacyMenu.Models
+                   .FirstOrDefault(m => m.GetType().Name == itemTypeName && m.Name == itemName);
 
+                if (desiredDelicacy == null)
+                {
+                    return string.Format(OutputMessages.DelicacyStillNotAdded, itemName);
+                }
+
+                booth.UpdateCurrentBill(desiredDelicacy.Price * countPiecesOrders);
             }
 
 
