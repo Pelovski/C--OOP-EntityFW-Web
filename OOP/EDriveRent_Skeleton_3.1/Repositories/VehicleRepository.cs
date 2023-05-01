@@ -1,11 +1,9 @@
-﻿using EDriveRent.Repositories.Contracts;
-
-namespace EDriveRent.Repositories
+﻿namespace EDriveRent.Repositories
 {
-    using System;
-    using System.Collections.Generic;
     using System.Linq;
+    using System.Collections.Generic;
     using EDriveRent.Models.Contracts;
+    using EDriveRent.Repositories.Contracts;
     internal class VehicleRepository : IRepository<IVehicle>
     {
         private List<IVehicle> vehicles;

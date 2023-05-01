@@ -1,13 +1,10 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Security.Cryptography.X509Certificates;
-using System.Text;
-using EDriveRent.Models.Contracts;
-using EDriveRent.Repositories.Contracts;
-
-namespace EDriveRent.Repositories
+﻿namespace EDriveRent.Repositories
 {
+    using System.Linq;
+    using System.Collections.Generic;
+    using EDriveRent.Models.Contracts;
+    using EDriveRent.Repositories.Contracts;
+
     internal class UserRepository : IRepository<IVehicle>
     {
         private List<IVehicle> users;
