@@ -8,13 +8,13 @@ namespace EDriveRent.Models
     {
         private string startPoint;
         private string endPoint;
-        private double lenght;
+        private double length;
 
-        public Route(string startPoint, string endPoint, double lenght, int routeId)
+        public Route(string startPoint, string endPoint, double length, int routeId)
         {
             this.StartPoint = startPoint;
             this.EndPoint = endPoint;
-            this.lenght = lenght;
+            this.Length = length;
             this.RouteId = routeId;
         }
 
@@ -50,7 +50,7 @@ namespace EDriveRent.Models
 
         public double Length
         {
-            get => this.lenght;
+            get => this.length;
 
             private set
             {
@@ -59,7 +59,7 @@ namespace EDriveRent.Models
                     throw new ArgumentException(ExceptionMessages.RouteLengthLessThanOne);
                 }
 
-                this.lenght = value;
+                this.length = value;
             }
 
         }
