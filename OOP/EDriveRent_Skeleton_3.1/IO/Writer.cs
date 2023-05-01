@@ -1,8 +1,8 @@
-﻿using EDriveRent.IO.Contracts;
-using System;
-
-namespace EDriveRent.IO
+﻿namespace EDriveRent.IO
 {
+    using EDriveRent.IO.Contracts;
+    using System;
+
     public class Writer : IWriter
     {
         public void Write(string message) => Console.Write(message);

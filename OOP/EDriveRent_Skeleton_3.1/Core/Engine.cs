@@ -1,10 +1,9 @@
-﻿using EDriveRent.Core.Contracts;
-using EDriveRent.IO.Contracts;
-using EDriveRent.IO;
-using System;
-
-namespace EDriveRent.Core
+﻿namespace EDriveRent.Core
 {
+    using System;
+    using EDriveRent.IO;
+    using EDriveRent.IO.Contracts;
+    using EDriveRent.Core.Contracts;
     public class Engine : IEngine
     {
         private IReader reader;
@@ -14,7 +13,7 @@ namespace EDriveRent.Core
         {
             this.reader = new Reader();
             this.writer = new Writer();
-            //this.controller = new Controller();
+            this.controller = new Controller();
         }
         public void Run()
         {

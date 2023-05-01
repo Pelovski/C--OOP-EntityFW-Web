@@ -1,16 +1,14 @@
-﻿using System.Collections.Generic;
-using EDriveRent.Core.Contracts;
-using EDriveRent.Models.Contracts;
-using EDriveRent.Models;
-using EDriveRent.Repositories;
-using EDriveRent.Repositories.Contracts;
-using EDriveRent.IO;
-using EDriveRent.Utilities.Messages;
-using System.Threading;
-using System.Linq;
-
-namespace EDriveRent.Core
+﻿namespace EDriveRent.Core
 {
+    using System.Text;
+    using System.Linq;
+    using EDriveRent.Models;
+    using EDriveRent.Repositories;
+    using EDriveRent.Core.Contracts;
+    using EDriveRent.Models.Contracts;
+    using EDriveRent.Repositories.Contracts;
+    using EDriveRent.Utilities.Messages;
+
     public class Controller : IController
     {
         private IRepository<IUser> users;
@@ -96,7 +94,7 @@ namespace EDriveRent.Core
         {
             IUser isUserExist = this.users.FindById(drivingLicenseNumber);
 
-            if (isUserExist == null)
+            if (isUserExist != null)
             {
                 return string.Format(OutputMessages.UserWithSameLicenseAlreadyAdded, drivingLicenseNumber);
             }
@@ -135,7 +133,8 @@ namespace EDriveRent.Core
         {
             IVehicle isVehicleExist = this.vehicles.FindById(licensePlateNumber);
 
-            if (vehicleType != nameof(CargoVan) || vehicleType != nameof(PassengerCar))
+
+            if (vehicleType != nameof(CargoVan) && vehicleType != nameof(PassengerCar))
             {
                 return string.Format(OutputMessages.VehicleTypeNotAccessible, vehicleType);
             }
@@ -163,7 +162,16 @@ namespace EDriveRent.Core
 
         public string UsersReport()
         {
-            throw new System.NotImplementedException();
+            StringBuilder sb = new StringBuilder();
+
+            sb.AppendLine($"*** E-Drive-Rent ***");
+
+            foreach (var user in this.users.GetAll().OrderByDescending(u => u.Rating).ThenBy(u => u.LastName).ThenBy(u => u.FirstName))
+            {
+                sb.AppendLine(user.ToString());
+            }
+
+            return sb.ToString().TrimEnd();
         }
     }
 }

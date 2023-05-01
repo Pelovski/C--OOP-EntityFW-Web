@@ -1,9 +1,8 @@
-﻿using System;
-using EDriveRent.Models.Contracts;
-using EDriveRent.Utilities.Messages;
-
-namespace EDriveRent.Models
+﻿namespace EDriveRent.Models
 {
+    using System;
+    using EDriveRent.Models.Contracts;
+    using EDriveRent.Utilities.Messages;
     public class Route : IRoute
     {
         private string startPoint;
