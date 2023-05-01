@@ -4,7 +4,7 @@ using EDriveRent.Utilities.Messages;
 
 namespace EDriveRent.Models
 {
-    public abstract class Route : IRoute
+    public class Route : IRoute
     {
         private string startPoint;
         private string endPoint;

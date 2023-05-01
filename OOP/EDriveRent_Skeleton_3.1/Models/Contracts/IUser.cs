@@ -1,6 +1,6 @@
 ﻿namespace EDriveRent.Models.Contracts
 {
-    public interface IVehicle
+    public interface IUser
     {
         public string FirstName { get; }
 

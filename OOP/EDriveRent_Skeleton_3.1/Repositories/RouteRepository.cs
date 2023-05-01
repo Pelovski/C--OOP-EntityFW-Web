@@ -1,8 +1,7 @@
 ﻿namespace EDriveRent.Repositories
 {
-    using System.Collections.Generic;
     using System.Linq;
-    using System.Security.Cryptography.X509Certificates;
+    using System.Collections.Generic;
     using EDriveRent.Models.Contracts;
     using EDriveRent.Repositories.Contracts;
     public class RouteRepository : IRepository<IRoute>

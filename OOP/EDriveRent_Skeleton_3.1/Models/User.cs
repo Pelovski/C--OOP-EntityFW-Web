@@ -4,7 +4,7 @@
     using EDriveRent.Models.Contracts;
     using EDriveRent.Utilities.Messages;
 
-    public  class User : IVehicle
+    public  class User : IUser
     {
         private string firstName;
         private string lastName;

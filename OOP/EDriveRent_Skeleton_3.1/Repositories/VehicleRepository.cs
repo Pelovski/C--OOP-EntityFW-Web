@@ -4,7 +4,7 @@
     using System.Collections.Generic;
     using EDriveRent.Models.Contracts;
     using EDriveRent.Repositories.Contracts;
-    internal class VehicleRepository : IRepository<IVehicle>
+    public class VehicleRepository : IRepository<IVehicle>
     {
         private List<IVehicle> vehicles;
 
