@@ -1,16 +1,5 @@
 USE Minions
 
-CREATE TABLE People (
-	
-	Id INT PRIMARY KEY,
-	[Name] NVARCHAR(200) NOT NULL,
-	Picture VARBINARY(MAX),
-	Height  DECIMAL(10,2),
-	[Weight] DECIMAL (10,2),
-	Gender VARCHAR(2) NOT NULL,
-	Birthdate DATE NOT NULL,
-	Biography NVARCHAR(MAX)
-)
 
 CREATE TABLE Users(
 	Id BIGINT PRIMARY KEY IDENTITY,
@@ -31,3 +20,36 @@ INSERT INTO Users(Username, [Password], LastLoginTime, IsDeleted)
 	('Pavel', 'Stamte24', '2023-05-06', 0)
 
 
+   ALTER TABLE Users
+	DROP CONSTRAINT [PK__Users__3214EC0783C24447]
+
+ALTER TABLE Users
+ADD CONSTRAINT PK_Users_CompositeIdUsername
+PRIMARY KEY(Id, Username)
+
+
+ALTER TABLE Users
+ADD CONSTRAINT CK_Users_PasswordLength
+CHECK(LEN([Password]) >= 5)
+
+ALTER TABLE Users
+ADD CONSTRAINT DF_Users_LastLogInTime
+DEFAULT GETDATE() FOR LastLogInTime
+
+INSERT INTO Users(Username, [Password], IsDeleted)
+	VALUES
+	('WAGNER', '123456', 0)
+
+	SELECT * FROM Users
+
+ALTER TABLE Users
+DROP CONSTRAINT PK_Users_CompositeIdUsername
+
+ALTER TABLE Users
+ADD CONSTRAINT PK_Users_Id
+PRIMARY KEY(Id)
+
+ALTER TABLE Users
+ADD CONSTRAINT UQ_Users_UsernameLength
+CHECK(LEN(Username) >= 3)
+	
