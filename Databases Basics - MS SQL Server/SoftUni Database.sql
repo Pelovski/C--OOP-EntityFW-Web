@@ -41,6 +41,21 @@ INSERT INTO Employees(FirstName, MiddleName, LastName, JobTitle, DepartmentId, H
 
 
 SELECT * FROM Addresses
+
+
+
 SELECT * FROM Towns
+ORDER BY [Name] ASC
+
+
 SELECT * FROM Departments
+ORDER BY [Name] ASC
+
 SELECT * FROM Employees
+ORDER BY Salary DESC
+
+SELECT FirstName, LastName, JobTitle, Salary FROM Employees
+ORDER BY Salary DESC
+
+UPDATE Employees
+SET Salary += Salary *0.1
