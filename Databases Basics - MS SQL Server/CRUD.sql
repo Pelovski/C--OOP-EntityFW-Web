@@ -61,5 +61,34 @@ WHERE DepartmentId !=4
 SELECT * FROM Employees
 ORDER BY Salary DESC, FirstName, LastName DESC, MiddleName
 
+-- Create View Employees with Salaries
+CREATE VIEW V_EmployeesSalaries AS
+SELECT FirstName, LastName, Salary FROM Employees
 
+-- Create View Employees with Job Titles
+
+CREATE VIEW V_EmployeeNameJobTitle AS
+SELECT (FirstName + ' ' + ISNULL (MiddleName, '') + ' ' + LastName) AS [Full Name], JobTitle AS [Job Title] FROM Employees
+
+-- Distinct Job Titles
+
+SELECT DISTINCT JobTitle FROM Employees
+
+
+-- Find First 10 Started Projects
+
+SELECT TOP(10) * FROM Projects
+ORDER BY StartDate, [Name]
+
+-- Last 7 Hired Employees
+
+SELECT TOP(7) FirstName, LastName, HireDate FROM Employees
+ORDER BY HireDate DESC
+
+-- Increase Salaries
+
+UPDATE Employees
+SET Salary = Salary + (Salary * 0.12)
+WHERE DepartmentId = 1 OR DepartmentId = 2 OR DepartmentId = 4 OR DepartmentId = 11
+SELECT Salary FROM Employees
 
