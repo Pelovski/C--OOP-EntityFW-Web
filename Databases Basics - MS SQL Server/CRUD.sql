@@ -39,3 +39,27 @@ WHERE Salary = 25000 OR Salary = 14000 OR Salary = 12500 OR Salary = 23600
 
 -- Find All Employees Without Manager
 
+SELECT FirstName, LastName FROM Employees
+WHERE ManagerID IS NULL
+
+--Find All Employees with Salary More Than 50000
+
+SELECT FirstName, LastName, Salary FROM Employees
+WHERE Salary > 50000 
+ORDER BY Salary DESC
+
+-- Find 5 Best Paid Employees
+
+SELECT TOP(5) [FirstName], [LastName] FROM Employees
+ORDER BY Salary DESC
+
+-- Find All Employees Except Marketing
+SELECT [FirstName], [LastName] FROM Employees
+WHERE DepartmentId !=4
+
+-- Sort Employees Table
+SELECT * FROM Employees
+ORDER BY Salary DESC, FirstName, LastName DESC, MiddleName
+
+
+
