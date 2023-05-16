@@ -26,3 +26,35 @@ SELECT [Name] FROM Towns
 WHERE LEN([Name]) = 5 OR LEN([Name]) = 6
 ORDER BY [Name]
 
+--06. Find Towns Starting With
+
+SELECT * FROM Towns
+WHERE SUBSTRING([Name], 1,1) = 'M' OR SUBSTRING([Name], 1,1) = 'K' OR SUBSTRING([Name], 1,1) = 'B' OR SUBSTRING([Name], 1,1) = 'E'
+ORDER BY [Name]
+
+-- 07. Find Towns Not Starting With
+
+SELECT * FROM Towns
+WHERE SUBSTRING([Name], 1,1) != 'R' AND SUBSTRING([Name], 1,1) != 'B' AND SUBSTRING([Name], 1,1) != 'D'
+ORDER BY [Name]
+
+-- Problem 8. Create View Employees Hired After 2000 Year
+
+-- Problem 9. Length of Last Name
+
+SELECT [FirstName], [LastName] FROM Employees
+WHERE LEN([LastName]) = 5
+
+-- Rank Employees by Salary
+
+SELECT [EmployeeID], [FirstName], [LastName], [Salary],
+DENSE_RANK() OVER (
+	PARTITION BY [Salary]
+	ORDER BY [EmployeeID]
+
+) AS [Rank]
+FROM Employees
+WHERE [Salary] >= 10000 AND [Salary] <= 50000
+ORDER BY Salary DESC
+ 
+
