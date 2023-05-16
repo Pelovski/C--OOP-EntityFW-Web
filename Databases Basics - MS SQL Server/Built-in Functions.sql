@@ -58,3 +58,17 @@ WHERE [Salary] >= 10000 AND [Salary] <= 50000
 ORDER BY Salary DESC
  
 
+ -- Problem 12.	Countries Holding ‘A’ 3 or More Times
+
+USE Geography
+
+SELECT [CountryName], [IsoCode] FROM Countries
+WHERE [CountryName] LIKE '%a%a%a%'
+ORDER BY [IsoCode]
+
+-- P13 Games from 2011 and 2012 year
+USE Diablo
+
+SELECT TOP(50)[Name], [Start] FROM Games
+WHERE YEAR([Start]) = 2011 OR YEAR([Start]) = 2012
+ORDER BY [Start], [Name]
