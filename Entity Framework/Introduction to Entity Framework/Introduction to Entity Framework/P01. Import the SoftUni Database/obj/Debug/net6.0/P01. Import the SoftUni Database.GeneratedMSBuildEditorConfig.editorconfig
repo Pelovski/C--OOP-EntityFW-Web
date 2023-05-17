@@ -1,0 +1,11 @@
+is_global = true
+build_property.TargetFramework = net6.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = 
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = P01._Import_the_SoftUni_Database
+build_property.ProjectDir = D:\Pavel\SoftUni\C# Job prep\Entity Framework\Introduction to Entity Framework\Introduction to Entity Framework\P01. Import the SoftUni Database\
