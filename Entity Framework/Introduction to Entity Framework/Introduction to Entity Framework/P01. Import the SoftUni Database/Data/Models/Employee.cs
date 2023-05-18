@@ -8,7 +8,7 @@ namespace P01._Import_the_SoftUni_Database.Data.Models
         public Employee()
         {
             Departments = new HashSet<Department>();
-            EmployeesProjects = new HashSet<EmployeesProject>();
+            EmployeesProjects = new HashSet<EmployeeProject>();
             InverseManager = new HashSet<Employee>();
         }
 
@@ -27,7 +27,7 @@ namespace P01._Import_the_SoftUni_Database.Data.Models
         public virtual Department Department { get; set; }
         public virtual Employee Manager { get; set; }
         public virtual ICollection<Department> Departments { get; set; }
-        public virtual ICollection<EmployeesProject> EmployeesProjects { get; set; }
+        public virtual ICollection<EmployeeProject> EmployeesProjects { get; set; }
         public virtual ICollection<Employee> InverseManager { get; set; }
     }
 }
