@@ -11,7 +11,7 @@ internal class StartUp
     {
         SoftUniContext context = new SoftUniContext();
 
-        string result = GetEmployeesInPeriod(context);
+        string result = GetAddressesByTown(context);
 
         Console.WriteLine(result);
     }
@@ -140,7 +140,6 @@ internal class StartUp
     }
 
     // 7.	Employees and Projects
-
     public static string GetEmployeesInPeriod(SoftUniContext context)
     {
           var sb = new StringBuilder();
@@ -177,6 +176,36 @@ internal class StartUp
 
                 sb.AppendLine($"--{ep.ProjectName} - {ep.StartDate} - {ep.EndDate}");
             }
+        }
+
+        return sb.ToString().TrimEnd();
+    }
+
+    // 8.	Addresses by Town
+
+    public static string GetAddressesByTown(SoftUniContext context)
+    {
+        var sb = new StringBuilder();
+
+        var adresses = context
+            .Addresses
+            .Select(a => new
+            {
+
+                a.AddressText,
+                TownName = a.Town.Name,
+                EmployeeCount = a.Employees.Count
+
+            })
+            .OrderByDescending(a => a.EmployeeCount)
+            .ThenBy(a => a.TownName)
+            .ThenBy(a => a.AddressText)
+            .Take(10)
+            .ToList();
+
+        foreach (var adresse in adresses)
+        {
+            sb.AppendLine($"{adresse.AddressText}, {adresse.TownName} - {adresse.EmployeeCount} employees");
         }
 
         return sb.ToString().TrimEnd();
