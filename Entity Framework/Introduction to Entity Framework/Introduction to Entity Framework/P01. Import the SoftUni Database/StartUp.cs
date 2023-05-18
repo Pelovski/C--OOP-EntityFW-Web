@@ -8,7 +8,7 @@ internal class StartUp
     {
         SoftUniContext context = new SoftUniContext();
 
-        string result = GetEmployeesFromResearchAndDevelopment(context);
+        string result = AddNewAddressToEmployee(context);
 
         Console.WriteLine(result);
     }
@@ -91,6 +91,46 @@ internal class StartUp
         foreach (var employee in employees)
         {
             sb.AppendLine($"{employee.FirstName} {employee.LastName} {employee.DepartmentName} - ${employee.Salary:f2}");
+        }
+
+        return sb.ToString().TrimEnd();
+    }
+
+    //6.	Adding a New Address and Updating Employee
+
+     public static string AddNewAddressToEmployee(SoftUniContext context)
+    {
+        var sb =  new StringBuilder();
+
+
+        var adress = new Addresse()
+        {
+            AddressText = "Vitoshka 15",
+            TownId = 4
+        };
+     
+
+        var nakov = context.Employees.First(x => x.LastName == "Nakov");
+
+        nakov.Address = adress;
+
+        context.Update(nakov);
+        context.SaveChanges();
+
+        var employees = context
+            .Employees
+            .Select(e => new { 
+
+                e.AddressId,
+                AdressText = e.Address.AddressText            
+            })
+            .OrderByDescending(e => e.AddressId)
+            .Take(10)
+            .ToList();
+
+        foreach (var employee in employees)
+        {
+            sb.AppendLine($"{employee.AdressText}");
         }
 
         return sb.ToString().TrimEnd();
