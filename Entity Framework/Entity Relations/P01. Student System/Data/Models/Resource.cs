@@ -1,4 +1,7 @@
-﻿using System;
+﻿using System.ComponentModel.DataAnnotations;
+using Microsoft.EntityFrameworkCore.Metadata.Internal;
+using System.ComponentModel.DataAnnotations.Schema;
+using P01._Student_System.Data.Contracts;
 
 namespace P01._Student_System.Data.Models
 {
@@ -6,13 +9,16 @@ namespace P01._Student_System.Data.Models
     {
         public int ResourceId { get; set; }
 
+        [Required]
+        [MaxLength(50)]
         public string Name { get; set; }
 
+        [Required]
+        [Column(TypeName = "varchar(MAX)")]
         public string Url { get; set; }
 
-        public int MyProperty { get; set; }
-
-        // public ResourceType  enum { get; set; }
+        [Required]
+        public ResourceType ResourceType { get; set; }
 
         public int CourseId { get; set; }
 
