@@ -28,27 +28,46 @@ namespace P03_FootballBetting.Data
         }
 
         public DbSet<Bet> Bets { get; set; }
-
-        public DbSet<Color> Colors { get; set; }
-
-        public DbSet<Country> Countries { get; set; }
-
-        public DbSet<Game> Games { get; set; }
-
-        public DbSet<Player> Players { get; set; }
-
-        public DbSet<PlayerStatistic> PlayerStatistics { get; set; }
-
-        public DbSet<Position> Positions { get; set; }
-
         public DbSet<Team> Teams { get; set; }
-
-        public DbSet<Town> Towns { get; set; }
-
         public DbSet<User> Users { get; set; }
+        public DbSet<Game> Games { get; set; }
+        public DbSet<Town> Towns { get; set; }
+        public DbSet<Color> Colors { get; set; }
+        public DbSet<Player> Players { get; set; }
+        public DbSet<Country> Countries { get; set; }
+        public DbSet<Position> Positions { get; set; }
+        public DbSet<PlayerStatistic> PlayerStatistics { get; set; }
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
+            modelBuilder.Entity<Bet>(entity =>
+            {
+                entity
+                .HasKey(u => u.BetId);
+
+                entity
+                .Property(b => b.Amount)
+                .IsRequired();
+
+                entity
+                .Property(b => b.Prediction)
+                .IsRequired();
+
+                entity
+                .Property(b => b.DateTime)
+                .IsRequired();
+
+                entity
+                .HasOne(b => b.User)
+                .WithMany(u => u.Bets)
+                .HasForeignKey(u => u.UserId);
+
+                entity
+                .HasOne(b => b.Game)
+                .WithMany(g => g.Bets)
+                .HasForeignKey(b => b.GameId);
+            });
+
             modelBuilder.Entity<Team>(entity =>
             {
                 entity
@@ -88,7 +107,147 @@ namespace P03_FootballBetting.Data
 
             });
 
-            base.OnModelCreating(modelBuilder);
+            modelBuilder.Entity<User>(entity =>
+            {
+                entity
+                .HasKey(u => u.UserId);
+
+                entity
+                .Property(u => u.Username)
+                .IsRequired()
+                .IsUnicode(false)
+                .HasMaxLength(20);
+
+                entity
+                .Property(u => u.Password)
+                .IsRequired(true)
+                .IsUnicode(false)
+                .HasMaxLength(20);
+
+                entity
+                .Property(u => u.Email)
+                .IsRequired()
+                .IsUnicode(false)
+                .HasMaxLength(30);
+
+                entity
+                .Property(u => u.Name)
+                .IsRequired()
+                .IsUnicode(true)
+                .HasMaxLength(25);
+
+            });
+
+            modelBuilder.Entity<Game>(entity =>
+            {
+                entity
+                .HasKey(g => g.GameId);
+
+                entity
+                .HasOne(g => g.HomeTeam)
+                .WithMany(t => t.HomeGames)
+                .HasForeignKey(g => g.HomeTeamId);
+
+                entity
+                .HasOne(g => g.AwayTeam)
+                .WithMany(t => t.AwayGames)
+                .HasForeignKey(g => g.AwayTeamId);
+
+            });
+
+            modelBuilder.Entity<Town>(entity =>
+            {
+                entity
+                .HasKey(tw => tw.TownId);
+
+                entity
+                .Property(tw => tw.Name)
+                .IsRequired()
+                .IsUnicode(true)
+                .HasMaxLength(30);
+
+                entity
+                .HasOne(tw => tw.Country)
+                .WithMany(co => co.Towns)
+                .HasForeignKey(tw => tw.CountryId);
+            });
+
+            modelBuilder.Entity<Color>(entity =>
+            {
+                entity
+                .HasKey(c => c.ColorId);
+
+                entity
+                .Property(c => c.Name)
+                .IsRequired(true)
+                .IsUnicode(true)
+                .HasMaxLength(30);
+            });
+
+            modelBuilder.Entity<Player>(entity =>
+            {
+                entity
+                .HasKey(p => p.PlayerId);
+
+                entity
+                .Property(p => p.Name)
+                .IsRequired()
+                .IsUnicode(true)
+                .HasMaxLength(30);
+
+                entity
+                .HasOne(p => p.Team)
+                .WithMany(t => t.Players)
+                .HasForeignKey(p => p.TeamId);
+
+                entity
+                .HasOne(p => p.Position)
+                .WithMany(po => po.Players)
+                .HasForeignKey(p => p.PositionId);
+            });
+
+            modelBuilder.Entity<Country>(entity =>
+            { 
+                entity
+                .HasKey(c => c.CountryId);
+
+                entity
+                .Property(c => c.Name)
+                .IsRequired(true)
+                .IsUnicode(true)
+                .HasMaxLength(30);
+            
+            });
+
+            modelBuilder.Entity<Position>(entity =>
+            {
+                entity
+                .HasKey(p => p.PositionId);
+
+                entity
+                .Property(p => p.Name)
+                .IsRequired()
+                .IsUnicode(true)
+                .HasMaxLength(30);
+
+            });
+
+            modelBuilder.Entity<PlayerStatistic>(entity =>
+            {
+                entity
+                .HasKey(ps => new { ps.PlayerId, ps.GameId });
+
+                entity
+                .HasOne(ps => ps.Game)
+                .WithMany(g => g.PlayerStatistics)
+                .HasForeignKey(ps => ps.GameId);
+
+                entity
+                .HasOne(ps => ps.Player)
+                .WithMany(g => g.PlayerStatistics)
+                .HasForeignKey(ps => ps.PlayerId);
+
+            });
         }
     }
 }
