@@ -2,6 +2,10 @@
 {
     public class User
     {
+        public User()
+        {
+            this.Bets= new HashSet<Bet>();
+        }
         public int UserId { get; set; }
 
         public string Username { get; set; }
@@ -14,6 +18,6 @@
 
         public decimal Balance { get; set; }
 
-        public ICollection<Bet> Bets { get; set; }
+        public virtual ICollection<Bet> Bets { get; set; }
     }
 }

@@ -1,9 +1,12 @@
-﻿using System.Reflection.Metadata.Ecma335;
-
-namespace P03_FootballBetting.Data.Models
+﻿namespace P03_FootballBetting.Data.Models
 {
     public class Game
     {
+        public Game()
+        {
+            this.PlayerStatistics = new HashSet<PlayerStatistic>();
+            this.Bets= new HashSet<Bet>();
+        }
         public int GameId { get; set; }
 
         public int HomeTeamId { get; set; }
@@ -28,8 +31,8 @@ namespace P03_FootballBetting.Data.Models
 
         public string Result { get; set; }
 
-        public ICollection<PlayerStatistic> PlayerStatistics { get; set; }
+        public virtual ICollection<PlayerStatistic> PlayerStatistics { get; set; }
 
-        public ICollection<Bet> Bets { get; set; }  
+        public virtual ICollection<Bet> Bets { get; set; }
     }
 }
