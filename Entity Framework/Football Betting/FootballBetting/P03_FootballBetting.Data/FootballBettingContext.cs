@@ -46,8 +46,48 @@ namespace P03_FootballBetting.Data
         public DbSet<Town> Towns { get; set; }
 
         public DbSet<User> Users { get; set; }
+
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
+            modelBuilder.Entity<Team>(entity =>
+            {
+                entity
+                .HasKey(t => t.TeamId);
+
+                entity
+                .Property(t => t.Name)
+                .IsRequired()
+                .IsUnicode()
+                .HasMaxLength(50);
+
+                entity
+                .Property(t => t.Initials)
+                .IsRequired()
+                .IsUnicode()
+                .HasMaxLength(3);
+
+                entity
+                .Property(t => t.Budget)
+                .IsRequired();
+
+
+                entity
+                .HasOne(t => t.PrimaryKitColor)
+                .WithMany(c => c.PrimaryKitTeams)
+                .HasForeignKey(t => t.PrimaryKitColorId);
+
+                entity
+                .HasOne(t => t.SecondaryKitColor)
+                .WithMany(c => c.SecondaryKitTeams)
+                .HasForeignKey(t => t.SecondaryKitColorId);
+
+                entity
+                .HasOne(t => t.Town)
+                .WithMany(tw => tw.Teams)
+                .HasForeignKey(t => t.TownId);
+
+            });
+
             base.OnModelCreating(modelBuilder);
         }
     }
