@@ -1,0 +1,193 @@
+{
+  "format": 1,
+  "restore": {
+    "D:\\Pavel\\SoftUni\\C# Job prep\\Entity Framework\\LINQ\\P01_HospitalDatabase\\P01_HospitalDatabase\\P01_HospitalDatabase.csproj": {}
+  },
+  "projects": {
+    "D:\\Pavel\\SoftUni\\C# Job prep\\Entity Framework\\LINQ\\P01_HospitalDatabase\\P01_HospitalDatabase.Data.Models\\P01_HospitalDatabase.Data.Models.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Pavel\\SoftUni\\C# Job prep\\Entity Framework\\LINQ\\P01_HospitalDatabase\\P01_HospitalDatabase.Data.Models\\P01_HospitalDatabase.Data.Models.csproj",
+        "projectName": "P01_HospitalDatabase.Data.Models",
+        "projectPath": "D:\\Pavel\\SoftUni\\C# Job prep\\Entity Framework\\LINQ\\P01_HospitalDatabase\\P01_HospitalDatabase.Data.Models\\P01_HospitalDatabase.Data.Models.csproj",
+        "packagesPath": "C:\\Users\\herrp\\.nuget\\packages\\",
+        "outputPath": "D:\\Pavel\\SoftUni\\C# Job prep\\Entity Framework\\LINQ\\P01_HospitalDatabase\\P01_HospitalDatabase.Data.Models\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\herrp\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.101\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\Pavel\\SoftUni\\C# Job prep\\Entity Framework\\LINQ\\P01_HospitalDatabase\\P01_HospitalDatabase.Data\\P01_HospitalDatabase.Data.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Pavel\\SoftUni\\C# Job prep\\Entity Framework\\LINQ\\P01_HospitalDatabase\\P01_HospitalDatabase.Data\\P01_HospitalDatabase.Data.csproj",
+        "projectName": "P01_HospitalDatabase.Data",
+        "projectPath": "D:\\Pavel\\SoftUni\\C# Job prep\\Entity Framework\\LINQ\\P01_HospitalDatabase\\P01_HospitalDatabase.Data\\P01_HospitalDatabase.Data.csproj",
+        "packagesPath": "C:\\Users\\herrp\\.nuget\\packages\\",
+        "outputPath": "D:\\Pavel\\SoftUni\\C# Job prep\\Entity Framework\\LINQ\\P01_HospitalDatabase\\P01_HospitalDatabase.Data\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\herrp\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "D:\\Pavel\\SoftUni\\C# Job prep\\Entity Framework\\LINQ\\P01_HospitalDatabase\\P01_HospitalDatabase.Data.Models\\P01_HospitalDatabase.Data.Models.csproj": {
+                "projectPath": "D:\\Pavel\\SoftUni\\C# Job prep\\Entity Framework\\LINQ\\P01_HospitalDatabase\\P01_HospitalDatabase.Data.Models\\P01_HospitalDatabase.Data.Models.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[3.1.0, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[3.1.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.101\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\Pavel\\SoftUni\\C# Job prep\\Entity Framework\\LINQ\\P01_HospitalDatabase\\P01_HospitalDatabase\\P01_HospitalDatabase.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Pavel\\SoftUni\\C# Job prep\\Entity Framework\\LINQ\\P01_HospitalDatabase\\P01_HospitalDatabase\\P01_HospitalDatabase.csproj",
+        "projectName": "P01_HospitalDatabase",
+        "projectPath": "D:\\Pavel\\SoftUni\\C# Job prep\\Entity Framework\\LINQ\\P01_HospitalDatabase\\P01_HospitalDatabase\\P01_HospitalDatabase.csproj",
+        "packagesPath": "C:\\Users\\herrp\\.nuget\\packages\\",
+        "outputPath": "D:\\Pavel\\SoftUni\\C# Job prep\\Entity Framework\\LINQ\\P01_HospitalDatabase\\P01_HospitalDatabase\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\herrp\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "D:\\Pavel\\SoftUni\\C# Job prep\\Entity Framework\\LINQ\\P01_HospitalDatabase\\P01_HospitalDatabase.Data\\P01_HospitalDatabase.Data.csproj": {
+                "projectPath": "D:\\Pavel\\SoftUni\\C# Job prep\\Entity Framework\\LINQ\\P01_HospitalDatabase\\P01_HospitalDatabase.Data\\P01_HospitalDatabase.Data.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.101\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
