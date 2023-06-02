@@ -16,9 +16,9 @@
             using var db = new BookShopContext();
             //DbInitializer.ResetDatabase(db);
 
-            var input = Console.ReadLine();
+            var input = int.Parse(Console.ReadLine());
 
-            string result = GetBookTitlesContaining(db, input);
+            int result = CountBooks(db, input);
 
             Console.WriteLine(result);
         }
@@ -201,6 +201,41 @@
 
 
             return String.Join(Environment.NewLine, books);
+        }
+
+        public static string GetBooksByAuthor(BookShopContext context, string input)
+        {
+            var sb = new StringBuilder();
+
+            var booksAuthors = context
+                .Books
+                .Where(b => b.Author.LastName.ToLower().StartsWith(input.ToLower()))
+                .Select(b => new
+                {
+                    b.BookId,
+                    b.Title,
+                    b.Author
+                })
+                .OrderBy(x => x.BookId)
+                .ToList();
+
+            foreach (var booksAuthor in booksAuthors)
+            {
+                sb.AppendLine($"{booksAuthor.Title} ({booksAuthor.Author.FirstName} {booksAuthor.Author.LastName})");
+            }
+
+            return sb.ToString().TrimEnd();
+        }
+
+        public static int CountBooks(BookShopContext context, int lengthCheck)
+        {
+            var booksCount = context
+                .Books
+                .Where(b => b.Title.Length > lengthCheck)
+                .Select(b => b.Title)
+                .ToList();
+
+            return booksCount.Count;
         }
 
     }
