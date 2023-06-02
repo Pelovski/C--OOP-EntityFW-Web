@@ -18,7 +18,7 @@
 
             var input = Console.ReadLine();
 
-            string result = GetBooksReleasedBefore(db, input);
+            string result = GetBookTitlesContaining(db, input);
 
             Console.WriteLine(result);
         }
@@ -163,6 +163,44 @@
             }
 
             return sb.ToString().TrimEnd();
+        }
+
+        public static string GetAuthorNamesEndingIn(BookShopContext context, string input)
+        {
+            var sb = new StringBuilder();
+
+            var authorsNames = context
+                .Authors
+                .Where(a => a.FirstName.ToLower().EndsWith(input.ToLower()))
+                .Select(a => new
+                {
+                    a.FirstName,
+                    a.LastName
+                })
+                .OrderBy(x => x.FirstName)
+                .ThenBy(x => x.LastName)
+                .ToList();
+
+            foreach (var authorsName in authorsNames)
+            {
+                sb.AppendLine($"{authorsName.FirstName} {authorsName.LastName}");
+            }
+
+            return sb.ToString().TrimEnd();
+        }
+
+        public static string GetBookTitlesContaining(BookShopContext context, string input)
+        {
+
+            var books = context
+                .Books
+                .Where(b => b.Title.ToLower().Contains(input.ToLower()))
+                .Select(b => b.Title)
+                .OrderBy(x => x)
+                .ToList();
+
+
+            return String.Join(Environment.NewLine, books);
         }
 
     }
