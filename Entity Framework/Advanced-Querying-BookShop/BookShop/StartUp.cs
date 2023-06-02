@@ -14,7 +14,9 @@
             using var db = new BookShopContext();
             //DbInitializer.ResetDatabase(db);
 
-            string result = GetGoldenBooks(db);
+            var input = int.Parse(Console.ReadLine());
+
+            string result = GetBooksNotReleasedIn(db, input);
 
             Console.WriteLine(result);
         }
@@ -59,5 +61,53 @@
 
             return sb.ToString().TrimEnd();
         }
+
+        public static string GetBooksByPrice(BookShopContext context)
+        {
+            var sb = new StringBuilder();
+
+            var books = context
+                .Books
+                .Where(b => b.Price > 40)
+                .Select(b => new
+                {
+                    b.Title,
+                    b.Price
+                })
+                .OrderByDescending(b => b.Price)
+                .ToList();
+
+            foreach (var book in books)
+            {
+                sb.AppendLine($"{book.Title} - ${book.Price:f2}");
+            }
+
+            return sb.ToString().TrimEnd();
+        }
+
+        public static string GetBooksNotReleasedIn(BookShopContext context, int year)
+        {
+            var sb = new StringBuilder();
+
+            var books = context
+                .Books
+                .Where(b => b.ReleaseDate.Value.Year != year)
+                .Select(b => new
+                {
+                    b.BookId,
+                    b.Title
+                })
+                .OrderBy(b => b.BookId)
+                .ToList();
+
+            foreach (var book in books)
+            {
+                sb.AppendLine(book.Title);
+            }
+
+            return sb.ToString().TrimEnd();
+        }
+
+
     }
 }
