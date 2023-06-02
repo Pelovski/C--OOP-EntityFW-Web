@@ -1,7 +1,9 @@
 ﻿namespace BookShop
 {
     using System;
+    using System.Collections.Generic;
     using System.Linq;
+    using System.Security.Cryptography.X509Certificates;
     using System.Text;
     using BookShop.Models.Enums;
     using Data;
@@ -14,9 +16,9 @@
             using var db = new BookShopContext();
             //DbInitializer.ResetDatabase(db);
 
-            var input = int.Parse(Console.ReadLine());
+            var input = Console.ReadLine();
 
-            string result = GetBooksNotReleasedIn(db, input);
+            string result = GetBooksReleasedBefore(db, input);
 
             Console.WriteLine(result);
         }
@@ -108,6 +110,60 @@
             return sb.ToString().TrimEnd();
         }
 
+        public static string GetBooksByCategory(BookShopContext context, string input)
+        {
+
+            var caterogies = input
+                .Split(" ", StringSplitOptions.RemoveEmptyEntries)
+                .Select(c => c.ToLower())
+                .ToList();
+
+            var bookTitles = new List<string>();
+
+            foreach (var categorie in caterogies)
+            {
+                var currenBookTitles = context
+                    .Books
+                    .Where(b => b.BookCategories
+                    .Any(bc => bc.Category.Name == categorie))
+                    .Select(b => b.Title)
+                    .ToList();
+
+                bookTitles.AddRange(currenBookTitles);
+            }
+
+            bookTitles = bookTitles
+                .OrderBy(x => x)
+                .ToList();
+
+            return String.Join(Environment.NewLine, bookTitles);
+        }
+
+        public static string GetBooksReleasedBefore(BookShopContext context, string date)
+        {
+            var sb = new StringBuilder();
+
+            var books = context
+                .Books
+                .ToList()
+                .Where(b => b.ReleaseDate.Value.Date < DateTime.Parse(date))
+                .Select(b => new
+                {
+                    b.Title,
+                    b.EditionType,
+                    b.Price,
+                    b.ReleaseDate
+                })
+                .OrderByDescending(x => x.ReleaseDate)
+                .ToList();
+
+            foreach (var book in books)
+            {
+                sb.AppendLine($"{book.Title} - {book.EditionType} - ${book.Price:f2}");
+            }
+
+            return sb.ToString().TrimEnd();
+        }
 
     }
 }
