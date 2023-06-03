@@ -298,13 +298,13 @@
                 {
                     c.Name,
                     RecentBooks = c.CategoryBooks
-                                        .Select(cb => new
-                                        {
-                                            BookTitle = cb.Book.Title + " (" + cb.Book.ReleaseDate.Value.Year + ")",
-                                            Date = cb.Book.ReleaseDate
-                                        })
-                                        .OrderByDescending(x => x.Date)
-                                        .Take(3)
+                                    .Select(cb => new
+                                    {
+                                      BookTitle = cb.Book.Title + " (" + cb.Book.ReleaseDate.Value.Year + ")",
+                                      Date = cb.Book.ReleaseDate
+                                    })
+                                    .OrderByDescending(x => x.Date)
+                                    .Take(3)
                 })
                 .OrderBy(x => x.Name)
                 .ToList();
@@ -320,6 +320,37 @@
             }
 
             return sb.ToString().TrimEnd();
+        }
+
+        public static void IncreasePrices(BookShopContext context)
+        {
+            var books = context
+                .Books
+                .Where(b => b.ReleaseDate!= null && b.ReleaseDate.Value.Year < 2010)
+                .ToArray();
+
+            foreach (var book in books)
+            {
+                book.Price += 5;
+            }
+
+            context.SaveChanges();
+        }
+
+        public static int RemoveBooks(BookShopContext context)
+        {
+            var books = context
+                .Books
+                .Where(b => b.Copies < 4200)
+                .ToList();
+
+            var removedBooks = books.Count();
+
+            context.RemoveRange(books);
+
+            context.SaveChanges();
+
+            return removedBooks;
         }
     }
 }
