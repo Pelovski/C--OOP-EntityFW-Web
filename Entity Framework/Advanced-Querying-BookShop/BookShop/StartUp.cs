@@ -8,6 +8,7 @@
     using BookShop.Models.Enums;
     using Data;
     using Initializer;
+    using Microsoft.EntityFrameworkCore;
 
     public class StartUp
     {
@@ -18,7 +19,7 @@
 
             //var input = int.Parse(Console.ReadLine());
 
-            var result = CountCopiesByAuthor(db);
+            var result = GetMostRecentBooks(db);
 
             Console.WriteLine(result);
         }
@@ -257,6 +258,65 @@
             foreach (var booksCopie in booksCopies)
             {
                 sb.AppendLine($"{booksCopie.FullName} - {booksCopie.TotalCopies}");
+            }
+
+            return sb.ToString().TrimEnd();
+        }
+
+        public static string GetTotalProfitByCategory(BookShopContext context)
+        {
+            var sb = new StringBuilder();
+
+            var booksProfit = context
+                .Categories
+                .Select(c => new
+                {
+                    c.Name,
+                    TotalProfit = c.CategoryBooks
+                                        .Select(cb => cb.Book.Copies * cb.Book.Price)
+                                        .Sum()
+                })
+                .OrderByDescending(x => x.TotalProfit)
+                .ThenBy(x => x.Name)
+                .ToList();       
+
+            foreach (var bp in booksProfit)
+            {
+                sb.AppendLine($"{bp.Name} ${bp.TotalProfit:f2}");    
+            }  
+
+            return sb.ToString().TrimEnd();
+        }
+
+        public static string GetMostRecentBooks(BookShopContext context)
+        {
+            var sb = new StringBuilder();
+
+            var categories = context
+                .Categories
+                .Select(c => new
+                {
+                    c.Name,
+                    RecentBooks = c.CategoryBooks
+                                        .Select(cb => new
+                                        {
+                                            BookTitle = cb.Book.Title + " (" + cb.Book.ReleaseDate.Value.Year + ")",
+                                            Date = cb.Book.ReleaseDate
+                                        })
+                                        .OrderByDescending(x => x.Date)
+                                        .Take(3)
+                })
+                .OrderBy(x => x.Name)
+                .ToList();
+
+            foreach (var category in categories)
+            {
+                sb.AppendLine($"--{category.Name}");
+
+                foreach (var books in category.RecentBooks)
+                {
+                    sb.AppendLine($"{books.BookTitle}");
+                }
             }
 
             return sb.ToString().TrimEnd();
