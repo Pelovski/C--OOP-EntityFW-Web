@@ -1,0 +1,5 @@
+D:\Pavel\SoftUni\C# Job prep\Entity Framework\Auto-Mapping-Objects-Project\FastFood.Core\obj\Debug\netcoreapp2.1\FastFood.Core.csproj.AssemblyReference.cache
+D:\Pavel\SoftUni\C# Job prep\Entity Framework\Auto-Mapping-Objects-Project\FastFood.Core\obj\Debug\netcoreapp2.1\FastFood.Core.GeneratedMSBuildEditorConfig.editorconfig
+D:\Pavel\SoftUni\C# Job prep\Entity Framework\Auto-Mapping-Objects-Project\FastFood.Core\obj\Debug\netcoreapp2.1\FastFood.Core.AssemblyInfoInputs.cache
+D:\Pavel\SoftUni\C# Job prep\Entity Framework\Auto-Mapping-Objects-Project\FastFood.Core\obj\Debug\netcoreapp2.1\FastFood.Core.AssemblyInfo.cs
+D:\Pavel\SoftUni\C# Job prep\Entity Framework\Auto-Mapping-Objects-Project\FastFood.Core\obj\Debug\netcoreapp2.1\FastFood.Core.csproj.CoreCompileInputs.cache
