@@ -6,6 +6,7 @@
     using AutoMapper;
     using AutoMapper.QueryableExtensions;
     using Data;
+    using FastFood.Core.ViewModels.Categories;
     using FastFood.Models;
     using Microsoft.AspNetCore.Mvc;
     using ViewModels.Items;
@@ -48,6 +49,7 @@
 
         public IActionResult All()
         {
+
             List<ItemsAllViewModels> items = this.context
                 .Items
                 .ProjectTo<ItemsAllViewModels>(this.mapper.ConfigurationProvider)
