@@ -19,12 +19,12 @@
         <select id="category" class="form-control" name="CategoryId">
             @foreach (var item in Model)
             {
-                <option value="@item.CategoryId">@item.CategoryId</option>
+                <option value="@item.CategoryId">@item.CategoryName</option>
             }
         </select>
     </div>
     <hr class="bg-secondary half-width" />
     <div class="button-holder d-flex justify-content-center">
-        <button type="submit" class="btn ">Create</button>
+        <button type="submit" class="btn btn-success">Create</button>
     </div>
 </form>
