@@ -1,8 +1,8 @@
 ﻿using SUS.HTTP;
 
-internal class Program
+ class Program
 {
-    private static void Main(string[] args)
+     static async Task Main(string[] args)
     {
         IHttpServer server = new HttpServer();
 
@@ -12,7 +12,7 @@ internal class Program
         server.AddRoute("/about", About);
         server.AddRoute("/users/login", Login);
 
-        server.Start(80);
+        await server.StartAsync(80);
     }
 
     static HttpResponse HomePage(HttpRequest request)

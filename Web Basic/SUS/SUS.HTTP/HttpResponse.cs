@@ -1,6 +1,6 @@
 ﻿namespace SUS.HTTP
 {
-    public class HttpResponce
+    public class HttpResponse
     {
     }
 }
