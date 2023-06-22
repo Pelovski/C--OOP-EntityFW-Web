@@ -2,10 +2,12 @@
 {
     using System.Net;
     using System.Net.Sockets;
+    using System.Reflection.Metadata;
     using System.Text;
 
     public class HttpServer : IHttpServer
     {
+        private const int BufferSize = 4096;
         IDictionary<string, Func<HttpRequest, HttpResponse>> 
             routeTable = new Dictionary<string, Func<HttpRequest, HttpResponse>>();
         public void AddRoute(string path, Func<HttpRequest, HttpResponse> action)
@@ -39,7 +41,7 @@
             {
                 List<byte> data = new List<byte>();
 
-                byte[] buffer = new byte[4096];
+                byte[] buffer = new byte[BufferSize];
                 int position = 0;
 
                 while (true)

@@ -11,8 +11,14 @@
         server.AddRoute("/", HomePage);
         server.AddRoute("/about", About);
         server.AddRoute("/users/login", Login);
+        server.AddRoute("/favicon.ico", Favicon);
 
         await server.StartAsync(80);
+    }
+
+    static HttpResponse Favicon(HttpRequest request)
+    {
+        throw new NotImplementedException();
     }
 
     static HttpResponse HomePage(HttpRequest request)
