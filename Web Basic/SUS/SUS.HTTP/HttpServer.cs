@@ -8,6 +8,8 @@
     public class HttpServer : IHttpServer
     {
         private const int BufferSize = 4096;
+        private const string NewLine = "\r\n";
+
         IDictionary<string, Func<HttpRequest, HttpResponse>> 
             routeTable = new Dictionary<string, Func<HttpRequest, HttpResponse>>();
         public void AddRoute(string path, Func<HttpRequest, HttpResponse> action)
@@ -67,9 +69,25 @@
                 var requestAsString = Encoding.UTF8.GetString(data.ToArray());
 
                 Console.WriteLine(requestAsString);
-               // await stream.WriteAsync();
+
+                var responseHTML = "<h1>Welcome!</h1>";
+                var responseBodyBytes = Encoding.UTF8.GetBytes(responseHTML);
+
+                var responeHTTP = "HTTP/1.1 200 OK" + NewLine +
+                                   "Server: SUS Server 1.0" + NewLine +
+                                   "Content-Type: text/html" + NewLine +
+                                   "Content-Lenght: " + responseBodyBytes.Length + NewLine
+                                   + NewLine;
+
+                var responseHeadersBytes = Encoding.UTF8.GetBytes(responeHTTP);
+
+                await stream.WriteAsync(responseHeadersBytes, 0, responseHeadersBytes.Length);
+                await stream.WriteAsync(responseBodyBytes, 0, responseBodyBytes.Length);
+
             }
-            
+
+            tcpClient.Close();
+
         }
     }
 }
