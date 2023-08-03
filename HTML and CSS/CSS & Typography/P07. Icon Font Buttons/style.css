@@ -1,0 +1,25 @@
+body{
+    margin-top: 80px;
+}
+.click a{
+    background-color: green;
+}
+
+.email a{
+    background-color: orange;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+    margin: 10px;
+    padding: 10px;
+}
+
+.click{
+    margin-bottom: 30px;
+}
+
+.icon{
+    margin-right: 5px;
+}
