@@ -1,0 +1,21 @@
+body{
+    margin-top: 50px;
+    font-size: 16px;
+    line-height: 1.5;
+    font-family: Helvetica, sans-serif;
+
+}
+
+article{
+    padding: 20px;
+    background-color: rgb(51, 102, 153);
+    border-radius: 1rem;
+}
+
+article p {
+    color: white;
+}
+
+article h1 {
+    color: white;
+}
