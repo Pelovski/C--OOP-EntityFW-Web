@@ -1,0 +1,37 @@
+/*
+  1. Use a more-intuitive box-sizing model.
+*/
+*, *::before, *::after {
+    box-sizing: border-box;
+  }
+
+body{
+    font-family: Georgia, sans-serif, serif;
+    background-color: rgb(238, 238, 238);
+}
+
+.card{
+    position: relative;
+    background-color:  rgb(255, 255, 255);
+    width: 100%; /* Optionally, set the width of the section */
+    height: 100vh; /* Set the height of the section to 100% of the viewport height */
+    display: flex;
+    justify-content: center; /* Center horizontally */
+    align-items: center; /* Center vertically */
+    
+}
+
+.card a{
+    background-color: rgb(0, 153, 0);
+    color: white;
+    text-decoration: none;
+    border: 5px solid  rgb(0, 153, 0);
+}
+
+.card img {
+    position: absolute;
+
+    top: 50%;
+    left: 50%;
+   transform: translate(-50%, 50%);
+}
