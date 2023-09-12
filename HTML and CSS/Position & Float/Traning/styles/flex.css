@@ -1,0 +1,22 @@
+.container {
+  border: 2px dashed black;
+
+  display: flex;
+  /* flex-direction: column;
+  flex-wrap: wrap;
+  height: 150px; */
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  align-items: stretch;
+  align-content: center;
+  height: 600px;
+
+}
+
+.container .item {
+  width: 200px;
+}
+
+.container .item:nth-child(1){
+  height: 80px;
+}

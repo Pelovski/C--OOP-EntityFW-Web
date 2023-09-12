@@ -1,0 +1,42 @@
+/* Make the ul inline-block */
+.circle-list {
+    list-style: none;
+    padding: 0;
+    display: inline-block; /* Change to inline-block */
+    white-space: nowrap;
+  }
+  
+  /* Rest of the CSS remains the same */
+  /* Style the list items */
+  .circle-list li {
+    text-align: center;
+    margin-right: 20px; /* Add right margin for spacing between inline-block elements */
+    display: inline-block;
+  }
+  
+  /* Style the anchor links */
+  .circle-list li a {
+    display: block;
+    width: 60px; /* Set the desired width and height for your circular border */
+    height: 60px;
+    border-radius: 50%; /* Create a circular border */
+    border: 1px solid rgb(245, 242, 242); /* Customize the border color and width */
+    text-decoration: none; /* Remove underline */
+    background-color: rgb(231, 229, 229);
+  }
+  
+  /* Style the <i> element (which contains the image) */
+  .circle-list li a i {
+    display: flex;
+    color: black;
+    justify-content: center;
+    align-items: center;
+    height: 100%; /* Make the <i> element fill the entire anchor link */
+    font-size: 30px;
+  }
+  
+  /* Style the image within the <i> element */
+  .circle-list li a i img {
+    max-width: 100%; /* Ensure the image does not exceed the <i> element's dimensions */
+    max-height: 100%;
+  }
