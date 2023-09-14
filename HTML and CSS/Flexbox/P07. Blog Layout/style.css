@@ -1,0 +1,65 @@
+body{
+    background-color: rgb(238, 238, 238);
+    margin: 50px;
+}
+
+img{
+    background-color: rgb(255, 255, 255);
+    width: 15vw;
+}
+
+blockquote{
+    font-family: Georgia, serif;
+}
+
+li{
+    color: rgb(0, 153, 0);
+    list-style-type: none;
+}
+
+h1,
+h2,
+h3{
+    font-family: Georgia, serif;
+}
+
+h1{
+    text-transform: uppercase;
+    border-bottom: 2px solid black;
+}
+
+.page{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+
+.first-article .content {
+    display: flex;
+    flex-direction: row; /* Arrange children horizontally */
+    align-items: flex-start; /* Align children to the top */
+    justify-content: space-between; /* Create space between children */
+}
+
+/* Adjust styles for the text */
+.first-article .content .text {
+    flex: 1; /* Allow the text to grow and take remaining space */
+}
+
+/* Adjust styles for the image */
+.first-article img {
+    width: 15vw;
+    margin-left: 20px; /* Add left margin for spacing */
+    position: absolute;
+    right: 20px;
+}
+
+/* Adjust styles for paragraphs */
+.first-article p {
+    margin-bottom: 20px;
+}
+
+p{
+    width: 70%;
+}
+

@@ -1,0 +1,21 @@
+body{
+    background-color: rgb(243, 243, 243);
+    font-family: Helvetica, sans-serif;
+}
+
+h2{
+    background-color: rgb(59, 81, 107);
+    color: rgb(239, 244, 238);
+    border-radius: 10px;
+    padding: 24px;
+    text-decoration: underline;
+}
+
+li{
+    padding: 8px;
+}
+
+ol{
+    display: flex;
+    flex-direction: column-reverse;
+}
