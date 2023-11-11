@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Pavel\\SoftUni\\C# Job prep\\Entity Framework\\Introduction to Entity Framework\\Introduction to Entity Framework\\P01. Import the SoftUni Database\\P01. Import the SoftUni Database.csproj": {}
+    "D:\\Pavel\\SoftUni\\C# Job prep\\Entity Framework\\Again\\Introduction to Entity Framework\\Introduction to Entity Framework\\Introduction to Entity Framework\\Introduction to Entity Framework.csproj": {}
   },
   "projects": {
-    "D:\\Pavel\\SoftUni\\C# Job prep\\Entity Framework\\Introduction to Entity Framework\\Introduction to Entity Framework\\P01. Import the SoftUni Database\\P01. Import the SoftUni Database.csproj": {
+    "D:\\Pavel\\SoftUni\\C# Job prep\\Entity Framework\\Again\\Introduction to Entity Framework\\Introduction to Entity Framework\\Introduction to Entity Framework\\Introduction to Entity Framework.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Pavel\\SoftUni\\C# Job prep\\Entity Framework\\Introduction to Entity Framework\\Introduction to Entity Framework\\P01. Import the SoftUni Database\\P01. Import the SoftUni Database.csproj",
-        "projectName": "P01. Import the SoftUni Database",
-        "projectPath": "D:\\Pavel\\SoftUni\\C# Job prep\\Entity Framework\\Introduction to Entity Framework\\Introduction to Entity Framework\\P01. Import the SoftUni Database\\P01. Import the SoftUni Database.csproj",
+        "projectUniqueName": "D:\\Pavel\\SoftUni\\C# Job prep\\Entity Framework\\Again\\Introduction to Entity Framework\\Introduction to Entity Framework\\Introduction to Entity Framework\\Introduction to Entity Framework.csproj",
+        "projectName": "Introduction to Entity Framework",
+        "projectPath": "D:\\Pavel\\SoftUni\\C# Job prep\\Entity Framework\\Again\\Introduction to Entity Framework\\Introduction to Entity Framework\\Introduction to Entity Framework\\Introduction to Entity Framework.csproj",
         "packagesPath": "C:\\Users\\herrp\\.nuget\\packages\\",
-        "outputPath": "D:\\Pavel\\SoftUni\\C# Job prep\\Entity Framework\\Introduction to Entity Framework\\Introduction to Entity Framework\\P01. Import the SoftUni Database\\obj\\",
+        "outputPath": "D:\\Pavel\\SoftUni\\C# Job prep\\Entity Framework\\Again\\Introduction to Entity Framework\\Introduction to Entity Framework\\Introduction to Entity Framework\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\herrp\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -39,12 +39,6 @@
       "frameworks": {
         "net6.0": {
           "targetAlias": "net6.0",
-          "dependencies": {
-            "Microsoft.EntityFrameworkCore.SqlServer": {
-              "target": "Package",
-              "version": "[3.1.30, )"
-            }
-          },
           "imports": [
             "net461",
             "net462",
