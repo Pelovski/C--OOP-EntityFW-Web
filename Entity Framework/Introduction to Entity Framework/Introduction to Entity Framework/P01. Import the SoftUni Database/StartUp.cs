@@ -11,7 +11,7 @@ internal class StartUp
     {
         SoftUniContext context = new SoftUniContext();
 
-        string result = GetAddressesByTown(context);
+        string result = GetEmployeesFullInformation(context);
 
         Console.WriteLine(result);
     }
