@@ -1,4 +1,5 @@
-﻿using P01._Import_the_SoftUni_Database.Data;
+﻿using Microsoft.EntityFrameworkCore;
+using P01._Import_the_SoftUni_Database.Data;
 using P01._Import_the_SoftUni_Database.Data.Models;
 using System.Text;
 
@@ -8,7 +9,7 @@ internal class StartUp
     {
         var context = new SoftUniContext();
 
-        string result = GetEmployeesFromResearchAndDevelopment(context);
+        string result = AddNewAddressToEmployee(context);
 
 
         Console.WriteLine(result);
@@ -92,6 +93,46 @@ internal class StartUp
         foreach ( var employee in employees)
         {
             sb.AppendLine($"{employee.FirstName} {employee.LastName} from {employee.DepartmentName} - ${employee.Salary:f2}");
+        }
+
+
+        return sb.ToString().TrimEnd();
+    }
+
+    //6.	Adding a New Address and Updating Employee
+
+    public static string AddNewAddressToEmployee(SoftUniContext context)
+    {
+        var sb = new StringBuilder();
+
+        var person = context.Employees.First(x => x.LastName == "Abbas");
+
+        var adress = new Addresse()
+        {
+            AddressId = 4,
+            AddressText = "Vitoshka 15"
+        };
+
+
+        person.Address = adress;
+
+        context.Update(person);
+        context.SaveChanges();
+
+        var employees = context
+            .Employees
+            .Select(e => new
+            {
+                e.Address.AddressId,
+                e.Address.AddressText
+            })
+            .OrderByDescending(e => e.AddressId)
+            .ToList();
+
+
+        foreach ( var employee in employees)
+        {
+            sb.AppendLine($"{employee.AddressText}");
         }
 
 
