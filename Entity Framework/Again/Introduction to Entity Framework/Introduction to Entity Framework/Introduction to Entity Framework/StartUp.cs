@@ -9,7 +9,7 @@ internal class StartUp
     {
         var context = new SoftUniContext();
 
-        string result = AddNewAddressToEmployee(context);
+        string result = GetDepartmentsWithMoreThan5Employees(context);
 
 
         Console.WriteLine(result);
@@ -105,7 +105,7 @@ internal class StartUp
     {
         var sb = new StringBuilder();
 
-        var person = context.Employees.First(x => x.LastName == "Abbas");
+        var person = context.Employees.First(x => x.LastName == "Nakov");
 
         var adress = new Addresse()
         {
@@ -135,6 +135,52 @@ internal class StartUp
             sb.AppendLine($"{employee.AddressText}");
         }
 
+
+        return sb.ToString().TrimEnd();
+    }
+
+    //10.	Departments with More Than 5 Employees
+
+    public static string GetDepartmentsWithMoreThan5Employees(SoftUniContext context)
+    {
+        var sb = new StringBuilder();
+
+        var departments = context
+            .Departments
+            .Where(d => d.Employees.Count > 5)
+            .Select(d => new
+            {
+                EmployeesCount = d.Employees.Count,
+                d.Name,
+                d.Manager,
+                Employees = d.Employees
+                    .Select(e => new
+                    {
+                        e.FirstName,
+                        e.LastName,
+                        e.JobTitle
+                    })
+                    .OrderBy(e => e.FirstName)
+                    .ThenBy(e => e.LastName)
+                    .ToList()
+            })
+            .OrderBy(x => x.EmployeesCount)
+            .ThenBy(x => x.Name)
+            .ToList();
+
+
+        foreach (var department in departments)
+        {
+            sb.AppendLine($"{department.Name} - {department.Manager.FirstName} {department.Manager.LastName}");
+            sb.AppendLine("----------------------------------------------");
+
+            foreach (var employee in department.Employees)
+            {
+                sb.AppendLine($"{employee.FirstName} {employee.LastName} - {employee.JobTitle}");
+            }
+
+            sb.AppendLine();
+        }
 
         return sb.ToString().TrimEnd();
     }
