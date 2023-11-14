@@ -1,2 +1,10 @@
-﻿// See https://aka.ms/new-console-template for more information
-Console.WriteLine("Hello, World!");
+﻿using P01_StudentSystem.Data;
+
+internal class StartUp
+{
+    public static void Main(string[] args)
+    {
+        var context = new StudentSystemContext();
+        context.Database.EnsureCreated();
+    }
+}

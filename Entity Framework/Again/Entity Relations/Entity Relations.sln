@@ -3,7 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.6.33815.320
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Entity Relations", "Entity Relations\Entity Relations.csproj", "{975D9CAB-9E07-42AD-8BCF-D6E85A05C348}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "P01_StudentSystem", "Entity Relations\P01_StudentSystem.csproj", "{975D9CAB-9E07-42AD-8BCF-D6E85A05C348}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "P01_StudentSystem.Data", "P01_StudentSystem.Data\P01_StudentSystem.Data.csproj", "{C6C71F82-304D-41F4-922E-668EFDBFC4B5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "P01_StudentSystem.Data.Models", "P01_StudentSystem.Data.Models\P01_StudentSystem.Data.Models.csproj", "{0943027A-E3B3-42D0-BD48-E20A58F6DF1C}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +19,14 @@ Global
 		{975D9CAB-9E07-42AD-8BCF-D6E85A05C348}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{975D9CAB-9E07-42AD-8BCF-D6E85A05C348}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{975D9CAB-9E07-42AD-8BCF-D6E85A05C348}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C6C71F82-304D-41F4-922E-668EFDBFC4B5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C6C71F82-304D-41F4-922E-668EFDBFC4B5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C6C71F82-304D-41F4-922E-668EFDBFC4B5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C6C71F82-304D-41F4-922E-668EFDBFC4B5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0943027A-E3B3-42D0-BD48-E20A58F6DF1C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0943027A-E3B3-42D0-BD48-E20A58F6DF1C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0943027A-E3B3-42D0-BD48-E20A58F6DF1C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0943027A-E3B3-42D0-BD48-E20A58F6DF1C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
