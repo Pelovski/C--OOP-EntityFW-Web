@@ -4,6 +4,13 @@ namespace P03_FootballBetting.Data.Models
 {
     public class Team
     {
+        public Team()
+        {
+            this.HomeGames = new HashSet<Game>();
+            this.AwayGames = new HashSet<Game>();
+            this.Players = new HashSet<Player>();
+        }
+
         [Key]
         public int TeamId { get; set; }
 
@@ -28,5 +35,12 @@ namespace P03_FootballBetting.Data.Models
 
         public int TownId { get; set; }
         public Town Town { get; set; }
+
+        public ICollection<Game> HomeGames { get; set; }
+
+        public ICollection<Game> AwayGames { get; set; }
+
+        public ICollection<Player> Players { get; set; }
+
     }
 }

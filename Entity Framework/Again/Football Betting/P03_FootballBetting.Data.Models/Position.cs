@@ -9,5 +9,7 @@ namespace P03_FootballBetting.Data.Models
 
         [Required]
         public string Name { get; set; }
+
+
     }
 }

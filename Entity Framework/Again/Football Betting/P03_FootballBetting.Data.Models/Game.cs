@@ -5,6 +5,12 @@ namespace P03_FootballBetting.Data.Models
 {
     public class Game
     {
+        public Game()
+        {
+            this.PlayerStatistics = new HashSet<PlayerStatistic>();
+            this.Bets = new HashSet<Bet>();
+        }
+
         [Key]
         public int GameId { get; set; }
 
@@ -34,6 +40,10 @@ namespace P03_FootballBetting.Data.Models
 
         [Required]
         public string Result { get; set; }
+
+        public ICollection<PlayerStatistic> PlayerStatistics { get; set; }
+
+        public ICollection<Bet> Bets { get; set; }
 
     }
 }

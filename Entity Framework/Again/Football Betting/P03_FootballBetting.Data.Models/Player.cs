@@ -4,6 +4,13 @@ namespace P03_FootballBetting.Data.Models
 {
     public class Player
     {
+        public Player()
+        {
+            this.Positions = new HashSet<Position>();
+            this.Games = new HashSet<Game>();
+            this.PlayerStatistics = new HashSet<PlayerStatistic>();
+        }
+
         [Key]
         public int PlayerId { get; set; }
 
@@ -22,5 +29,11 @@ namespace P03_FootballBetting.Data.Models
 
         [Required]
         public bool IsInjured { get; set; }
+
+        public ICollection<Position> Positions { get; set; }
+
+        public ICollection<Game> Games { get; set; }
+
+        public ICollection<PlayerStatistic> PlayerStatistics { get; set; }
     }
 }
