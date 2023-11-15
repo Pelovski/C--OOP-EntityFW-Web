@@ -1,0 +1,17 @@
+D:\Pavel\SoftUni\C# Job prep\Entity Framework\Again\Football Betting\P03_FootballBetting.Data\bin\Debug\net6.0\P03_FootballBetting.Data.deps.json
+D:\Pavel\SoftUni\C# Job prep\Entity Framework\Again\Football Betting\P03_FootballBetting.Data\bin\Debug\net6.0\P03_FootballBetting.Data.runtimeconfig.json
+D:\Pavel\SoftUni\C# Job prep\Entity Framework\Again\Football Betting\P03_FootballBetting.Data\bin\Debug\net6.0\P03_FootballBetting.Data.dll
+D:\Pavel\SoftUni\C# Job prep\Entity Framework\Again\Football Betting\P03_FootballBetting.Data\bin\Debug\net6.0\P03_FootballBetting.Data.pdb
+D:\Pavel\SoftUni\C# Job prep\Entity Framework\Again\Football Betting\P03_FootballBetting.Data\bin\Debug\net6.0\P03_FootballBetting.Data.Models.dll
+D:\Pavel\SoftUni\C# Job prep\Entity Framework\Again\Football Betting\P03_FootballBetting.Data\bin\Debug\net6.0\P03_FootballBetting.Data.Models.pdb
+D:\Pavel\SoftUni\C# Job prep\Entity Framework\Again\Football Betting\P03_FootballBetting.Data\obj\Debug\net6.0\P03_FootballBetting.Data.csproj.AssemblyReference.cache
+D:\Pavel\SoftUni\C# Job prep\Entity Framework\Again\Football Betting\P03_FootballBetting.Data\obj\Debug\net6.0\P03_FootballBetting.Data.GeneratedMSBuildEditorConfig.editorconfig
+D:\Pavel\SoftUni\C# Job prep\Entity Framework\Again\Football Betting\P03_FootballBetting.Data\obj\Debug\net6.0\P03_FootballBetting.Data.AssemblyInfoInputs.cache
+D:\Pavel\SoftUni\C# Job prep\Entity Framework\Again\Football Betting\P03_FootballBetting.Data\obj\Debug\net6.0\P03_FootballBetting.Data.AssemblyInfo.cs
+D:\Pavel\SoftUni\C# Job prep\Entity Framework\Again\Football Betting\P03_FootballBetting.Data\obj\Debug\net6.0\P03_FootballBetting.Data.csproj.CoreCompileInputs.cache
+D:\Pavel\SoftUni\C# Job prep\Entity Framework\Again\Football Betting\P03_FootballBetting.Data\obj\Debug\net6.0\P03_FootballBetting.Data.csproj.CopyComplete
+D:\Pavel\SoftUni\C# Job prep\Entity Framework\Again\Football Betting\P03_FootballBetting.Data\obj\Debug\net6.0\P03_FootballBetting.Data.dll
+D:\Pavel\SoftUni\C# Job prep\Entity Framework\Again\Football Betting\P03_FootballBetting.Data\obj\Debug\net6.0\refint\P03_FootballBetting.Data.dll
+D:\Pavel\SoftUni\C# Job prep\Entity Framework\Again\Football Betting\P03_FootballBetting.Data\obj\Debug\net6.0\P03_FootballBetting.Data.pdb
+D:\Pavel\SoftUni\C# Job prep\Entity Framework\Again\Football Betting\P03_FootballBetting.Data\obj\Debug\net6.0\P03_FootballBetting.Data.genruntimeconfig.cache
+D:\Pavel\SoftUni\C# Job prep\Entity Framework\Again\Football Betting\P03_FootballBetting.Data\obj\Debug\net6.0\ref\P03_FootballBetting.Data.dll
