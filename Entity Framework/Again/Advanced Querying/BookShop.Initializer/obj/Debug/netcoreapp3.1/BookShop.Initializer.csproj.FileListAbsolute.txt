@@ -1,0 +1,15 @@
+D:\Pavel\SoftUni\C# Job prep\Entity Framework\Again\Advanced Querying\BookShop.Initializer\bin\Debug\netcoreapp3.1\BookShop.Initializer.deps.json
+D:\Pavel\SoftUni\C# Job prep\Entity Framework\Again\Advanced Querying\BookShop.Initializer\bin\Debug\netcoreapp3.1\BookShop.Initializer.dll
+D:\Pavel\SoftUni\C# Job prep\Entity Framework\Again\Advanced Querying\BookShop.Initializer\bin\Debug\netcoreapp3.1\BookShop.Initializer.pdb
+D:\Pavel\SoftUni\C# Job prep\Entity Framework\Again\Advanced Querying\BookShop.Initializer\bin\Debug\netcoreapp3.1\BookShop.Data.dll
+D:\Pavel\SoftUni\C# Job prep\Entity Framework\Again\Advanced Querying\BookShop.Initializer\bin\Debug\netcoreapp3.1\BookShop.Models.dll
+D:\Pavel\SoftUni\C# Job prep\Entity Framework\Again\Advanced Querying\BookShop.Initializer\bin\Debug\netcoreapp3.1\BookShop.Data.pdb
+D:\Pavel\SoftUni\C# Job prep\Entity Framework\Again\Advanced Querying\BookShop.Initializer\bin\Debug\netcoreapp3.1\BookShop.Models.pdb
+D:\Pavel\SoftUni\C# Job prep\Entity Framework\Again\Advanced Querying\BookShop.Initializer\obj\Debug\netcoreapp3.1\BookShop.Initializer.csproj.AssemblyReference.cache
+D:\Pavel\SoftUni\C# Job prep\Entity Framework\Again\Advanced Querying\BookShop.Initializer\obj\Debug\netcoreapp3.1\BookShop.Initializer.GeneratedMSBuildEditorConfig.editorconfig
+D:\Pavel\SoftUni\C# Job prep\Entity Framework\Again\Advanced Querying\BookShop.Initializer\obj\Debug\netcoreapp3.1\BookShop.Initializer.AssemblyInfoInputs.cache
+D:\Pavel\SoftUni\C# Job prep\Entity Framework\Again\Advanced Querying\BookShop.Initializer\obj\Debug\netcoreapp3.1\BookShop.Initializer.AssemblyInfo.cs
+D:\Pavel\SoftUni\C# Job prep\Entity Framework\Again\Advanced Querying\BookShop.Initializer\obj\Debug\netcoreapp3.1\BookShop.Initializer.csproj.CoreCompileInputs.cache
+D:\Pavel\SoftUni\C# Job prep\Entity Framework\Again\Advanced Querying\BookShop.Initializer\obj\Debug\netcoreapp3.1\BookShop.Initializer.csproj.CopyComplete
+D:\Pavel\SoftUni\C# Job prep\Entity Framework\Again\Advanced Querying\BookShop.Initializer\obj\Debug\netcoreapp3.1\BookShop.Initializer.dll
+D:\Pavel\SoftUni\C# Job prep\Entity Framework\Again\Advanced Querying\BookShop.Initializer\obj\Debug\netcoreapp3.1\BookShop.Initializer.pdb
