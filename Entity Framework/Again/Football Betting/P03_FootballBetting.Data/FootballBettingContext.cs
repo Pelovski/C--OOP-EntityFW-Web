@@ -43,7 +43,69 @@ namespace P03_FootballBetting.Data
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
-            base.OnModelCreating(modelBuilder); 
+            modelBuilder.Entity<PlayerStatistic>()
+                .HasKey(ps => new {ps.PlayerId, ps.GameId });
+
+            modelBuilder.Entity<Color>()
+                 .HasMany(c => c.PrimaryKitTeams)
+                 .WithOne(t => t.PrimaryKitColor)
+                 .OnDelete(DeleteBehavior.Restrict);
+
+            modelBuilder.Entity<Color>()
+               .HasMany(c => c.SecondaryKitTeams)
+               .WithOne(t => t.SecondaryKitColor)
+               .OnDelete(DeleteBehavior.Restrict);
+
+            modelBuilder.Entity<Game>()
+                 .HasMany(g => g.PlayerStatistics)
+                 .WithOne(ps => ps.Game)
+                 .OnDelete(DeleteBehavior.Restrict);
+
+            modelBuilder.Entity<Game>()
+                 .HasMany(g => g.Bets)
+                 .WithOne(b => b.Game)
+                 .OnDelete(DeleteBehavior.Restrict);
+
+            modelBuilder.Entity<Player>()
+                .HasMany(p => p.PlayerStatistics)
+                .WithOne(ps => ps.Player)
+                .OnDelete(DeleteBehavior.Restrict);
+
+
+            modelBuilder.Entity<Position>()
+            .HasMany(po => po.Players)
+            .WithOne(p => p.Position)
+            .OnDelete(DeleteBehavior.Restrict);
+
+            modelBuilder.Entity<Country>()
+                .HasMany(c => c.Towns)
+                .WithOne(t => t.Country)
+                .OnDelete(DeleteBehavior.Restrict);
+
+            modelBuilder.Entity<Team>()
+              .HasMany(t => t.HomeGames)
+              .WithOne(g => g.HomeTeam)
+              .OnDelete(DeleteBehavior.Restrict);
+
+            modelBuilder.Entity<Team>()
+              .HasMany(t => t.AwayGames)
+              .WithOne(g => g.AwayTeam)
+              .OnDelete(DeleteBehavior.Restrict);
+
+            modelBuilder.Entity<Team>()
+              .HasMany(t => t.Players)
+              .WithOne(p => p.Team)
+              .OnDelete(DeleteBehavior.Restrict);
+
+            modelBuilder.Entity<Town>()
+              .HasMany(to => to.Teams)
+              .WithOne(t => t.Town)
+              .OnDelete(DeleteBehavior.Restrict);
+
+            modelBuilder.Entity<User>()
+             .HasMany(u => u.Bets)
+             .WithOne(b => b.User)
+             .OnDelete(DeleteBehavior.Restrict);
         }
     }
 }
