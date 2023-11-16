@@ -18,7 +18,7 @@
 
             //string command = Console.ReadLine().ToLower();
 
-             var result = GetGoldenBooks(db);
+             var result = GetBooksByPrice(db);
 
             Console.WriteLine(result);
         }
@@ -67,6 +67,29 @@
             foreach(var book in books)
             {
                 sb.AppendLine(book.Title);
+            }
+
+            return sb.ToString().TrimEnd();
+        }
+
+        public static string GetBooksByPrice(BookShopContext context)
+        {
+            var sb = new StringBuilder();
+
+            var books = context
+                .Books
+                .Where(b => b.Price > 40)
+                .Select(b => new
+                {
+                    b.Title,
+                    b.Price
+                })
+                .OrderByDescending(b => b.Price)
+                .ToList();
+
+            foreach (var book in books)
+            {
+                sb.AppendLine($"{book.Title} - ${book.Price:f2}");
             }
 
             return sb.ToString().TrimEnd();
