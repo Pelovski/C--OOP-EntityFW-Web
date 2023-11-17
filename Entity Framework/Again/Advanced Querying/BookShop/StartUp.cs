@@ -15,7 +15,6 @@
 
             //DbInitializer.ResetDatabase(db);
 
-            //string input = Console.ReadLine().ToLower();
             //int year = int.Parse(Console.ReadLine());
 
              var result = GetBooksReleasedBefore(db, "12-04-1992");
