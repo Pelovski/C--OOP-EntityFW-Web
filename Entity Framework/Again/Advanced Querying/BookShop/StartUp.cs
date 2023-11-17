@@ -17,7 +17,7 @@
 
             //int year = int.Parse(Console.ReadLine());
 
-             var result = GetBooksReleasedBefore(db, "12-04-1992");
+             var result = GetBookTitlesContaining(db, "WOR");
 
             Console.WriteLine(result);
         }
@@ -185,6 +185,25 @@
             foreach (var book in books)
             {
                 sb.AppendLine($"{book.Title} - {book.EditionType} - ${book.Price:f2}");
+            }
+
+            return sb.ToString().TrimEnd();
+        }
+
+        public static string GetBookTitlesContaining(BookShopContext context, string input)
+        {
+            var sb = new StringBuilder();
+
+            var books = context
+                .Books
+                .Where(b => b.Title.ToLower().Contains(input))
+                .Select(b => b.Title) 
+                .OrderBy(b => b)
+                .ToList();
+
+            foreach (var book in books)
+            {
+                sb.AppendLine(book);
             }
 
             return sb.ToString().TrimEnd();
