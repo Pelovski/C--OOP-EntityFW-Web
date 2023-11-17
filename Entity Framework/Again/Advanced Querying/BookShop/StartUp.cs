@@ -4,8 +4,11 @@
     using System.Collections.Generic;
     using System.Data;
     using System.Linq;
+    using System.Runtime.CompilerServices;
     using System.Text;
     using Data;
+    using Microsoft.EntityFrameworkCore;
+    using Microsoft.EntityFrameworkCore.Metadata.Conventions;
 
     public class StartUp
     {
@@ -17,7 +20,7 @@
 
             //int year = int.Parse(Console.ReadLine());
 
-             var result = GetBookTitlesContaining(db, "WOR");
+             var result = CountCopiesByAuthor(db);
 
             Console.WriteLine(result);
         }
@@ -204,6 +207,52 @@
             foreach (var book in books)
             {
                 sb.AppendLine(book);
+            }
+
+            return sb.ToString().TrimEnd();
+        }
+
+        public static string GetBooksByAuthor(BookShopContext context, string input)
+        {
+            var sb = new StringBuilder();
+
+            var books = context
+                .Books
+                .Where(b => b.Author.LastName.ToLower().StartsWith(input.ToLower()))
+                .Select(b => new
+                {
+                    b.BookId,
+                    b.Title,
+                    AuthorName = $"{b.Author.FirstName} {b.Author.LastName}"
+                })
+                .OrderBy(b => b.BookId)
+                .ToList();
+
+            foreach (var book in books)
+            {
+                sb.AppendLine($"{book.Title} ({book.AuthorName})");
+            }
+
+            return sb.ToString().TrimEnd();
+        }
+
+        public static string CountCopiesByAuthor(BookShopContext context)
+        {
+            var sb = new StringBuilder();
+
+            var authors = context
+                .Authors
+                .Select(a => new
+                {
+                    FullName = $"{a.FirstName} {a.LastName}",
+                    Count = a.Books.Sum(b => b.Copies)
+                })
+                .OrderByDescending(a => a.Count)
+                .ToList();
+
+            foreach (var author in authors)
+            {
+                sb.AppendLine($"{author.FullName} - {author.Count}");
             }
 
             return sb.ToString().TrimEnd();
