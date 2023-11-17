@@ -1,12 +1,11 @@
 ﻿namespace BookShop
 {
     using System;
+    using System.Collections.Generic;
+    using System.Data;
     using System.Linq;
     using System.Text;
-    using BookShop.Models;
-    using BookShop.Models.Enums;
     using Data;
-    using Initializer;
 
     public class StartUp
     {
@@ -16,10 +15,10 @@
 
             //DbInitializer.ResetDatabase(db);
 
-            //string command = Console.ReadLine().ToLower();
-            int year = int.Parse(Console.ReadLine());
+            //string input = Console.ReadLine().ToLower();
+            //int year = int.Parse(Console.ReadLine());
 
-             var result = GetBooksNotReleasedIn(db, year);
+             var result = GetBooksReleasedBefore(db, "12-04-1992");
 
             Console.WriteLine(result);
         }
@@ -116,6 +115,77 @@
             foreach (var book in books)
             {
                 sb.AppendLine(book.Title);
+            }
+
+            return sb.ToString().TrimEnd();
+        }
+
+        public static string GetBooksByCategory(BookShopContext context, string input)
+        {
+            var sb = new StringBuilder();
+
+            var categories = input.ToLower().Split(' ');
+            
+            var books = context
+                .Books
+                .Select(b => new {
+                
+                    b.Title,
+                    BookCategories = 
+                    b.BookCategories.Select(bc => new
+                    {
+                        bc.Category.Name
+                    })
+                })
+                .ToList();
+
+   
+            var orderedBooks = new List<string>();
+
+            foreach (var category in categories)
+            {
+                foreach (var book in books
+                    .Where(b => b.BookCategories.Any(bc => bc.Name.ToLower() == category)))
+                {
+                    orderedBooks.Add(book.Title);
+                }
+            }
+
+
+            foreach (var book in orderedBooks.OrderBy(b => b))
+            {
+                sb.AppendLine(book);
+            }
+
+            return sb.ToString().TrimEnd();
+        }
+
+        public static string GetBooksReleasedBefore(BookShopContext context, string date)
+        {
+            var sb = new StringBuilder();
+
+            var currentDate = DateTime.Parse(date);
+
+            var currentBooks = context
+                .Books
+                .Select(b => new
+                {
+                    b.Title,
+                    b.EditionType,
+                    b.Price,
+                    BookDate = DateTime.Parse(b.ReleaseDate.Value.ToString("dd-MM-yyyy"))
+                })
+                .ToList();
+
+
+            var books = currentBooks
+            .Where(b => b.BookDate.Date < currentDate)
+            .OrderByDescending(b => b.BookDate.Date)
+            .ToList();
+
+            foreach (var book in books)
+            {
+                sb.AppendLine($"{book.Title} - {book.EditionType} - ${book.Price:f2}");
             }
 
             return sb.ToString().TrimEnd();
