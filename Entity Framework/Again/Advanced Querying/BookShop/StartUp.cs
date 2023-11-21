@@ -20,7 +20,7 @@
 
             //int year = int.Parse(Console.ReadLine());
 
-             var result = CountCopiesByAuthor(db);
+             var result = GetMostRecentBooks(db);
 
             Console.WriteLine(result);
         }
@@ -254,6 +254,44 @@
             {
                 sb.AppendLine($"{author.FullName} - {author.Count}");
             }
+
+            return sb.ToString().TrimEnd();
+        }
+
+        public static string GetMostRecentBooks(BookShopContext context)
+        {
+            var sb = new StringBuilder();
+
+            var recentBooks = context
+                .Categories
+                .Select(c => new
+                {
+                    c.Name,
+                    Books = c.CategoryBooks
+                            .Select(cb => new
+                    {
+                         cb.Book.Title,
+                         ReleaseDate = cb.Book.ReleaseDate.Value.Year
+                    })
+                            .OrderByDescending(cb => cb.ReleaseDate)
+                            .Take(3)
+                })
+                .OrderBy(b => b.Name)
+                .ToList();
+               
+
+            foreach (var category in recentBooks)
+            {
+                sb.AppendLine($"--{category.Name}");
+
+                foreach (var book in category.Books)
+                {
+                    sb.AppendLine($"{book.Title} ({book.ReleaseDate})");
+                }
+
+                sb.AppendLine();
+            }
+                
 
             return sb.ToString().TrimEnd();
         }
