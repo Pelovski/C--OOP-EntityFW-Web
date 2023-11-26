@@ -19,13 +19,13 @@
 
         public IActionResult Register()
         {
-            throw new NotImplementedException();
+            return this.View();
         }
 
         [HttpPost]
         public IActionResult Register(RegisterEmployeeInputModel model)
         {
-            throw new NotImplementedException();
+            return this.View(model);
         }
 
         public IActionResult All()
