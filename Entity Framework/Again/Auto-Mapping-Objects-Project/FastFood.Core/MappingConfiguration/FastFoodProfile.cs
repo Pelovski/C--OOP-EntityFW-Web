@@ -39,6 +39,16 @@
                 .ForMember(x => x.CategoryId, y => y.MapFrom(s => s.Id))
                 .ForMember(x => x.CategoryName, y => y.MapFrom(s => s.Name));
 
+            this.CreateMap<Item, CreateItemInputModel>()
+                .ForMember(x => x.Name, y => y.MapFrom(s => s.Name))
+                .ForMember(x => x.Price, y => y.MapFrom(s => s.Price))
+                .ForMember(x => x.CategoryId, y => y.MapFrom(s => s.CategoryId));
+
+
+            this.CreateMap<Item, ItemsAllViewModels>()
+                .ForMember(x => x.Name, y => y.MapFrom(s => s.Name))
+                .ForMember(x => x.Category, y => y.MapFrom(s => s.Category.Name));
+
 
         }
     }
