@@ -40,6 +40,7 @@
             }
 
             var order = this.mapper.Map<Order>(model);
+            order.DateTime = DateTime.Now;
             this.context.Orders.Add(order);
             this.context.SaveChanges();
 
