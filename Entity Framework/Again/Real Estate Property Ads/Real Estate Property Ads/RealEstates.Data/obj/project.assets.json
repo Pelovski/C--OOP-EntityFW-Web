@@ -1,11 +1,30 @@
 {
   "version": 3,
   "targets": {
-    "net6.0": {}
+    "net6.0": {
+      "RealEstates.Models/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "compile": {
+          "bin/placeholder/RealEstates.Models.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/RealEstates.Models.dll": {}
+        }
+      }
+    }
   },
-  "libraries": {},
+  "libraries": {
+    "RealEstates.Models/1.0.0": {
+      "type": "project",
+      "path": "../RealEstates.Models/RealEstates.Models.csproj",
+      "msbuildProject": "../RealEstates.Models/RealEstates.Models.csproj"
+    }
+  },
   "projectFileDependencyGroups": {
-    "net6.0": []
+    "net6.0": [
+      "RealEstates.Models >= 1.0.0"
+    ]
   },
   "packageFolders": {
     "C:\\Users\\herrp\\.nuget\\packages\\": {}
@@ -33,7 +52,11 @@
       "frameworks": {
         "net6.0": {
           "targetAlias": "net6.0",
-          "projectReferences": {}
+          "projectReferences": {
+            "D:\\Pavel\\SoftUni\\C# Job prep\\Entity Framework\\Again\\Real Estate Property Ads\\Real Estate Property Ads\\RealEstates.Models\\RealEstates.Models.csproj": {
+              "projectPath": "D:\\Pavel\\SoftUni\\C# Job prep\\Entity Framework\\Again\\Real Estate Property Ads\\Real Estate Property Ads\\RealEstates.Models\\RealEstates.Models.csproj"
+            }
+          }
         }
       },
       "warningProperties": {
