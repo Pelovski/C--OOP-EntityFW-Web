@@ -5,6 +5,11 @@ namespace RealEstates.Models
 {
     public class RealEstateProperty
     {
+
+        public RealEstateProperty()
+        {
+                this.Tags = new HashSet<RealEstatePropertyTag>();
+        }
         public int Id { get; set; }
 
 
@@ -33,5 +38,7 @@ namespace RealEstates.Models
         public int TagId { get; set; }
 
         public virtual Tag Tag { get; set; }
+
+        public ICollection<RealEstatePropertyTag> Tags { get; set; }
     }
 }

@@ -6,14 +6,14 @@ namespace RealEstates.Models
     {
         public PropertyType()
         {
-            this.RealEstateProperties = new HashSet<RealEstatePropertyTag>();
+            this.Properties = new HashSet<RealEstateProperty>();
         }
         public int Id { get; set; }
 
         [Required]
         public string Name { get; set; }
 
-        public virtual ICollection<RealEstatePropertyTag> RealEstateProperties { get; set; }
+        public virtual ICollection<RealEstateProperty> Properties { get; set; }
 
     }
 }
