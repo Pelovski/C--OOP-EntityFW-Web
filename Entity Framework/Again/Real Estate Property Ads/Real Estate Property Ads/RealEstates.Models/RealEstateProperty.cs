@@ -1,4 +1,5 @@
 ﻿using System;
+using System.ComponentModel.DataAnnotations;
 using System.Reflection.Metadata.Ecma335;
 
 namespace RealEstates.Models
@@ -10,6 +11,8 @@ namespace RealEstates.Models
         {
                 this.Tags = new HashSet<RealEstatePropertyTag>();
         }
+
+        [Key]
         public int Id { get; set; }
 
 
@@ -39,6 +42,6 @@ namespace RealEstates.Models
 
         public virtual Tag Tag { get; set; }
 
-        public ICollection<RealEstatePropertyTag> Tags { get; set; }
+        public virtual ICollection<RealEstatePropertyTag> Tags { get; set; }
     }
 }
