@@ -29,7 +29,11 @@ namespace RealEstates.Data
        
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
-            optionsBuilder.UseSqlServer("Server=Arsenal;Database=RealEstate;Integrated Security=true");
+            if (!optionsBuilder.IsConfigured)
+            {
+                optionsBuilder.UseSqlServer("Server=Arsenal;Database=RealEstate;Integrated Security=true");
+            }
+            
         }
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
