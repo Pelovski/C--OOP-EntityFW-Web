@@ -1,6 +1,4 @@
-﻿using System;
-using System.ComponentModel.DataAnnotations;
-using System.Reflection.Metadata.Ecma335;
+﻿using System.ComponentModel.DataAnnotations;
 
 namespace RealEstates.Models
 {
@@ -20,7 +18,7 @@ namespace RealEstates.Models
 
         public int? Floor { get; set; }
 
-        public int TotalNumberOfFloors { get; set; }
+        public int? TotalNumberOfFloors { get; set; }
 
         public int DistrictId { get; set; }
 
@@ -34,14 +32,9 @@ namespace RealEstates.Models
 
         public int BuildingTypeId { get; set; }
 
-        public virtual BuildingType BuildingType { get;}
+        public virtual BuildingType BuildingType { get; set; }
 
         public int Price { get; set; }
-
-        public int TagId { get; set; }
-
-        public virtual Tag Tag { get; set; }
-
         public virtual ICollection<RealEstatePropertyTag> Tags { get; set; }
     }
 }

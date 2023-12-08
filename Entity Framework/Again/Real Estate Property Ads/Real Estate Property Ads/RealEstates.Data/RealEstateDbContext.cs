@@ -41,18 +41,6 @@ namespace RealEstates.Data
             modelBuilder
                 .Entity<RealEstatePropertyTag>()
                 .HasKey(x => new { x.TagId, x.RealEstatePropertyId });
-
-            modelBuilder
-                .Entity<RealEstatePropertyTag>()
-                .HasOne(x => x.Tag)
-                .WithMany(x => x.Tags)
-                .OnDelete(DeleteBehavior.Restrict);
-
-            modelBuilder
-                .Entity<RealEstatePropertyTag>()
-                .HasOne(x => x.RealEstateProperty)
-                .WithMany(x => x.Tags)
-                .OnDelete(DeleteBehavior.Restrict);
         }
 
     }

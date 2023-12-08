@@ -3,6 +3,7 @@ using System;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Metadata;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 using RealEstates.Data;
 
@@ -11,9 +12,10 @@ using RealEstates.Data;
 namespace RealEstates.Data.Migrations
 {
     [DbContext(typeof(RealEstateDbContext))]
-    partial class RealEstateDbContextModelSnapshot : ModelSnapshot
+    [Migration("20231208083757_PKChanged")]
+    partial class PKChanged
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder
@@ -99,6 +101,9 @@ namespace RealEstates.Data.Migrations
                     b.Property<int>("Size")
                         .HasColumnType("int");
 
+                    b.Property<int>("TagId")
+                        .HasColumnType("int");
+
                     b.Property<int?>("TotalNumberOfFloors")
                         .HasColumnType("int");
 
@@ -112,6 +117,8 @@ namespace RealEstates.Data.Migrations
                     b.HasIndex("DistrictId");
 
                     b.HasIndex("PropertyTypeId");
+
+                    b.HasIndex("TagId");
 
                     b.ToTable("RealEstateProperties");
                 });
@@ -168,11 +175,19 @@ namespace RealEstates.Data.Migrations
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
 
+                    b.HasOne("RealEstates.Models.Tag", "Tag")
+                        .WithMany()
+                        .HasForeignKey("TagId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
                     b.Navigation("BuildingType");
 
                     b.Navigation("District");
 
                     b.Navigation("PropertyType");
+
+                    b.Navigation("Tag");
                 });
 
             modelBuilder.Entity("RealEstates.Models.RealEstatePropertyTag", b =>
@@ -180,13 +195,13 @@ namespace RealEstates.Data.Migrations
                     b.HasOne("RealEstates.Models.RealEstateProperty", "RealEstateProperty")
                         .WithMany("Tags")
                         .HasForeignKey("RealEstatePropertyId")
-                        .OnDelete(DeleteBehavior.Cascade)
+                        .OnDelete(DeleteBehavior.Restrict)
                         .IsRequired();
 
                     b.HasOne("RealEstates.Models.Tag", "Tag")
                         .WithMany("Tags")
                         .HasForeignKey("TagId")
-                        .OnDelete(DeleteBehavior.Cascade)
+                        .OnDelete(DeleteBehavior.Restrict)
                         .IsRequired();
 
                     b.Navigation("RealEstateProperty");
