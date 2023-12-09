@@ -13,6 +13,7 @@ namespace PetStore.Models
         public int Id { get; set; }
 
         [Required]
+        [MinLength(5)]
         public string Name { get; set; }
 
         public virtual ICollection<Pet> Pets { get; set; }
