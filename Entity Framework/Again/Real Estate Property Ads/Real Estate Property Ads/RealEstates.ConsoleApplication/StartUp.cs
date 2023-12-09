@@ -11,7 +11,16 @@ internal class StartUp
 
         IPropertyService propertyService =  new PropertyService(context);
 
-      propertyService.Create(120, "Дианабад", "4-СТАЕН", "ЕПК", 2018, 200000, 16, 20);
+       // propertyService.Create(100, "Дианабад", "4-СТАЕН", "ЕПК", 2019, 210000, 20, 20);
+
+        IDistrictService districtService = new DistrictService(context);
+
+        var districts = districtService.GetTopDistrictsByAvaragePrice();
+
+        foreach (var district in districts)
+        {
+            Console.WriteLine($"{district.Name} => Price: {district.AvaragePrice:f2} ({district.MinPrice}-{district.MaxPrice}) => {district.PropertiesCount} properties.");
+        }
 
     }
 }

@@ -6,7 +6,7 @@ namespace RealEstates.Services
     {
         IEnumerable<DistrictViewModel> GetTopDistrictsByAvaragePrice(int count = 10);
 
-        IEnumerable<DistrictViewModel> GetTopDistrictsByNumberOfProperties();
+        IEnumerable<DistrictViewModel> GetTopDistrictsByNumberOfProperties(int count = 10);
 
     }
 }
