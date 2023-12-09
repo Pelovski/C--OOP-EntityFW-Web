@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "HMOBctjtwncPU20XtDZvDXIv2o9VX3Bo+YTA+zQf9xKZO2VloQd9MqLMzM69FR2rb6V8ahNvde5c2GPWivbMbQ==",
+  "dgSpecHash": "pzKPOTPJ7DFbX9YM8wJcbak/PwYn9MqCNGjxCDwhmmGmI7n0hiKq/NVLbP/jcc/1t2VlaKZ4ae8isXli1oxisg==",
   "success": true,
   "projectFilePath": "D:\\Pavel\\SoftUni\\C# Job prep\\Entity Framework\\Again\\Real Estate Property Ads\\Real Estate Property Ads\\RealEstates.Importer\\RealEstates.Importer.csproj",
   "expectedPackageFiles": [
@@ -43,6 +43,8 @@
     "C:\\Users\\herrp\\.nuget\\packages\\system.security.permissions\\4.7.0\\system.security.permissions.4.7.0.nupkg.sha512",
     "C:\\Users\\herrp\\.nuget\\packages\\system.security.principal.windows\\4.7.0\\system.security.principal.windows.4.7.0.nupkg.sha512",
     "C:\\Users\\herrp\\.nuget\\packages\\system.text.encoding.codepages\\4.7.0\\system.text.encoding.codepages.4.7.0.nupkg.sha512",
+    "C:\\Users\\herrp\\.nuget\\packages\\system.text.encodings.web\\8.0.0\\system.text.encodings.web.8.0.0.nupkg.sha512",
+    "C:\\Users\\herrp\\.nuget\\packages\\system.text.json\\8.0.0\\system.text.json.8.0.0.nupkg.sha512",
     "C:\\Users\\herrp\\.nuget\\packages\\system.windows.extensions\\4.7.0\\system.windows.extensions.4.7.0.nupkg.sha512"
   ],
   "logs": []
