@@ -16,7 +16,7 @@ namespace RealEstates.Services
         public IEnumerable<DistrictViewModel> GetTopDistrictsByAvaragePrice(int count = 10)
         {
             return this.db.Districts
-                   .OrderByDescending(x => x.Properties.Average(x => x.Price))
+                   .OrderByDescending(x => x.Properties.Average(x => (double)x.Price / x.Size))
                    .Select(MapToDistrictViewModel())
                    .Take(count)
                    .ToList();
@@ -36,7 +36,7 @@ namespace RealEstates.Services
             return x => new DistrictViewModel
             {
                 Name = x.Name,
-                AvaragePrice = x.Properties.Average(x => x.Price),
+                AvaragePrice = x.Properties.Average(x => (double)x.Price / x.Size),
                 MinPrice = x.Properties.Min(x => x.Price),
                 MaxPrice = x.Properties.Max(x => x.Price),
                 PropertiesCount = x.Properties.Count()

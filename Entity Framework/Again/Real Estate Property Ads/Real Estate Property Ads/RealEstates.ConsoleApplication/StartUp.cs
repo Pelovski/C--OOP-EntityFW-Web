@@ -15,7 +15,7 @@ internal class StartUp
 
         IDistrictService districtService = new DistrictService(context);
 
-        var districts = districtService.GetTopDistrictsByAvaragePrice();
+        var districts = districtService.GetTopDistrictsByAvaragePrice(100);
 
         foreach (var district in districts)
         {
