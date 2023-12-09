@@ -1,4 +1,5 @@
 ﻿using System.ComponentModel.DataAnnotations;
+using PetStore.Comman;
 
 namespace PetStore.Models
 {
@@ -15,22 +16,22 @@ namespace PetStore.Models
         public string Id { get; set; }
 
         [Required]
-        [MinLength(6)]
+        [MinLength(GlobalConstatnts.ClientUsernameMinLength)]
         public string Username { get; set; }
 
         [Required]
         public string Password { get; set; }
 
         [Required]
-        [MinLength(6)]
+        [MinLength(GlobalConstatnts.ClientEmailMinLength)]
         public string Email { get; set; }
 
         [Required]
-        [MinLength(3)]
+        [MinLength(GlobalConstatnts.ClientNameMinLength)]
         public string FirstName { get; set; }
 
         [Required]
-        [MinLength(3)]
+        [MinLength(GlobalConstatnts.ClientNameMinLength)]
         public string LastName { get; set; }
 
         public virtual ICollection<Pet> PetsBuyed { get; set; }

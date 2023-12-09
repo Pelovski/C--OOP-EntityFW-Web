@@ -1,5 +1,5 @@
 ﻿using System.ComponentModel.DataAnnotations;
-
+using PetStore.Comman;
 
 namespace PetStore.Models
 {
@@ -15,11 +15,11 @@ namespace PetStore.Models
         public string Id { get; set; }
 
         [Required]
-        [MinLength(3)]
+        [MinLength(GlobalConstatnts.OrderTownMinLength)]
         public string Town { get; set; }
 
         [Required]
-        [MinLength(5)]
+        [MinLength(GlobalConstatnts.OrderAdressMinLength)]
         public string Adress { get; set; }
 
         public string Notes { get; set; }

@@ -1,4 +1,5 @@
-﻿using PetStore.Models.Enumerations;
+﻿using PetStore.Comman;
+using PetStore.Models.Enumerations;
 using System.ComponentModel.DataAnnotations;
 
 namespace PetStore.Models
@@ -14,7 +15,7 @@ namespace PetStore.Models
         public string Id { get; set; }
 
         [Required]
-        [MinLength(3)]
+        [MinLength(GlobalConstatnts.ProductNameMinLength)]
         public string Name { get; set; }
 
         public ProductType ProductType { get; set; }
