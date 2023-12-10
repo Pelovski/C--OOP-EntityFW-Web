@@ -87,6 +87,7 @@ namespace PetStore.Data.Migrations
                         .HasColumnType("nvarchar(450)");
 
                     b.Property<string>("OrderId")
+                        .IsRequired()
                         .HasColumnType("nvarchar(450)");
 
                     b.Property<int>("Quantity")
@@ -196,9 +197,11 @@ namespace PetStore.Data.Migrations
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
 
-                    b.HasOne("PetStore.Models.Order", null)
+                    b.HasOne("PetStore.Models.Order", "Order")
                         .WithMany("ClientProducts")
-                        .HasForeignKey("OrderId");
+                        .HasForeignKey("OrderId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
 
                     b.HasOne("PetStore.Models.Product", "Product")
                         .WithMany()
@@ -207,6 +210,8 @@ namespace PetStore.Data.Migrations
                         .IsRequired();
 
                     b.Navigation("Client");
+
+                    b.Navigation("Order");
 
                     b.Navigation("Product");
                 });

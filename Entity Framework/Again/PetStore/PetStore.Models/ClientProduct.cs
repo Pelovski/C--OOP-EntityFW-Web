@@ -14,6 +14,8 @@ namespace PetStore.Models
         public virtual Product Product { get; set; }
 
         [Range(GlobalConstatnts.QuantityMinValue, GlobalConstatnts.QuantityMaxValue)]
+        public string OrderId { get; set; }
+        public Order Order { get; set; }
         public int Quantity { get; set; }
     }
 }
