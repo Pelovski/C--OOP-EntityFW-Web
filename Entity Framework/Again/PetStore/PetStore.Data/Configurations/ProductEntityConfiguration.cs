@@ -14,6 +14,12 @@ namespace PetStore.Data.Configurations
                 .Property(pr => pr.Name)
                 .HasMaxLength(GlobalConstatnts.ProductNameMaxLength)
                 .IsUnicode(false);
+
+            builder
+                .Property(pr => pr.Price)
+                .HasColumnType("decimal(18,4)");
+
+
         }
     }
 }

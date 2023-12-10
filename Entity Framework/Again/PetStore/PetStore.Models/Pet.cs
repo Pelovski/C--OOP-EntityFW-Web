@@ -1,6 +1,7 @@
 ﻿using PetStore.Comman;
 using PetStore.Models.Enumerations;
 using System.ComponentModel.DataAnnotations;
+using System.ComponentModel.DataAnnotations.Schema;
 
 namespace PetStore.Models
 {
@@ -23,6 +24,7 @@ namespace PetStore.Models
         [Range(GlobalConstatnts.PetAgeMinValue, GlobalConstatnts.PetAgeMaxValue)]
         public byte Age { get; set; }
 
+        [Column(TypeName = "decimal(18, 2)")]
         [Range(GlobalConstatnts.MinPriceValue, GlobalConstatnts.MaxPriceValue)]
         public decimal Price { get; set; }
 
