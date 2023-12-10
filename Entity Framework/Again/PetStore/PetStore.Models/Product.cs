@@ -19,7 +19,8 @@ namespace PetStore.Models
         public string Name { get; set; }
 
         public ProductType ProductType { get; set; }
-
+        
+        [Range(GlobalConstatnts.MinPriceValue, GlobalConstatnts.MaxPriceValue)]
         public decimal Price { get; set; }
     }
 }
