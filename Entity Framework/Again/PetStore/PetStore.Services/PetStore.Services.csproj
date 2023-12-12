@@ -6,4 +6,14 @@
     <Nullable>enable</Nullable>
   </PropertyGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\PetStore.Data\PetStore.Data.csproj" />
+    <ProjectReference Include="..\PetStore.Models\PetStore.Models.csproj" />
+    <ProjectReference Include="..\PetStore.ServiceModels\PetStore.ServiceModels.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Product\OutputModels\" />
+  </ItemGroup>
+
 </Project>

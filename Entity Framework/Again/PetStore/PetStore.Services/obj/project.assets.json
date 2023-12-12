@@ -773,6 +773,16 @@
         "runtime": {
           "bin/placeholder/PetStore.Models.dll": {}
         }
+      },
+      "PetStore.ServiceModels/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "compile": {
+          "bin/placeholder/PetStore.ServiceModels.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/PetStore.ServiceModels.dll": {}
+        }
       }
     }
   },
@@ -1952,12 +1962,18 @@
       "type": "project",
       "path": "../PetStore.Models/PetStore.Models.csproj",
       "msbuildProject": "../PetStore.Models/PetStore.Models.csproj"
+    },
+    "PetStore.ServiceModels/1.0.0": {
+      "type": "project",
+      "path": "../PetStore.ServiceModels/PetStore.ServiceModels.csproj",
+      "msbuildProject": "../PetStore.ServiceModels/PetStore.ServiceModels.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net6.0": [
       "PetStore.Data >= 1.0.0",
-      "PetStore.Models >= 1.0.0"
+      "PetStore.Models >= 1.0.0",
+      "PetStore.ServiceModels >= 1.0.0"
     ]
   },
   "packageFolders": {
@@ -1992,6 +2008,9 @@
             },
             "D:\\Pavel\\SoftUni\\C# Job prep\\Entity Framework\\Again\\PetStore\\PetStore.Models\\PetStore.Models.csproj": {
               "projectPath": "D:\\Pavel\\SoftUni\\C# Job prep\\Entity Framework\\Again\\PetStore\\PetStore.Models\\PetStore.Models.csproj"
+            },
+            "D:\\Pavel\\SoftUni\\C# Job prep\\Entity Framework\\Again\\PetStore\\PetStore.ServiceModels\\PetStore.ServiceModels.csproj": {
+              "projectPath": "D:\\Pavel\\SoftUni\\C# Job prep\\Entity Framework\\Again\\PetStore\\PetStore.ServiceModels\\PetStore.ServiceModels.csproj"
             }
           }
         }

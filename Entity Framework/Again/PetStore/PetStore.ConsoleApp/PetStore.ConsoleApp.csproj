@@ -14,8 +14,4 @@
     </PackageReference>
   </ItemGroup>
 
-  <ItemGroup>
-    <ProjectReference Include="..\PetStore.Data\PetStore.Data.csproj" />
-  </ItemGroup>
-
 </Project>

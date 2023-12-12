@@ -19,6 +19,7 @@ namespace PetStore.Data.Configurations
                 .Property(pr => pr.Price)
                 .HasColumnType("decimal(18,4)");
 
+           
 
         }
     }
