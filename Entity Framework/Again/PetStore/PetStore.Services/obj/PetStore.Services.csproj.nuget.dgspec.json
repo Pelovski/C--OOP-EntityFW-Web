@@ -219,7 +219,14 @@
         "frameworks": {
           "net6.0": {
             "targetAlias": "net6.0",
-            "projectReferences": {}
+            "projectReferences": {
+              "D:\\Pavel\\SoftUni\\C# Job prep\\Entity Framework\\Again\\PetStore\\PetStore.Comman\\PetStore.Comman.csproj": {
+                "projectPath": "D:\\Pavel\\SoftUni\\C# Job prep\\Entity Framework\\Again\\PetStore\\PetStore.Comman\\PetStore.Comman.csproj"
+              },
+              "D:\\Pavel\\SoftUni\\C# Job prep\\Entity Framework\\Again\\PetStore\\PetStore.Models\\PetStore.Models.csproj": {
+                "projectPath": "D:\\Pavel\\SoftUni\\C# Job prep\\Entity Framework\\Again\\PetStore\\PetStore.Models\\PetStore.Models.csproj"
+              }
+            }
           }
         },
         "warningProperties": {
@@ -296,6 +303,12 @@
       "frameworks": {
         "net6.0": {
           "targetAlias": "net6.0",
+          "dependencies": {
+            "AutoMapper": {
+              "target": "Package",
+              "version": "[12.0.1, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",

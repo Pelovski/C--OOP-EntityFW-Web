@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "PIhszDnVHLpS8HD32km9s40oezZcnCJ9XvoAyCjwSmTaOumCNK9tWwB7bJ9FQPmBqtZEOUXvpvOJioiLL+EvrQ==",
+  "success": true,
+  "projectFilePath": "D:\\Pavel\\SoftUni\\C# Job prep\\Entity Framework\\Again\\PetStore\\PetStore.Mapping\\PetStore.Mapping.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\herrp\\.nuget\\packages\\automapper\\12.0.1\\automapper.12.0.1.nupkg.sha512",
+    "C:\\Users\\herrp\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512"
+  ],
+  "logs": []
+}

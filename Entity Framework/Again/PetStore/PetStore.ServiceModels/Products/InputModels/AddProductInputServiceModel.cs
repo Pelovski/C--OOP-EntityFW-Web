@@ -1,12 +1,10 @@
 ﻿using PetStore.Comman;
+
+using System.ComponentModel.DataAnnotations.Schema;
+using System.ComponentModel.DataAnnotations;
 using PetStore.Models.Enumerations;
 
-using System.ComponentModel.DataAnnotations;
-using System.ComponentModel.DataAnnotations.Schema;
-
-using Microsoft.EntityFrameworkCore.Metadata.Internal;
-
-namespace PetStore.Services.Product.InputModels
+namespace PetStore.ServiceModels.Products.InputModels
 {
     public class AddProductInputServiceModel
     {
