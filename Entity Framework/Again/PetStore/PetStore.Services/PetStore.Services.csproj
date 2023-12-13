@@ -7,13 +7,19 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <Compile Remove="Product\**" />
+    <EmbeddedResource Remove="Product\**" />
+    <None Remove="Product\**" />
+  </ItemGroup>
+
+  <ItemGroup>
     <ProjectReference Include="..\PetStore.Data\PetStore.Data.csproj" />
     <ProjectReference Include="..\PetStore.Models\PetStore.Models.csproj" />
     <ProjectReference Include="..\PetStore.ServiceModels\PetStore.ServiceModels.csproj" />
   </ItemGroup>
 
   <ItemGroup>
-    <Folder Include="Product\OutputModels\" />
+    <PackageReference Include="AutoMapper" Version="12.0.1" />
   </ItemGroup>
 
 </Project>

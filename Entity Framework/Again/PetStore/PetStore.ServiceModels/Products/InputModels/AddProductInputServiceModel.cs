@@ -13,7 +13,7 @@ namespace PetStore.ServiceModels.Products.InputModels
         [MaxLength(GlobalConstatnts.ProductNameMaxLength)]
         public string Name { get; set; }
 
-        public ProductType ProductType { get; set; }
+        public string ProductType { get; set; }
 
         [Range(GlobalConstatnts.MinPriceValue, GlobalConstatnts.MaxPriceValue)]
         public decimal Price { get; set; }

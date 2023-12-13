@@ -1,12 +1,11 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace PetStore.ServiceModels.Products.OutputModel
+﻿namespace PetStore.ServiceModels.Products.OutputModel
 {
-    internal class ListAllProductsByName
+    public class ListAllProductsByNameServiceModel
     {
+        public string Name { get; set; }
+
+        public string ProductType { get; set; }
+
+        public decimal Price { get; set; }
     }
 }
