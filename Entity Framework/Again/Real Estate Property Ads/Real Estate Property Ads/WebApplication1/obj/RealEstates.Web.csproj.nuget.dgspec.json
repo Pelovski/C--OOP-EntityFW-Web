@@ -4,6 +4,204 @@
     "D:\\Pavel\\SoftUni\\C# Job prep\\Entity Framework\\Again\\Real Estate Property Ads\\Real Estate Property Ads\\WebApplication1\\RealEstates.Web.csproj": {}
   },
   "projects": {
+    "D:\\Pavel\\SoftUni\\C# Job prep\\Entity Framework\\Again\\Real Estate Property Ads\\Real Estate Property Ads\\RealEstates.Data\\RealEstates.Data.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Pavel\\SoftUni\\C# Job prep\\Entity Framework\\Again\\Real Estate Property Ads\\Real Estate Property Ads\\RealEstates.Data\\RealEstates.Data.csproj",
+        "projectName": "RealEstates.Data",
+        "projectPath": "D:\\Pavel\\SoftUni\\C# Job prep\\Entity Framework\\Again\\Real Estate Property Ads\\Real Estate Property Ads\\RealEstates.Data\\RealEstates.Data.csproj",
+        "packagesPath": "C:\\Users\\herrp\\.nuget\\packages\\",
+        "outputPath": "D:\\Pavel\\SoftUni\\C# Job prep\\Entity Framework\\Again\\Real Estate Property Ads\\Real Estate Property Ads\\RealEstates.Data\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\herrp\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "D:\\Pavel\\SoftUni\\C# Job prep\\Entity Framework\\Again\\Real Estate Property Ads\\Real Estate Property Ads\\RealEstates.Models\\RealEstates.Models.csproj": {
+                "projectPath": "D:\\Pavel\\SoftUni\\C# Job prep\\Entity Framework\\Again\\Real Estate Property Ads\\Real Estate Property Ads\\RealEstates.Models\\RealEstates.Models.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[6.0.0, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[6.0.0, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[6.0.0, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[6.0.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.304\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\Pavel\\SoftUni\\C# Job prep\\Entity Framework\\Again\\Real Estate Property Ads\\Real Estate Property Ads\\RealEstates.Models\\RealEstates.Models.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Pavel\\SoftUni\\C# Job prep\\Entity Framework\\Again\\Real Estate Property Ads\\Real Estate Property Ads\\RealEstates.Models\\RealEstates.Models.csproj",
+        "projectName": "RealEstates.Models",
+        "projectPath": "D:\\Pavel\\SoftUni\\C# Job prep\\Entity Framework\\Again\\Real Estate Property Ads\\Real Estate Property Ads\\RealEstates.Models\\RealEstates.Models.csproj",
+        "packagesPath": "C:\\Users\\herrp\\.nuget\\packages\\",
+        "outputPath": "D:\\Pavel\\SoftUni\\C# Job prep\\Entity Framework\\Again\\Real Estate Property Ads\\Real Estate Property Ads\\RealEstates.Models\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\herrp\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.304\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\Pavel\\SoftUni\\C# Job prep\\Entity Framework\\Again\\Real Estate Property Ads\\Real Estate Property Ads\\RealEstates.Services\\RealEstates.Services.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Pavel\\SoftUni\\C# Job prep\\Entity Framework\\Again\\Real Estate Property Ads\\Real Estate Property Ads\\RealEstates.Services\\RealEstates.Services.csproj",
+        "projectName": "RealEstates.Services",
+        "projectPath": "D:\\Pavel\\SoftUni\\C# Job prep\\Entity Framework\\Again\\Real Estate Property Ads\\Real Estate Property Ads\\RealEstates.Services\\RealEstates.Services.csproj",
+        "packagesPath": "C:\\Users\\herrp\\.nuget\\packages\\",
+        "outputPath": "D:\\Pavel\\SoftUni\\C# Job prep\\Entity Framework\\Again\\Real Estate Property Ads\\Real Estate Property Ads\\RealEstates.Services\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\herrp\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "D:\\Pavel\\SoftUni\\C# Job prep\\Entity Framework\\Again\\Real Estate Property Ads\\Real Estate Property Ads\\RealEstates.Data\\RealEstates.Data.csproj": {
+                "projectPath": "D:\\Pavel\\SoftUni\\C# Job prep\\Entity Framework\\Again\\Real Estate Property Ads\\Real Estate Property Ads\\RealEstates.Data\\RealEstates.Data.csproj"
+              },
+              "D:\\Pavel\\SoftUni\\C# Job prep\\Entity Framework\\Again\\Real Estate Property Ads\\Real Estate Property Ads\\RealEstates.Models\\RealEstates.Models.csproj": {
+                "projectPath": "D:\\Pavel\\SoftUni\\C# Job prep\\Entity Framework\\Again\\Real Estate Property Ads\\Real Estate Property Ads\\RealEstates.Models\\RealEstates.Models.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.304\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
     "D:\\Pavel\\SoftUni\\C# Job prep\\Entity Framework\\Again\\Real Estate Property Ads\\Real Estate Property Ads\\WebApplication1\\RealEstates.Web.csproj": {
       "version": "1.0.0",
       "restore": {
@@ -28,7 +226,14 @@
         "frameworks": {
           "net6.0": {
             "targetAlias": "net6.0",
-            "projectReferences": {}
+            "projectReferences": {
+              "D:\\Pavel\\SoftUni\\C# Job prep\\Entity Framework\\Again\\Real Estate Property Ads\\Real Estate Property Ads\\RealEstates.Data\\RealEstates.Data.csproj": {
+                "projectPath": "D:\\Pavel\\SoftUni\\C# Job prep\\Entity Framework\\Again\\Real Estate Property Ads\\Real Estate Property Ads\\RealEstates.Data\\RealEstates.Data.csproj"
+              },
+              "D:\\Pavel\\SoftUni\\C# Job prep\\Entity Framework\\Again\\Real Estate Property Ads\\Real Estate Property Ads\\RealEstates.Services\\RealEstates.Services.csproj": {
+                "projectPath": "D:\\Pavel\\SoftUni\\C# Job prep\\Entity Framework\\Again\\Real Estate Property Ads\\Real Estate Property Ads\\RealEstates.Services\\RealEstates.Services.csproj"
+              }
+            }
           }
         },
         "warningProperties": {

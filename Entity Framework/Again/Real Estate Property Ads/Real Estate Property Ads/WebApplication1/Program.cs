@@ -1,7 +1,20 @@
+
+using Microsoft.EntityFrameworkCore;
+using RealEstates.Data;
+using RealEstates.Services;
+
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
+builder.Services.AddDbContext<RealEstateDbContext>(options =>
+{
+    options.UseSqlServer(builder.Configuration.GetConnectionString("RealEstateSettingsDbContext"));
+});
+
 builder.Services.AddControllersWithViews();
+builder.Services.AddTransient<IDistrictService, DistrictService>();
+builder.Services.AddTransient<IPropertyService, PropertyService>();
+
 
 var app = builder.Build();
 
