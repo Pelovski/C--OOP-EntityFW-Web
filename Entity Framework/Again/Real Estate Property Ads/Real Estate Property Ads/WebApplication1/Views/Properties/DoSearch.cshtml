@@ -1,6 +1,19 @@
 ﻿@model IEnumerable<RealEstates.Services.Models.PropertyViewModel>
 <h1>Search results</h1>
-<table>
+
+<!-- Example single danger button -->
+<div class="dropdown mb-3">
+	<button class="btn btn-primary dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+		Order by
+	</button>
+	<ul class="dropdown-menu">
+		<li><a class="dropdown-item" href="#"></a></li>
+		<li><a class="dropdown-item" href="#">Another action</a></li>
+		<li><a class="dropdown-item" href="#">Something else here</a></li>
+	</ul>
+</div>
+
+<table class="table table-sm table-striped table-bordered table-hover">
 	<tr>
 		<th>District</th>
 		<th>Building type</th>
@@ -22,7 +35,6 @@
 			<td>@property.Year</td>
 			<td>@property.Size</td>
 			<td>@property.Floor</td>
-
 		</tr>
 	}
 </table>

@@ -23,5 +23,10 @@ namespace RealEstates.Web.Controllers
 
             return this.View(properties);
         }
+
+        public IActionResult Sort()
+        {
+            return this.View();
+        }
     }
 }
